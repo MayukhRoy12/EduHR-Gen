@@ -1,0 +1,1001 @@
+feedback_id,faculty_id,course_id,course_name,week_number,student_id,rating,feedback_comment,sentiment_score,sentiment_label,teaching_clarity_score,engagement_score,pace_score,syllabus_coverage_perception,section,semester,program
+1,341,CHM101,Engineering Chemistry,1,S1562,3,"Sometimes the pace is fast, but manageable overall. The examples used were memorable.",0.075,Neutral,2,2,5,1,C,1,B.Tech
+2,341,CHM101,Engineering Chemistry,1,S1631,4,The pace of teaching is comfortable and structured. The teaching style influenced my learning positively.,0.824,Positive,3,3,5,4,C,1,B.Tech
+3,341,CHM101,Engineering Chemistry,1,S1215,4,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.419,Positive,5,4,4,3,A,1,B.Tech
+4,341,CHM101,Engineering Chemistry,1,S3277,5,The classes are very clear and engaging. The teaching style influenced my learning positively.,0.729,Positive,4,4,5,3,B,1,B.Tech
+5,341,CHM101,Engineering Chemistry,1,S1303,4,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.314,Positive,4,4,5,5,C,1,B.Tech
+6,341,CHM101,Engineering Chemistry,1,S2459,5,Concepts are broken down in a simple and logical manner. The teaching style influenced my learning positively.,1,Positive,5,5,5,4,C,1,B.Tech
+7,341,CHM101,Engineering Chemistry,1,S0741,5,Amazing clarity and teaching methodology. The session covered important fundamentals.,0.835,Positive,5,4,5,5,C,1,B.Tech
+8,341,CHM101,Engineering Chemistry,1,S1328,5,The sessions are well-organized and engaging. This is for the course Structural Analysis.,0.683,Positive,5,5,5,5,A,1,B.Tech
+9,341,CHM101,Engineering Chemistry,1,S3932,2,The concepts were unclear and difficult to follow.,-0.448,Negative,2,2,2,2,A,1,B.Tech
+10,341,CHM101,Engineering Chemistry,1,S1294,5,"One of the best courses, very well taught. The session coverage was appropriate.",0.723,Positive,4,5,5,4,A,1,B.Tech
+11,341,CHM101,Engineering Chemistry,2,S1431,4,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,0.698,Positive,3,5,4,3,B,1,B.Tech
+12,341,CHM101,Engineering Chemistry,2,S0013,4,I enjoy attending this class; explanations are very crisp. This is for the course Structural Analysis.,0.578,Positive,3,4,4,5,B,1,B.Tech
+13,341,CHM101,Engineering Chemistry,2,S2767,3,Teaching quality is acceptable but could be better. The session covered important fundamentals.,-0.048,Neutral,3,3,5,3,A,1,B.Tech
+14,341,CHM101,Engineering Chemistry,2,S4391,5,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",1,Positive,4,5,5,5,A,1,B.Tech
+15,341,CHM101,Engineering Chemistry,2,S1288,5,Explains concepts very effectively with relatable examples. The class environment was encouraging.,0.964,Positive,5,5,3,5,A,1,B.Tech
+16,341,CHM101,Engineering Chemistry,2,S0147,4,Interactive teaching style helps in understanding topics better. The topic flow felt slightly abrupt.,0.402,Positive,4,3,3,4,A,1,B.Tech
+17,341,CHM101,Engineering Chemistry,2,S1074,4,Interactive teaching style helps in understanding topics better. The lecture pacing affected my understanding.,0.417,Positive,5,3,3,5,C,1,B.Tech
+18,341,CHM101,Engineering Chemistry,2,S1372,4,"One of the best courses, very well taught. The session coverage was appropriate.",0.344,Positive,3,3,4,4,A,1,B.Tech
+19,341,CHM101,Engineering Chemistry,2,S2732,5,Interactive teaching style helps in understanding topics better. The class environment was encouraging.,0.883,Positive,5,4,5,5,B,1,B.Tech
+20,341,CHM101,Engineering Chemistry,2,S0758,4,The sessions are well-organized and engaging. This is for the course Structural Analysis.,0.681,Positive,3,4,5,4,A,1,B.Tech
+21,341,CHM101,Engineering Chemistry,3,S3349,5,Interactive teaching style helps in understanding topics better. I would appreciate more doubt-solving time.,0.881,Positive,5,4,4,5,C,1,B.Tech
+22,341,CHM101,Engineering Chemistry,3,S4201,5,"One of the best courses, very well taught. The class environment was encouraging.",0.97,Positive,5,4,4,5,C,1,B.Tech
+23,341,CHM101,Engineering Chemistry,3,S2857,2,Struggle to understand most concepts in class. The session coverage was appropriate.,-0.375,Negative,2,1,3,2,A,1,B.Tech
+24,341,CHM101,Engineering Chemistry,3,S3755,5,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,0.917,Positive,5,4,5,5,B,1,B.Tech
+25,341,CHM101,Engineering Chemistry,3,S2935,4,The pace of teaching is comfortable and structured.,0.533,Positive,2,4,3,5,A,1,B.Tech
+26,341,CHM101,Engineering Chemistry,3,S1437,4,Concepts are broken down in a simple and logical manner.,0.551,Positive,4,5,3,3,B,1,B.Tech
+27,341,CHM101,Engineering Chemistry,3,S1802,4,Explains concepts very effectively with relatable examples. The examples used were memorable.,0.434,Positive,4,3,5,4,C,1,B.Tech
+28,341,CHM101,Engineering Chemistry,3,S3747,4,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,0.607,Positive,4,5,4,5,A,1,B.Tech
+29,341,CHM101,Engineering Chemistry,3,S2361,4,The pace of teaching is comfortable and structured. The topic flow felt slightly abrupt.,0.354,Positive,4,4,4,3,B,1,B.Tech
+30,341,CHM101,Engineering Chemistry,3,S3030,4,Interactive teaching style helps in understanding topics better. The teaching style influenced my learning positively.,0.415,Positive,4,4,5,5,A,1,B.Tech
+31,341,CHM101,Engineering Chemistry,4,S4830,5,Amazing clarity and teaching methodology. I would appreciate more doubt-solving time.,1,Positive,5,4,5,5,A,1,B.Tech
+32,341,CHM101,Engineering Chemistry,4,S1844,4,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.578,Positive,5,3,5,4,C,1,B.Tech
+33,341,CHM101,Engineering Chemistry,4,S2200,2,Slides are read without proper explanation. The teaching style influenced my learning positively.,-0.564,Negative,3,2,3,2,A,1,B.Tech
+34,341,CHM101,Engineering Chemistry,4,S0626,4,Concepts are broken down in a simple and logical manner.,0.597,Positive,3,4,3,4,A,1,B.Tech
+35,341,CHM101,Engineering Chemistry,4,S0823,4,The classes are very clear and engaging. The class environment was encouraging.,0.536,Positive,4,4,4,5,B,1,B.Tech
+36,341,CHM101,Engineering Chemistry,4,S3080,4,Amazing clarity and teaching methodology. The class environment was encouraging.,0.514,Positive,4,4,4,4,C,1,B.Tech
+37,341,CHM101,Engineering Chemistry,4,S4326,4,Concepts are broken down in a simple and logical manner. I would appreciate more doubt-solving time.,0.457,Positive,4,4,5,3,B,1,B.Tech
+38,341,CHM101,Engineering Chemistry,4,S1416,5,Explains concepts very effectively with relatable examples. The class environment was encouraging.,0.727,Positive,5,5,5,3,A,1,B.Tech
+39,341,CHM101,Engineering Chemistry,4,S2388,3,"One of the best courses, very well taught. The class environment was encouraging.",0.227,Positive,4,3,1,3,B,1,B.Tech
+40,341,CHM101,Engineering Chemistry,4,S2735,5,The classes are very clear and engaging. The session coverage was appropriate.,0.981,Positive,5,3,5,4,B,1,B.Tech
+41,341,CHM101,Engineering Chemistry,5,S1694,3,"The course is fine, but teaching could be more structured. The class environment was encouraging.",-0.181,Neutral,4,3,2,1,B,1,B.Tech
+42,341,CHM101,Engineering Chemistry,5,S1941,5,The classes are very clear and engaging.,1,Positive,5,5,5,5,C,1,B.Tech
+43,341,CHM101,Engineering Chemistry,5,S4097,4,Explains concepts very effectively with relatable examples. The session coverage was appropriate.,0.513,Positive,4,4,3,3,C,1,B.Tech
+44,341,CHM101,Engineering Chemistry,5,S3670,4,The professor motivates us and clears doubts patiently.,0.385,Positive,4,4,3,3,A,1,B.Tech
+45,341,CHM101,Engineering Chemistry,5,S2829,5,Explains concepts very effectively with relatable examples.,0.759,Positive,5,5,5,5,A,1,B.Tech
+46,341,CHM101,Engineering Chemistry,5,S0336,5,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,0.831,Positive,4,5,4,5,C,1,B.Tech
+47,341,CHM101,Engineering Chemistry,5,S1574,5,The professor motivates us and clears doubts patiently. This is for the course Structural Analysis.,1,Positive,4,5,5,5,B,1,B.Tech
+48,341,CHM101,Engineering Chemistry,5,S1806,3,"Sometimes the pace is fast, but manageable overall. The session covered important fundamentals.",0.067,Neutral,5,3,2,4,C,1,B.Tech
+49,341,CHM101,Engineering Chemistry,5,S2171,2,The course feels unorganized and confusing. This is for the course Structural Analysis.,-0.225,Negative,2,3,3,2,B,1,B.Tech
+50,341,CHM101,Engineering Chemistry,5,S0126,4,The sessions are well-organized and engaging. The session coverage was appropriate.,0.791,Positive,4,5,4,3,A,1,B.Tech
+51,488,MTH301,Probability and Statistics,1,S1785,4,The classes are very clear and engaging. The session covered important fundamentals.,0.349,Positive,3,4,5,3,A,1,B.Tech
+52,488,MTH301,Probability and Statistics,1,S4542,4,Amazing clarity and teaching methodology. This is for the course Calculus.,0.552,Positive,4,3,4,4,A,1,B.Tech
+53,488,MTH301,Probability and Statistics,1,S1321,4,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.442,Positive,5,3,5,5,A,1,B.Tech
+54,488,MTH301,Probability and Statistics,1,S0936,4,I enjoy attending this class; explanations are very crisp. The lecture pacing affected my understanding.,0.64,Positive,5,3,4,4,A,1,B.Tech
+55,488,MTH301,Probability and Statistics,1,S1316,3,The course delivery is moderate and could be improved. This is for the course Calculus.,-0.08,Neutral,3,2,3,4,B,1,B.Tech
+56,488,MTH301,Probability and Statistics,1,S1824,3,"The course is fine, but teaching could be more structured. The teaching style influenced my learning positively.",0.095,Neutral,4,3,3,4,C,1,B.Tech
+57,488,MTH301,Probability and Statistics,1,S4888,4,Amazing clarity and teaching methodology. I would appreciate more doubt-solving time.,0.628,Positive,5,3,5,4,B,1,B.Tech
+58,488,MTH301,Probability and Statistics,1,S3166,4,The class is okay but can be more interactive. The teaching style influenced my learning positively.,0.173,Neutral,4,5,5,5,B,1,B.Tech
+59,488,MTH301,Probability and Statistics,1,S4974,4,Amazing clarity and teaching methodology. The examples used were memorable.,0.637,Positive,3,3,5,4,C,1,B.Tech
+60,488,MTH301,Probability and Statistics,1,S1666,2,"Very little interaction, topics feel incomplete. The topic flow felt slightly abrupt.",-0.378,Negative,3,3,3,2,B,1,B.Tech
+61,488,MTH301,Probability and Statistics,2,S2100,5,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,0.682,Positive,5,4,4,5,B,1,B.Tech
+62,488,MTH301,Probability and Statistics,2,S4900,3,The course delivery is moderate and could be improved. The topic flow felt slightly abrupt.,-0.075,Neutral,5,3,2,3,B,1,B.Tech
+63,488,MTH301,Probability and Statistics,2,S4848,5,The classes are very clear and engaging. This is for the course Calculus.,1,Positive,5,5,5,5,A,1,B.Tech
+64,488,MTH301,Probability and Statistics,2,S3725,3,"The course is fine, but teaching could be more structured. The lecture pacing affected my understanding.",-0.144,Neutral,4,3,3,2,B,1,B.Tech
+65,488,MTH301,Probability and Statistics,2,S3294,4,The pace of teaching is comfortable and structured. The class environment was encouraging.,0.208,Positive,5,3,5,5,B,1,B.Tech
+66,488,MTH301,Probability and Statistics,2,S0510,4,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.531,Positive,3,4,5,4,C,1,B.Tech
+67,488,MTH301,Probability and Statistics,2,S3427,4,The professor motivates us and clears doubts patiently. The topic flow felt slightly abrupt.,0.527,Positive,5,4,3,4,B,1,B.Tech
+68,488,MTH301,Probability and Statistics,2,S0144,5,The pace of teaching is comfortable and structured. This is for the course Calculus.,0.994,Positive,5,5,5,5,C,1,B.Tech
+69,488,MTH301,Probability and Statistics,2,S1042,4,The sessions are well-organized and engaging. The examples used were memorable.,0.429,Positive,3,5,5,4,C,1,B.Tech
+70,488,MTH301,Probability and Statistics,2,S3602,5,Interactive teaching style helps in understanding topics better. I would appreciate more doubt-solving time.,1,Positive,5,4,5,5,A,1,B.Tech
+71,488,MTH301,Probability and Statistics,3,S2158,4,The classes are very clear and engaging. The topic flow felt slightly abrupt.,0.582,Positive,4,5,4,3,A,1,B.Tech
+72,488,MTH301,Probability and Statistics,3,S2892,4,Concepts are broken down in a simple and logical manner. The class environment was encouraging.,0.527,Positive,5,4,4,5,A,1,B.Tech
+73,488,MTH301,Probability and Statistics,3,S4627,3,Explains concepts very effectively with relatable examples. The topic flow felt slightly abrupt.,0.438,Positive,1,4,4,3,A,1,B.Tech
+74,488,MTH301,Probability and Statistics,3,S2891,4,I enjoy attending this class; explanations are very crisp. The lecture pacing affected my understanding.,0.277,Positive,5,4,5,5,C,1,B.Tech
+75,488,MTH301,Probability and Statistics,3,S2654,5,Explains concepts very effectively with relatable examples. The examples used were memorable.,1,Positive,5,4,5,5,A,1,B.Tech
+76,488,MTH301,Probability and Statistics,3,S2883,4,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.58,Positive,4,3,4,5,B,1,B.Tech
+77,488,MTH301,Probability and Statistics,3,S3436,5,The sessions are well-organized and engaging. The class environment was encouraging.,1,Positive,5,4,5,4,B,1,B.Tech
+78,488,MTH301,Probability and Statistics,3,S3513,3,"Average teaching, mixed understanding across topics. The topic flow felt slightly abrupt.",0.009,Neutral,2,3,3,2,B,1,B.Tech
+79,488,MTH301,Probability and Statistics,3,S0864,4,The classes are very clear and engaging. I would appreciate more doubt-solving time.,0.788,Positive,3,3,5,4,A,1,B.Tech
+80,488,MTH301,Probability and Statistics,3,S3199,5,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,1,Positive,5,5,5,5,A,1,B.Tech
+81,488,MTH301,Probability and Statistics,4,S1220,3,Teaching quality is acceptable but could be better. The topic flow felt slightly abrupt.,-0.152,Neutral,1,4,2,2,C,1,B.Tech
+82,488,MTH301,Probability and Statistics,4,S2030,4,"One of the best courses, very well taught. The session coverage was appropriate.",0.486,Positive,4,4,4,4,A,1,B.Tech
+83,488,MTH301,Probability and Statistics,4,S1064,4,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.63,Positive,4,5,3,5,A,1,B.Tech
+84,488,MTH301,Probability and Statistics,4,S0586,4,"The course is fine, but teaching could be more structured. The session covered important fundamentals.",-0.006,Neutral,4,3,3,3,B,1,B.Tech
+85,488,MTH301,Probability and Statistics,4,S2763,5,Interactive teaching style helps in understanding topics better. I would appreciate more doubt-solving time.,1,Positive,4,5,5,5,A,1,B.Tech
+86,488,MTH301,Probability and Statistics,4,S1644,4,More real-life examples could improve understanding.,0.137,Neutral,4,4,4,3,B,1,B.Tech
+87,488,MTH301,Probability and Statistics,4,S1752,5,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.737,Positive,4,4,5,5,C,1,B.Tech
+88,488,MTH301,Probability and Statistics,4,S3455,3,The course delivery is moderate and could be improved. The topic flow felt slightly abrupt.,-0.004,Neutral,4,4,4,3,C,1,B.Tech
+89,488,MTH301,Probability and Statistics,4,S2445,5,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,1,Positive,5,5,5,5,C,1,B.Tech
+90,488,MTH301,Probability and Statistics,4,S3936,5,Explains concepts very effectively with relatable examples. The session coverage was appropriate.,0.78,Positive,5,5,5,5,A,1,B.Tech
+91,488,MTH301,Probability and Statistics,5,S4882,4,Amazing clarity and teaching methodology. The session covered important fundamentals.,0.774,Positive,3,5,4,3,C,1,B.Tech
+92,488,MTH301,Probability and Statistics,5,S0397,5,The professor motivates us and clears doubts patiently. The teaching style influenced my learning positively.,1,Positive,4,5,5,5,A,1,B.Tech
+93,488,MTH301,Probability and Statistics,5,S2027,4,The professor motivates us and clears doubts patiently. This is for the course Calculus.,0.626,Positive,4,4,3,4,B,1,B.Tech
+94,488,MTH301,Probability and Statistics,5,S1062,3,Some topics are clear while others require better explanation. The teaching style influenced my learning positively.,0.191,Neutral,2,2,2,4,C,1,B.Tech
+95,488,MTH301,Probability and Statistics,5,S2800,5,Explains concepts very effectively with relatable examples. The class environment was encouraging.,0.79,Positive,5,5,5,5,C,1,B.Tech
+96,488,MTH301,Probability and Statistics,5,S1100,4,Interactive teaching style helps in understanding topics better. The class environment was encouraging.,0.379,Positive,3,4,4,5,C,1,B.Tech
+97,488,MTH301,Probability and Statistics,5,S0153,4,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,0.745,Positive,4,4,2,5,B,1,B.Tech
+98,488,MTH301,Probability and Statistics,5,S0221,3,More real-life examples could improve understanding. The session coverage was appropriate.,0.037,Neutral,2,3,4,3,B,1,B.Tech
+99,488,MTH301,Probability and Statistics,5,S4649,5,Explains concepts very effectively with relatable examples. The examples used were memorable.,1,Positive,4,4,4,5,B,1,B.Tech
+100,488,MTH301,Probability and Statistics,5,S0114,3,"Average teaching, mixed understanding across topics. The session covered important fundamentals.",0.133,Neutral,3,3,2,2,A,1,B.Tech
+101,451,PHY201,Quantum Mechanics,1,S1327,5,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,1,Positive,5,5,4,5,C,3,B.Tech
+102,451,PHY201,Quantum Mechanics,1,S1926,3,Examples are insufficient and unclear. The session covered important fundamentals.,-0.275,Negative,3,4,2,3,A,3,B.Tech
+103,451,PHY201,Quantum Mechanics,1,S4661,2,"Very little interaction, topics feel incomplete. I would appreciate more doubt-solving time.",-0.532,Negative,2,3,2,2,A,3,B.Tech
+104,451,PHY201,Quantum Mechanics,1,S1937,5,The classes are very clear and engaging. The topic flow felt slightly abrupt.,0.941,Positive,5,5,5,5,C,3,B.Tech
+105,451,PHY201,Quantum Mechanics,1,S2377,5,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.827,Positive,4,5,4,5,C,3,B.Tech
+106,451,PHY201,Quantum Mechanics,1,S4820,5,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.916,Positive,5,5,4,4,A,3,B.Tech
+107,451,PHY201,Quantum Mechanics,1,S3887,3,Concepts are broken down in a simple and logical manner. The topic flow felt slightly abrupt.,0.204,Positive,3,2,2,3,B,3,B.Tech
+108,451,PHY201,Quantum Mechanics,1,S0916,5,The classes are very clear and engaging. The lecture pacing affected my understanding.,0.858,Positive,5,5,5,3,B,3,B.Tech
+109,451,PHY201,Quantum Mechanics,1,S3232,4,The classes are very clear and engaging.,0.524,Positive,3,5,5,2,B,3,B.Tech
+110,451,PHY201,Quantum Mechanics,1,S3056,4,Interactive teaching style helps in understanding topics better.,0.637,Positive,4,5,3,3,C,3,B.Tech
+111,451,PHY201,Quantum Mechanics,2,S3110,3,More real-life examples could improve understanding. The topic flow felt slightly abrupt.,-0.005,Neutral,3,4,4,4,A,3,B.Tech
+112,451,PHY201,Quantum Mechanics,2,S3861,4,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.6,Positive,4,4,4,5,B,3,B.Tech
+113,451,PHY201,Quantum Mechanics,2,S3029,4,The pace of teaching is comfortable and structured. The teaching style influenced my learning positively.,0.425,Positive,4,5,4,4,A,3,B.Tech
+114,451,PHY201,Quantum Mechanics,2,S2097,4,The classes are very clear and engaging. The session coverage was appropriate.,0.973,Positive,3,3,4,4,A,3,B.Tech
+115,451,PHY201,Quantum Mechanics,2,S3595,4,The pace of teaching is comfortable and structured. The topic flow felt slightly abrupt.,0.556,Positive,3,4,5,4,B,3,B.Tech
+116,451,PHY201,Quantum Mechanics,2,S4698,2,The course feels unorganized and confusing. I would appreciate more doubt-solving time.,-0.22,Negative,3,3,3,2,C,3,B.Tech
+117,451,PHY201,Quantum Mechanics,2,S0678,5,Concepts are broken down in a simple and logical manner. The class environment was encouraging.,0.583,Positive,5,5,5,5,C,3,B.Tech
+118,451,PHY201,Quantum Mechanics,2,S2152,4,"One of the best courses, very well taught. I would appreciate more doubt-solving time.",0.253,Positive,4,5,4,4,A,3,B.Tech
+119,451,PHY201,Quantum Mechanics,2,S2748,3,"The course is fine, but teaching could be more structured. The teaching style influenced my learning positively.",0.072,Neutral,3,1,4,3,A,3,B.Tech
+120,451,PHY201,Quantum Mechanics,2,S1628,3,"Sometimes the pace is fast, but manageable overall. The topic flow felt slightly abrupt.",0.118,Neutral,3,4,2,4,B,3,B.Tech
+121,451,PHY201,Quantum Mechanics,3,S4585,3,Interactive teaching style helps in understanding topics better. The examples used were memorable.,0.227,Positive,3,4,2,3,A,3,B.Tech
+122,451,PHY201,Quantum Mechanics,3,S0458,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.492,Positive,3,3,3,5,C,3,B.Tech
+123,451,PHY201,Quantum Mechanics,3,S3320,3,More real-life examples could improve understanding. The examples used were memorable.,0.035,Neutral,4,3,3,3,C,3,B.Tech
+124,451,PHY201,Quantum Mechanics,3,S0089,4,The classes are very clear and engaging. The session covered important fundamentals.,0.215,Positive,5,4,5,5,B,3,B.Tech
+125,451,PHY201,Quantum Mechanics,3,S1468,5,I enjoy attending this class; explanations are very crisp. The session covered important fundamentals.,0.597,Positive,4,4,5,5,C,3,B.Tech
+126,451,PHY201,Quantum Mechanics,3,S2568,3,"The course is fine, but teaching could be more structured. The topic flow felt slightly abrupt.",-0.032,Neutral,3,2,2,4,C,3,B.Tech
+127,451,PHY201,Quantum Mechanics,3,S3260,5,Amazing clarity and teaching methodology. The examples used were memorable.,1,Positive,5,4,5,5,B,3,B.Tech
+128,451,PHY201,Quantum Mechanics,3,S4454,2,Struggle to understand most concepts in class. This is for the course Signal Processing.,-0.22,Negative,3,2,2,2,A,3,B.Tech
+129,451,PHY201,Quantum Mechanics,3,S4832,3,I understand most topics but sometimes feel disconnected. The teaching style influenced my learning positively.,0.088,Neutral,2,1,3,4,C,3,B.Tech
+130,451,PHY201,Quantum Mechanics,3,S4513,5,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.973,Positive,4,5,5,5,C,3,B.Tech
+131,451,PHY201,Quantum Mechanics,4,S1784,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.77,Positive,4,4,5,4,A,3,B.Tech
+132,451,PHY201,Quantum Mechanics,4,S0083,4,"One of the best courses, very well taught.",0.706,Positive,4,3,4,4,C,3,B.Tech
+133,451,PHY201,Quantum Mechanics,4,S4078,4,Explains concepts very effectively with relatable examples. The topic flow felt slightly abrupt.,0.563,Positive,4,4,5,3,A,3,B.Tech
+134,451,PHY201,Quantum Mechanics,4,S0631,4,The classes are very clear and engaging. The lecture pacing affected my understanding.,0.66,Positive,4,4,4,5,B,3,B.Tech
+135,451,PHY201,Quantum Mechanics,4,S3871,4,Concepts are broken down in a simple and logical manner. The teaching style influenced my learning positively.,0.424,Positive,4,4,4,4,C,3,B.Tech
+136,451,PHY201,Quantum Mechanics,4,S3868,4,The pace of teaching is comfortable and structured. The session coverage was appropriate.,0.472,Positive,4,4,4,3,A,3,B.Tech
+137,451,PHY201,Quantum Mechanics,4,S2471,4,Interactive teaching style helps in understanding topics better. The session covered important fundamentals.,0.466,Positive,4,4,3,4,B,3,B.Tech
+138,451,PHY201,Quantum Mechanics,4,S0835,4,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.859,Positive,3,3,3,4,A,3,B.Tech
+139,451,PHY201,Quantum Mechanics,4,S0963,4,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,0.699,Positive,2,5,4,4,C,3,B.Tech
+140,451,PHY201,Quantum Mechanics,4,S0418,3,The sessions are well-organized and engaging. The teaching style influenced my learning positively.,0.333,Positive,3,3,3,4,C,3,B.Tech
+141,451,PHY201,Quantum Mechanics,5,S2728,4,The classes are very clear and engaging. The session covered important fundamentals.,0.52,Positive,3,4,3,5,A,3,B.Tech
+142,451,PHY201,Quantum Mechanics,5,S0523,5,The professor motivates us and clears doubts patiently. The topic flow felt slightly abrupt.,0.848,Positive,5,5,4,4,C,3,B.Tech
+143,451,PHY201,Quantum Mechanics,5,S1483,4,I enjoy attending this class; explanations are very crisp.,0.463,Positive,3,4,3,4,A,3,B.Tech
+144,451,PHY201,Quantum Mechanics,5,S0393,4,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,0.638,Positive,4,3,4,4,B,3,B.Tech
+145,451,PHY201,Quantum Mechanics,5,S2273,5,The sessions are well-organized and engaging.,0.904,Positive,5,5,4,4,B,3,B.Tech
+146,451,PHY201,Quantum Mechanics,5,S4599,3,"Sometimes the pace is fast, but manageable overall. The lecture pacing affected my understanding.",0.141,Neutral,3,3,3,1,C,3,B.Tech
+147,451,PHY201,Quantum Mechanics,5,S1622,4,Amazing clarity and teaching methodology. The session covered important fundamentals.,0.212,Positive,5,4,4,4,A,3,B.Tech
+148,451,PHY201,Quantum Mechanics,5,S1810,4,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.65,Positive,3,5,3,5,C,3,B.Tech
+149,451,PHY201,Quantum Mechanics,5,S4957,4,Explains concepts very effectively with relatable examples. The topic flow felt slightly abrupt.,0.645,Positive,5,4,4,4,B,3,B.Tech
+150,451,PHY201,Quantum Mechanics,5,S3543,3,Teaching quality is acceptable but could be better. The lecture pacing affected my understanding.,-0.085,Neutral,3,3,3,2,C,3,B.Tech
+151,183,PHY101,Engineering Physics,1,S2317,5,The professor motivates us and clears doubts patiently.,1,Positive,5,5,5,5,B,3,B.Tech
+152,183,PHY101,Engineering Physics,1,S4423,4,Explains concepts very effectively with relatable examples. The class environment was encouraging.,0.949,Positive,5,3,5,4,C,3,B.Tech
+153,183,PHY101,Engineering Physics,1,S1314,3,The class is okay but can be more interactive.,-0.132,Neutral,3,3,3,3,C,3,B.Tech
+154,183,PHY101,Engineering Physics,1,S3255,4,"One of the best courses, very well taught. The lecture pacing affected my understanding.",0.674,Positive,4,5,4,3,B,3,B.Tech
+155,183,PHY101,Engineering Physics,1,S0895,4,The class is okay but can be more interactive. I would appreciate more doubt-solving time.,0.174,Neutral,5,4,5,3,C,3,B.Tech
+156,183,PHY101,Engineering Physics,1,S0177,4,Interactive teaching style helps in understanding topics better. This is for the course Power Systems.,0.463,Positive,4,3,4,4,C,3,B.Tech
+157,183,PHY101,Engineering Physics,1,S1889,3,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.333,Positive,3,3,3,4,A,3,B.Tech
+158,183,PHY101,Engineering Physics,1,S2311,2,The course feels unorganized and confusing. The session coverage was appropriate.,-0.321,Negative,3,2,3,3,B,3,B.Tech
+159,183,PHY101,Engineering Physics,1,S2010,4,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.521,Positive,4,5,4,5,B,3,B.Tech
+160,183,PHY101,Engineering Physics,1,S4971,4,Amazing clarity and teaching methodology. The class environment was encouraging.,0.313,Positive,5,5,4,4,A,3,B.Tech
+161,183,PHY101,Engineering Physics,2,S0539,3,More real-life examples could improve understanding. The lecture pacing affected my understanding.,-0.118,Neutral,3,2,3,3,A,3,B.Tech
+162,183,PHY101,Engineering Physics,2,S3769,2,"The pace is too fast, making the class hard to understand. The teaching style influenced my learning positively.",-0.362,Negative,2,2,2,3,B,3,B.Tech
+163,183,PHY101,Engineering Physics,2,S3615,4,The sessions are well-organized and engaging.,0.544,Positive,5,4,4,3,A,3,B.Tech
+164,183,PHY101,Engineering Physics,2,S1123,5,I enjoy attending this class; explanations are very crisp.,1,Positive,5,5,4,5,C,3,B.Tech
+165,183,PHY101,Engineering Physics,2,S4541,5,I enjoy attending this class; explanations are very crisp. This is for the course Power Systems.,0.958,Positive,4,5,5,5,B,3,B.Tech
+166,183,PHY101,Engineering Physics,2,S2940,4,Explains concepts very effectively with relatable examples. The class environment was encouraging.,0.328,Positive,5,4,5,5,A,3,B.Tech
+167,183,PHY101,Engineering Physics,2,S2752,4,The classes are very clear and engaging. The session covered important fundamentals.,0.396,Positive,5,5,3,4,A,3,B.Tech
+168,183,PHY101,Engineering Physics,2,S3251,5,Explains concepts very effectively with relatable examples. The session coverage was appropriate.,0.884,Positive,4,5,4,5,C,3,B.Tech
+169,183,PHY101,Engineering Physics,2,S4100,5,The sessions are well-organized and engaging. This is for the course Power Systems.,0.908,Positive,5,5,5,5,A,3,B.Tech
+170,183,PHY101,Engineering Physics,2,S1702,4,The classes are very clear and engaging. The session covered important fundamentals.,0.307,Positive,3,4,3,4,A,3,B.Tech
+171,183,PHY101,Engineering Physics,3,S2269,4,Explains concepts very effectively with relatable examples. The session coverage was appropriate.,0.258,Positive,5,4,4,3,B,3,B.Tech
+172,183,PHY101,Engineering Physics,3,S0596,5,Interactive teaching style helps in understanding topics better. The teaching style influenced my learning positively.,0.539,Positive,5,5,5,4,B,3,B.Tech
+173,183,PHY101,Engineering Physics,3,S1238,5,The professor motivates us and clears doubts patiently. The topic flow felt slightly abrupt.,0.97,Positive,5,4,5,5,C,3,B.Tech
+174,183,PHY101,Engineering Physics,3,S2450,5,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.737,Positive,4,5,4,5,B,3,B.Tech
+175,183,PHY101,Engineering Physics,3,S4387,4,Interactive teaching style helps in understanding topics better. The session covered important fundamentals.,0.304,Positive,4,4,4,5,A,3,B.Tech
+176,183,PHY101,Engineering Physics,3,S4731,4,Concepts are broken down in a simple and logical manner.,0.51,Positive,5,4,4,4,A,3,B.Tech
+177,183,PHY101,Engineering Physics,3,S2268,5,Interactive teaching style helps in understanding topics better. The class environment was encouraging.,1,Positive,5,5,4,5,A,3,B.Tech
+178,183,PHY101,Engineering Physics,3,S3216,4,The professor motivates us and clears doubts patiently.,0.42,Positive,3,4,3,4,C,3,B.Tech
+179,183,PHY101,Engineering Physics,3,S2036,5,I enjoy attending this class; explanations are very crisp. The topic flow felt slightly abrupt.,1,Positive,5,5,5,5,C,3,B.Tech
+180,183,PHY101,Engineering Physics,3,S4539,4,I enjoy attending this class; explanations are very crisp. The session coverage was appropriate.,0.42,Positive,4,3,4,4,C,3,B.Tech
+181,183,PHY101,Engineering Physics,4,S0837,4,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,0.433,Positive,5,4,5,5,B,3,B.Tech
+182,183,PHY101,Engineering Physics,4,S3114,3,"Sometimes the pace is fast, but manageable overall. This is for the course Power Systems.",-0.185,Neutral,3,3,2,3,B,3,B.Tech
+183,183,PHY101,Engineering Physics,4,S0190,4,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.255,Positive,3,3,4,5,A,3,B.Tech
+184,183,PHY101,Engineering Physics,4,S4420,4,Amazing clarity and teaching methodology. The lecture pacing affected my understanding.,0.374,Positive,5,4,4,3,C,3,B.Tech
+185,183,PHY101,Engineering Physics,4,S3908,2,Struggle to understand most concepts in class. The session coverage was appropriate.,-0.339,Negative,2,3,2,2,C,3,B.Tech
+186,183,PHY101,Engineering Physics,4,S2776,4,I enjoy attending this class; explanations are very crisp.,0.51,Positive,5,4,3,5,B,3,B.Tech
+187,183,PHY101,Engineering Physics,4,S2464,5,Concepts are broken down in a simple and logical manner. The topic flow felt slightly abrupt.,1,Positive,5,3,4,4,A,3,B.Tech
+188,183,PHY101,Engineering Physics,4,S0495,4,Concepts are broken down in a simple and logical manner. I would appreciate more doubt-solving time.,0.509,Positive,4,5,3,4,A,3,B.Tech
+189,183,PHY101,Engineering Physics,4,S3336,3,I understand most topics but sometimes feel disconnected. The session covered important fundamentals.,0.056,Neutral,3,2,3,2,A,3,B.Tech
+190,183,PHY101,Engineering Physics,4,S4233,4,The sessions are well-organized and engaging. The examples used were memorable.,0.592,Positive,5,4,3,3,B,3,B.Tech
+191,183,PHY101,Engineering Physics,5,S4331,3,The course delivery is moderate and could be improved. I would appreciate more doubt-solving time.,0.056,Neutral,3,3,3,3,C,3,B.Tech
+192,183,PHY101,Engineering Physics,5,S0087,3,Teaching style is monotonous and lacks engagement. The session covered important fundamentals.,-0.243,Negative,3,3,4,4,B,3,B.Tech
+193,183,PHY101,Engineering Physics,5,S2180,5,The pace of teaching is comfortable and structured. I would appreciate more doubt-solving time.,0.766,Positive,4,4,4,5,B,3,B.Tech
+194,183,PHY101,Engineering Physics,5,S0880,5,I enjoy attending this class; explanations are very crisp. The teaching style influenced my learning positively.,0.717,Positive,5,2,4,4,C,3,B.Tech
+195,183,PHY101,Engineering Physics,5,S1791,3,Some topics are clear while others require better explanation. The topic flow felt slightly abrupt.,0.085,Neutral,2,2,3,4,C,3,B.Tech
+196,183,PHY101,Engineering Physics,5,S1129,5,The pace of teaching is comfortable and structured. The session coverage was appropriate.,0.824,Positive,4,5,4,5,B,3,B.Tech
+197,183,PHY101,Engineering Physics,5,S0222,4,Amazing clarity and teaching methodology. I would appreciate more doubt-solving time.,0.501,Positive,5,4,2,5,C,3,B.Tech
+198,183,PHY101,Engineering Physics,5,S1129,4,I enjoy attending this class; explanations are very crisp. This is for the course Power Systems.,0.408,Positive,4,5,3,5,C,3,B.Tech
+199,183,PHY101,Engineering Physics,5,S1115,4,Explains concepts very effectively with relatable examples. The session coverage was appropriate.,0.595,Positive,4,5,3,4,B,3,B.Tech
+200,183,PHY101,Engineering Physics,5,S3360,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.426,Positive,5,3,5,4,C,3,B.Tech
+201,523,ECE201,Signal Processing,1,S2535,5,The sessions are well-organized and engaging. This is for the course Power Systems.,1,Positive,5,5,4,5,C,3,B.Tech
+202,523,ECE201,Signal Processing,1,S3917,4,The classes are very clear and engaging. The class environment was encouraging.,0.347,Positive,5,4,3,3,C,3,B.Tech
+203,523,ECE201,Signal Processing,1,S0242,3,Teaching quality is acceptable but could be better. The session coverage was appropriate.,0.146,Neutral,4,2,3,4,B,3,B.Tech
+204,523,ECE201,Signal Processing,1,S0999,3,"Sometimes the pace is fast, but manageable overall. The class environment was encouraging.",0.111,Neutral,2,3,3,3,B,3,B.Tech
+205,523,ECE201,Signal Processing,1,S1961,5,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.668,Positive,5,5,5,5,B,3,B.Tech
+206,523,ECE201,Signal Processing,1,S1733,4,Amazing clarity and teaching methodology.,0.761,Positive,4,4,5,3,B,3,B.Tech
+207,523,ECE201,Signal Processing,1,S2059,3,Teaching quality is acceptable but could be better. The class environment was encouraging.,-0.093,Neutral,3,3,3,2,A,3,B.Tech
+208,523,ECE201,Signal Processing,1,S2735,4,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.369,Positive,5,4,3,4,C,3,B.Tech
+209,523,ECE201,Signal Processing,1,S2183,3,The class is okay but can be more interactive. The examples used were memorable.,0.17,Neutral,2,3,1,4,B,3,B.Tech
+210,523,ECE201,Signal Processing,1,S1671,5,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.888,Positive,4,5,5,5,A,3,B.Tech
+211,523,ECE201,Signal Processing,2,S2553,3,Satisfactory experience but needs improvement in clarity. The teaching style influenced my learning positively.,0.017,Neutral,4,1,3,1,B,3,B.Tech
+212,523,ECE201,Signal Processing,2,S2795,4,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,0.583,Positive,4,4,4,4,B,3,B.Tech
+213,523,ECE201,Signal Processing,2,S1048,3,The class is okay but can be more interactive. The examples used were memorable.,-0.195,Neutral,2,3,4,4,A,3,B.Tech
+214,523,ECE201,Signal Processing,2,S0394,4,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.56,Positive,4,5,5,5,A,3,B.Tech
+215,523,ECE201,Signal Processing,2,S0879,5,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.873,Positive,4,5,5,5,C,3,B.Tech
+216,523,ECE201,Signal Processing,2,S2033,5,Interactive teaching style helps in understanding topics better. I would appreciate more doubt-solving time.,0.904,Positive,4,5,4,5,B,3,B.Tech
+217,523,ECE201,Signal Processing,2,S3546,5,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.797,Positive,5,5,5,5,C,3,B.Tech
+218,523,ECE201,Signal Processing,2,S4605,4,The sessions are well-organized and engaging. The lecture pacing affected my understanding.,0.65,Positive,4,5,5,5,C,3,B.Tech
+219,523,ECE201,Signal Processing,2,S1425,5,Amazing clarity and teaching methodology. This is for the course Power Systems.,1,Positive,5,4,4,5,C,3,B.Tech
+220,523,ECE201,Signal Processing,2,S3615,2,Teaching needs major improvement. The lecture pacing affected my understanding.,-0.709,Negative,3,1,2,2,C,3,B.Tech
+221,523,ECE201,Signal Processing,3,S2446,3,The class is okay but can be more interactive. The session covered important fundamentals.,-0.062,Neutral,3,5,3,2,A,3,B.Tech
+222,523,ECE201,Signal Processing,3,S0533,4,Concepts are broken down in a simple and logical manner. The examples used were memorable.,0.282,Positive,5,3,3,3,A,3,B.Tech
+223,523,ECE201,Signal Processing,3,S3033,4,"One of the best courses, very well taught.",0.651,Positive,4,4,4,5,C,3,B.Tech
+224,523,ECE201,Signal Processing,3,S1202,5,"One of the best courses, very well taught. The session covered important fundamentals.",0.783,Positive,5,4,5,5,B,3,B.Tech
+225,523,ECE201,Signal Processing,3,S4900,4,The professor motivates us and clears doubts patiently. This is for the course Power Systems.,0.671,Positive,4,4,5,4,B,3,B.Tech
+226,523,ECE201,Signal Processing,3,S0661,3,The class is okay but can be more interactive. The topic flow felt slightly abrupt.,-0.095,Neutral,3,3,3,4,A,3,B.Tech
+227,523,ECE201,Signal Processing,3,S1031,5,The sessions are well-organized and engaging. The session covered important fundamentals.,0.881,Positive,4,5,5,4,B,3,B.Tech
+228,523,ECE201,Signal Processing,3,S0284,3,Teaching quality is acceptable but could be better. The topic flow felt slightly abrupt.,0.009,Neutral,1,3,3,2,A,3,B.Tech
+229,523,ECE201,Signal Processing,3,S2000,4,The sessions are well-organized and engaging. The class environment was encouraging.,0.418,Positive,2,5,5,4,C,3,B.Tech
+230,523,ECE201,Signal Processing,3,S1986,3,More real-life examples could improve understanding. I would appreciate more doubt-solving time.,-0.01,Neutral,3,3,3,3,A,3,B.Tech
+231,523,ECE201,Signal Processing,4,S1507,4,Explains concepts very effectively with relatable examples. This is for the course Power Systems.,0.596,Positive,4,4,5,5,A,3,B.Tech
+232,523,ECE201,Signal Processing,4,S4557,4,I enjoy attending this class; explanations are very crisp. The class environment was encouraging.,0.394,Positive,5,4,2,4,A,3,B.Tech
+233,523,ECE201,Signal Processing,4,S0186,5,Amazing clarity and teaching methodology. The lecture pacing affected my understanding.,0.921,Positive,5,5,5,5,A,3,B.Tech
+234,523,ECE201,Signal Processing,4,S0100,2,Doubts are not clarified properly during lectures. The examples used were memorable.,-0.468,Negative,2,1,2,3,A,3,B.Tech
+235,523,ECE201,Signal Processing,4,S4391,4,Amazing clarity and teaching methodology. The session covered important fundamentals.,0.488,Positive,4,4,4,5,C,3,B.Tech
+236,523,ECE201,Signal Processing,4,S4586,5,The sessions are well-organized and engaging. The class environment was encouraging.,0.777,Positive,5,4,4,5,C,3,B.Tech
+237,523,ECE201,Signal Processing,4,S0687,5,Interactive teaching style helps in understanding topics better. The session covered important fundamentals.,0.723,Positive,5,5,4,5,A,3,B.Tech
+238,523,ECE201,Signal Processing,4,S1593,3,"Average teaching, mixed understanding across topics. The session coverage was appropriate.",0.064,Neutral,2,4,2,4,A,3,B.Tech
+239,523,ECE201,Signal Processing,4,S2560,3,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.242,Positive,3,4,3,4,C,3,B.Tech
+240,523,ECE201,Signal Processing,4,S1951,5,Concepts are broken down in a simple and logical manner.,0.868,Positive,5,5,5,5,B,3,B.Tech
+241,523,ECE201,Signal Processing,5,S2441,4,The classes are very clear and engaging. The examples used were memorable.,0.486,Positive,3,5,3,3,A,3,B.Tech
+242,523,ECE201,Signal Processing,5,S1884,4,The classes are very clear and engaging. The session coverage was appropriate.,0.45,Positive,3,3,4,3,C,3,B.Tech
+243,523,ECE201,Signal Processing,5,S0888,4,The professor motivates us and clears doubts patiently. This is for the course Power Systems.,0.644,Positive,4,3,5,4,B,3,B.Tech
+244,523,ECE201,Signal Processing,5,S1398,4,The professor motivates us and clears doubts patiently.,0.317,Positive,5,5,5,4,A,3,B.Tech
+245,523,ECE201,Signal Processing,5,S4578,5,Interactive teaching style helps in understanding topics better. The examples used were memorable.,0.786,Positive,5,5,4,4,C,3,B.Tech
+246,523,ECE201,Signal Processing,5,S1167,3,The class is okay but can be more interactive. The lecture pacing affected my understanding.,0.131,Neutral,3,3,3,3,B,3,B.Tech
+247,523,ECE201,Signal Processing,5,S1482,3,"Sometimes the pace is fast, but manageable overall. The topic flow felt slightly abrupt.",0.01,Neutral,2,2,4,5,C,3,B.Tech
+248,523,ECE201,Signal Processing,5,S2831,4,The pace of teaching is comfortable and structured. The topic flow felt slightly abrupt.,0.241,Positive,4,4,3,3,A,3,B.Tech
+249,523,ECE201,Signal Processing,5,S4073,3,Teaching quality is acceptable but could be better. The class environment was encouraging.,0.135,Neutral,2,5,1,2,B,3,B.Tech
+250,523,ECE201,Signal Processing,5,S2621,5,Amazing clarity and teaching methodology.,0.926,Positive,5,5,4,5,B,3,B.Tech
+251,374,CE301,Geotechnical Engineering,1,S4302,4,Interactive teaching style helps in understanding topics better. I would appreciate more doubt-solving time.,0.302,Positive,4,2,5,4,B,3,B.Tech
+252,374,CE301,Geotechnical Engineering,1,S3442,4,The pace of teaching is comfortable and structured. The class environment was encouraging.,0.388,Positive,4,4,3,4,C,3,B.Tech
+253,374,CE301,Geotechnical Engineering,1,S0091,3,Teaching style is monotonous and lacks engagement. The lecture pacing affected my understanding.,-0.229,Negative,3,3,2,3,C,3,B.Tech
+254,374,CE301,Geotechnical Engineering,1,S4261,5,The sessions are well-organized and engaging. The session coverage was appropriate.,0.999,Positive,5,4,5,5,C,3,B.Tech
+255,374,CE301,Geotechnical Engineering,1,S2668,4,"One of the best courses, very well taught. I would appreciate more doubt-solving time.",0.476,Positive,3,5,4,5,B,3,B.Tech
+256,374,CE301,Geotechnical Engineering,1,S1835,2,Teaching needs major improvement.,-0.315,Negative,2,2,2,3,B,3,B.Tech
+257,374,CE301,Geotechnical Engineering,1,S2947,4,Interactive teaching style helps in understanding topics better. The lecture pacing affected my understanding.,0.536,Positive,2,4,5,5,B,3,B.Tech
+258,374,CE301,Geotechnical Engineering,1,S0266,1,"Very little interaction, topics feel incomplete. This is for the course Quantum Mechanics.",-0.759,Negative,3,3,2,1,C,3,B.Tech
+259,374,CE301,Geotechnical Engineering,1,S4832,2,Struggle to understand most concepts in class. The topic flow felt slightly abrupt.,-0.214,Negative,2,3,3,2,C,3,B.Tech
+260,374,CE301,Geotechnical Engineering,1,S2320,5,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.902,Positive,5,5,5,4,A,3,B.Tech
+261,374,CE301,Geotechnical Engineering,2,S3921,3,Teaching needs major improvement. I would appreciate more doubt-solving time.,-0.208,Negative,3,3,3,2,A,3,B.Tech
+262,374,CE301,Geotechnical Engineering,2,S2719,4,Interactive teaching style helps in understanding topics better. The class environment was encouraging.,0.313,Positive,4,5,5,4,C,3,B.Tech
+263,374,CE301,Geotechnical Engineering,2,S3993,4,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,0.381,Positive,4,4,4,4,B,3,B.Tech
+264,374,CE301,Geotechnical Engineering,2,S2616,3,"Average teaching, mixed understanding across topics. The topic flow felt slightly abrupt.",-0.018,Neutral,3,3,2,2,C,3,B.Tech
+265,374,CE301,Geotechnical Engineering,2,S4879,4,"One of the best courses, very well taught. The examples used were memorable.",0.399,Positive,3,5,4,4,B,3,B.Tech
+266,374,CE301,Geotechnical Engineering,2,S0628,4,The sessions are well-organized and engaging. The session covered important fundamentals.,0.627,Positive,4,5,5,3,B,3,B.Tech
+267,374,CE301,Geotechnical Engineering,2,S0302,4,Interactive teaching style helps in understanding topics better. The teaching style influenced my learning positively.,0.714,Positive,4,5,5,5,A,3,B.Tech
+268,374,CE301,Geotechnical Engineering,2,S4027,3,I understand most topics but sometimes feel disconnected. This is for the course Quantum Mechanics.,-0.065,Neutral,4,4,3,2,B,3,B.Tech
+269,374,CE301,Geotechnical Engineering,2,S3152,5,Concepts are broken down in a simple and logical manner. The topic flow felt slightly abrupt.,1,Positive,5,5,4,5,A,3,B.Tech
+270,374,CE301,Geotechnical Engineering,2,S3132,5,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.848,Positive,5,4,4,4,A,3,B.Tech
+271,374,CE301,Geotechnical Engineering,3,S3135,5,The professor motivates us and clears doubts patiently. The topic flow felt slightly abrupt.,0.869,Positive,5,4,5,5,A,3,B.Tech
+272,374,CE301,Geotechnical Engineering,3,S4822,4,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,0.365,Positive,5,3,4,5,C,3,B.Tech
+273,374,CE301,Geotechnical Engineering,3,S1019,3,Some topics are clear while others require better explanation. The session coverage was appropriate.,-0.039,Neutral,3,2,4,2,B,3,B.Tech
+274,374,CE301,Geotechnical Engineering,3,S0653,3,The class is okay but can be more interactive. This is for the course Quantum Mechanics.,0.105,Neutral,3,3,3,4,B,3,B.Tech
+275,374,CE301,Geotechnical Engineering,3,S4550,3,Teaching style is monotonous and lacks engagement. The examples used were memorable.,-0.251,Negative,4,3,2,3,C,3,B.Tech
+276,374,CE301,Geotechnical Engineering,3,S2401,4,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.418,Positive,3,4,4,4,C,3,B.Tech
+277,374,CE301,Geotechnical Engineering,3,S2927,3,"Sometimes the pace is fast, but manageable overall. I would appreciate more doubt-solving time.",-0.192,Neutral,2,3,1,2,A,3,B.Tech
+278,374,CE301,Geotechnical Engineering,3,S3557,4,Amazing clarity and teaching methodology. The class environment was encouraging.,0.456,Positive,4,5,4,2,B,3,B.Tech
+279,374,CE301,Geotechnical Engineering,3,S2280,4,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.645,Positive,4,4,5,5,B,3,B.Tech
+280,374,CE301,Geotechnical Engineering,3,S4594,3,Teaching quality is acceptable but could be better. This is for the course Quantum Mechanics.,0.032,Neutral,3,2,2,3,C,3,B.Tech
+281,374,CE301,Geotechnical Engineering,4,S2631,5,Amazing clarity and teaching methodology. I would appreciate more doubt-solving time.,1,Positive,5,5,5,5,B,3,B.Tech
+282,374,CE301,Geotechnical Engineering,4,S3291,4,The sessions are well-organized and engaging. The session covered important fundamentals.,0.567,Positive,4,4,4,4,A,3,B.Tech
+283,374,CE301,Geotechnical Engineering,4,S1246,3,"Sometimes the pace is fast, but manageable overall. The session covered important fundamentals.",0.084,Neutral,5,3,2,3,C,3,B.Tech
+284,374,CE301,Geotechnical Engineering,4,S4984,2,Examples are insufficient and unclear. The topic flow felt slightly abrupt.,-0.501,Negative,2,2,1,2,A,3,B.Tech
+285,374,CE301,Geotechnical Engineering,4,S2010,4,The professor motivates us and clears doubts patiently. This is for the course Quantum Mechanics.,0.516,Positive,5,4,3,4,B,3,B.Tech
+286,374,CE301,Geotechnical Engineering,4,S3542,4,I enjoy attending this class; explanations are very crisp. I would appreciate more doubt-solving time.,0.496,Positive,3,4,5,5,B,3,B.Tech
+287,374,CE301,Geotechnical Engineering,4,S1106,3,More real-life examples could improve understanding. The topic flow felt slightly abrupt.,0.161,Neutral,2,4,4,4,C,3,B.Tech
+288,374,CE301,Geotechnical Engineering,4,S1207,4,"One of the best courses, very well taught.",0.493,Positive,3,4,4,4,A,3,B.Tech
+289,374,CE301,Geotechnical Engineering,4,S0486,3,"Sometimes the pace is fast, but manageable overall. The teaching style influenced my learning positively.",-0.052,Neutral,2,3,3,4,B,3,B.Tech
+290,374,CE301,Geotechnical Engineering,4,S4816,4,The professor motivates us and clears doubts patiently. I would appreciate more doubt-solving time.,0.659,Positive,3,4,4,2,C,3,B.Tech
+291,374,CE301,Geotechnical Engineering,5,S1647,4,The professor motivates us and clears doubts patiently. This is for the course Quantum Mechanics.,0.512,Positive,5,5,4,3,C,3,B.Tech
+292,374,CE301,Geotechnical Engineering,5,S4692,5,"One of the best courses, very well taught. This is for the course Quantum Mechanics.",0.899,Positive,5,5,5,5,B,3,B.Tech
+293,374,CE301,Geotechnical Engineering,5,S4508,5,"One of the best courses, very well taught.",0.782,Positive,4,5,4,4,A,3,B.Tech
+294,374,CE301,Geotechnical Engineering,5,S0549,5,The classes are very clear and engaging. The session coverage was appropriate.,1,Positive,5,5,5,4,C,3,B.Tech
+295,374,CE301,Geotechnical Engineering,5,S2771,5,The professor motivates us and clears doubts patiently.,0.847,Positive,5,5,5,5,A,3,B.Tech
+296,374,CE301,Geotechnical Engineering,5,S3871,4,"One of the best courses, very well taught. This is for the course Quantum Mechanics.",0.321,Positive,5,5,3,4,A,3,B.Tech
+297,374,CE301,Geotechnical Engineering,5,S3670,4,Interactive teaching style helps in understanding topics better. I would appreciate more doubt-solving time.,0.622,Positive,4,5,5,5,A,3,B.Tech
+298,374,CE301,Geotechnical Engineering,5,S2835,4,The pace of teaching is comfortable and structured. I would appreciate more doubt-solving time.,0.461,Positive,4,4,5,4,A,3,B.Tech
+299,374,CE301,Geotechnical Engineering,5,S2760,4,I enjoy attending this class; explanations are very crisp. I would appreciate more doubt-solving time.,0.446,Positive,4,1,2,5,C,3,B.Tech
+300,374,CE301,Geotechnical Engineering,5,S3272,4,Interactive teaching style helps in understanding topics better. The session covered important fundamentals.,0.735,Positive,4,4,3,3,B,3,B.Tech
+301,214,PHY301,Electromagnetism,1,S3096,5,The professor motivates us and clears doubts patiently. The class environment was encouraging.,0.864,Positive,4,5,5,5,A,1,B.Tech
+302,214,PHY301,Electromagnetism,1,S2286,3,I understand most topics but sometimes feel disconnected. The lecture pacing affected my understanding.,0.013,Neutral,3,3,5,3,C,1,B.Tech
+303,214,PHY301,Electromagnetism,1,S0977,4,Amazing clarity and teaching methodology. The session coverage was appropriate.,0.693,Positive,5,4,4,4,A,1,B.Tech
+304,214,PHY301,Electromagnetism,1,S0182,4,Interactive teaching style helps in understanding topics better. I would appreciate more doubt-solving time.,0.395,Positive,5,4,5,3,C,1,B.Tech
+305,214,PHY301,Electromagnetism,1,S3123,3,"The pace is too fast, making the class hard to understand. The teaching style influenced my learning positively.",-0.242,Negative,4,3,2,2,B,1,B.Tech
+306,214,PHY301,Electromagnetism,1,S3487,4,Concepts are broken down in a simple and logical manner.,0.691,Positive,4,4,5,5,B,1,B.Tech
+307,214,PHY301,Electromagnetism,1,S4625,3,"The pace is too fast, making the class hard to understand. The topic flow felt slightly abrupt.",-0.298,Negative,3,4,2,3,B,1,B.Tech
+308,214,PHY301,Electromagnetism,1,S2851,4,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,0.816,Positive,4,3,3,4,A,1,B.Tech
+309,214,PHY301,Electromagnetism,1,S4418,5,Explains concepts very effectively with relatable examples.,0.889,Positive,3,5,4,5,C,1,B.Tech
+310,214,PHY301,Electromagnetism,1,S1018,4,Concepts are broken down in a simple and logical manner.,0.619,Positive,3,4,4,4,C,1,B.Tech
+311,214,PHY301,Electromagnetism,2,S1559,3,Satisfactory experience but needs improvement in clarity. The session covered important fundamentals.,-0.181,Neutral,4,3,4,4,A,1,B.Tech
+312,214,PHY301,Electromagnetism,2,S0328,5,"One of the best courses, very well taught. The teaching style influenced my learning positively.",1,Positive,5,5,5,5,B,1,B.Tech
+313,214,PHY301,Electromagnetism,2,S1329,5,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,1,Positive,5,5,4,5,A,1,B.Tech
+314,214,PHY301,Electromagnetism,2,S4992,4,Amazing clarity and teaching methodology. The session covered important fundamentals.,0.459,Positive,5,4,4,5,A,1,B.Tech
+315,214,PHY301,Electromagnetism,2,S3217,5,I enjoy attending this class; explanations are very crisp.,0.814,Positive,5,4,5,5,C,1,B.Tech
+316,214,PHY301,Electromagnetism,2,S2031,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.803,Positive,5,5,5,5,C,1,B.Tech
+317,214,PHY301,Electromagnetism,2,S4542,4,"One of the best courses, very well taught. The teaching style influenced my learning positively.",0.505,Positive,4,4,4,3,B,1,B.Tech
+318,214,PHY301,Electromagnetism,2,S0347,4,The classes are very clear and engaging.,0.497,Positive,4,4,4,3,A,1,B.Tech
+319,214,PHY301,Electromagnetism,2,S3942,4,The pace of teaching is comfortable and structured. The examples used were memorable.,0.584,Positive,3,5,4,4,B,1,B.Tech
+320,214,PHY301,Electromagnetism,2,S4527,4,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.309,Positive,3,3,5,4,A,1,B.Tech
+321,214,PHY301,Electromagnetism,3,S3799,5,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,0.796,Positive,4,5,4,4,C,1,B.Tech
+322,214,PHY301,Electromagnetism,3,S1555,4,Amazing clarity and teaching methodology. The examples used were memorable.,0.311,Positive,3,5,5,4,C,1,B.Tech
+323,214,PHY301,Electromagnetism,3,S2600,4,"One of the best courses, very well taught. The teaching style influenced my learning positively.",0.437,Positive,3,3,4,4,C,1,B.Tech
+324,214,PHY301,Electromagnetism,3,S3639,4,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.45,Positive,4,3,3,4,C,1,B.Tech
+325,214,PHY301,Electromagnetism,3,S0122,5,Explains concepts very effectively with relatable examples. The teaching style influenced my learning positively.,1,Positive,5,4,5,5,B,1,B.Tech
+326,214,PHY301,Electromagnetism,3,S3311,5,I enjoy attending this class; explanations are very crisp. The session covered important fundamentals.,0.644,Positive,5,5,5,5,B,1,B.Tech
+327,214,PHY301,Electromagnetism,3,S1921,5,The sessions are well-organized and engaging. The examples used were memorable.,0.861,Positive,5,4,5,3,C,1,B.Tech
+328,214,PHY301,Electromagnetism,3,S4538,4,I enjoy attending this class; explanations are very crisp. The teaching style influenced my learning positively.,0.228,Positive,3,4,4,3,A,1,B.Tech
+329,214,PHY301,Electromagnetism,3,S2108,4,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.527,Positive,5,4,3,3,B,1,B.Tech
+330,214,PHY301,Electromagnetism,3,S4768,3,The pace of teaching is comfortable and structured. The topic flow felt slightly abrupt.,0.249,Positive,2,2,4,3,B,1,B.Tech
+331,214,PHY301,Electromagnetism,4,S2759,2,The concepts were unclear and difficult to follow. The session coverage was appropriate.,-0.759,Negative,1,2,2,2,B,1,B.Tech
+332,214,PHY301,Electromagnetism,4,S2966,4,Explains concepts very effectively with relatable examples. The topic flow felt slightly abrupt.,0.646,Positive,5,5,4,5,A,1,B.Tech
+333,214,PHY301,Electromagnetism,4,S2186,4,Explains concepts very effectively with relatable examples. This is for the course Calculus.,0.64,Positive,4,4,3,3,B,1,B.Tech
+334,214,PHY301,Electromagnetism,4,S3267,3,Amazing clarity and teaching methodology. The examples used were memorable.,0.235,Positive,2,1,4,4,A,1,B.Tech
+335,214,PHY301,Electromagnetism,4,S0261,3,The concepts were unclear and difficult to follow. The session covered important fundamentals.,-0.413,Negative,3,3,2,3,A,1,B.Tech
+336,214,PHY301,Electromagnetism,4,S1176,5,Concepts are broken down in a simple and logical manner. I would appreciate more doubt-solving time.,0.917,Positive,5,5,5,5,C,1,B.Tech
+337,214,PHY301,Electromagnetism,4,S4164,4,I understand most topics but sometimes feel disconnected. The examples used were memorable.,0.146,Neutral,4,4,4,3,C,1,B.Tech
+338,214,PHY301,Electromagnetism,4,S2831,5,Concepts are broken down in a simple and logical manner. The topic flow felt slightly abrupt.,0.818,Positive,5,5,5,5,A,1,B.Tech
+339,214,PHY301,Electromagnetism,4,S4945,5,The sessions are well-organized and engaging. The session coverage was appropriate.,1,Positive,5,5,5,5,C,1,B.Tech
+340,214,PHY301,Electromagnetism,4,S0032,4,The pace of teaching is comfortable and structured. The class environment was encouraging.,0.438,Positive,4,4,4,4,B,1,B.Tech
+341,214,PHY301,Electromagnetism,5,S4843,2,"Very little interaction, topics feel incomplete.",-0.218,Negative,2,3,1,2,C,1,B.Tech
+342,214,PHY301,Electromagnetism,5,S4697,3,The class is okay but can be more interactive. The topic flow felt slightly abrupt.,0.024,Neutral,3,5,3,3,A,1,B.Tech
+343,214,PHY301,Electromagnetism,5,S1244,5,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,0.996,Positive,5,5,5,5,A,1,B.Tech
+344,214,PHY301,Electromagnetism,5,S3329,4,"One of the best courses, very well taught. The class environment was encouraging.",0.558,Positive,4,5,4,4,B,1,B.Tech
+345,214,PHY301,Electromagnetism,5,S3350,4,Interactive teaching style helps in understanding topics better.,0.341,Positive,3,5,3,5,C,1,B.Tech
+346,214,PHY301,Electromagnetism,5,S3027,4,The classes are very clear and engaging. The lecture pacing affected my understanding.,0.345,Positive,4,2,2,4,A,1,B.Tech
+347,214,PHY301,Electromagnetism,5,S3349,5,Interactive teaching style helps in understanding topics better. I would appreciate more doubt-solving time.,0.921,Positive,5,4,5,5,A,1,B.Tech
+348,214,PHY301,Electromagnetism,5,S3215,3,"The course is fine, but teaching could be more structured. The topic flow felt slightly abrupt.",0.154,Neutral,3,3,3,2,B,1,B.Tech
+349,214,PHY301,Electromagnetism,5,S4423,5,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.848,Positive,4,5,4,5,C,1,B.Tech
+350,214,PHY301,Electromagnetism,5,S3016,4,The classes are very clear and engaging. The examples used were memorable.,0.569,Positive,4,4,4,3,B,1,B.Tech
+351,474,EE301,Electrical Machines,1,S2052,4,I enjoy attending this class; explanations are very crisp.,0.512,Positive,3,4,3,4,C,3,B.Tech
+352,474,EE301,Electrical Machines,1,S0668,4,Interactive teaching style helps in understanding topics better. The examples used were memorable.,0.317,Positive,5,4,3,4,C,3,B.Tech
+353,474,EE301,Electrical Machines,1,S4739,5,The sessions are well-organized and engaging. This is for the course Organic Chemistry.,0.893,Positive,5,5,5,5,B,3,B.Tech
+354,474,EE301,Electrical Machines,1,S4051,3,Some topics are clear while others require better explanation. The lecture pacing affected my understanding.,0.038,Neutral,4,4,3,4,C,3,B.Tech
+355,474,EE301,Electrical Machines,1,S4817,5,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,1,Positive,5,5,5,4,A,3,B.Tech
+356,474,EE301,Electrical Machines,1,S0094,4,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,0.438,Positive,4,3,4,4,B,3,B.Tech
+357,474,EE301,Electrical Machines,1,S3335,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.576,Positive,3,5,3,5,A,3,B.Tech
+358,474,EE301,Electrical Machines,1,S1710,3,I understand most topics but sometimes feel disconnected. This is for the course Organic Chemistry.,0.032,Neutral,2,4,1,3,B,3,B.Tech
+359,474,EE301,Electrical Machines,1,S2749,5,Amazing clarity and teaching methodology. The class environment was encouraging.,1,Positive,5,5,5,5,C,3,B.Tech
+360,474,EE301,Electrical Machines,1,S2263,4,The pace of teaching is comfortable and structured. This is for the course Organic Chemistry.,0.226,Positive,4,4,4,5,A,3,B.Tech
+361,474,EE301,Electrical Machines,2,S4496,5,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.826,Positive,5,5,4,4,C,3,B.Tech
+362,474,EE301,Electrical Machines,2,S2836,5,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.968,Positive,5,5,4,5,A,3,B.Tech
+363,474,EE301,Electrical Machines,2,S1120,4,I enjoy attending this class; explanations are very crisp. The teaching style influenced my learning positively.,0.231,Positive,4,5,3,5,B,3,B.Tech
+364,474,EE301,Electrical Machines,2,S3965,4,The classes are very clear and engaging. The session covered important fundamentals.,0.567,Positive,4,5,4,5,C,3,B.Tech
+365,474,EE301,Electrical Machines,2,S0810,4,Interactive teaching style helps in understanding topics better. The teaching style influenced my learning positively.,0.354,Positive,4,2,3,3,C,3,B.Tech
+366,474,EE301,Electrical Machines,2,S2155,4,The professor motivates us and clears doubts patiently.,0.408,Positive,5,4,3,3,B,3,B.Tech
+367,474,EE301,Electrical Machines,2,S1576,4,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.405,Positive,5,3,5,5,C,3,B.Tech
+368,474,EE301,Electrical Machines,2,S0875,4,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,0.562,Positive,4,4,3,3,B,3,B.Tech
+369,474,EE301,Electrical Machines,2,S3623,5,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.803,Positive,5,5,5,5,A,3,B.Tech
+370,474,EE301,Electrical Machines,2,S4597,5,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,0.959,Positive,4,5,5,4,C,3,B.Tech
+371,474,EE301,Electrical Machines,3,S3536,4,The pace of teaching is comfortable and structured. The topic flow felt slightly abrupt.,0.78,Positive,3,5,4,5,B,3,B.Tech
+372,474,EE301,Electrical Machines,3,S3146,4,Explains concepts very effectively with relatable examples. The examples used were memorable.,0.491,Positive,4,3,4,4,B,3,B.Tech
+373,474,EE301,Electrical Machines,3,S4806,4,The classes are very clear and engaging.,0.309,Positive,3,5,5,4,A,3,B.Tech
+374,474,EE301,Electrical Machines,3,S0696,5,"One of the best courses, very well taught. The session coverage was appropriate.",1,Positive,5,4,5,4,B,3,B.Tech
+375,474,EE301,Electrical Machines,3,S0620,4,More real-life examples could improve understanding. The lecture pacing affected my understanding.,0.134,Neutral,4,2,4,5,B,3,B.Tech
+376,474,EE301,Electrical Machines,3,S3835,2,Teaching style is monotonous and lacks engagement. The teaching style influenced my learning positively.,-0.222,Negative,2,2,2,3,B,3,B.Tech
+377,474,EE301,Electrical Machines,3,S3240,4,The pace of teaching is comfortable and structured. The examples used were memorable.,0.426,Positive,3,3,5,4,C,3,B.Tech
+378,474,EE301,Electrical Machines,3,S4920,4,Amazing clarity and teaching methodology. I would appreciate more doubt-solving time.,0.384,Positive,4,5,5,4,A,3,B.Tech
+379,474,EE301,Electrical Machines,3,S2085,4,Explains concepts very effectively with relatable examples. The class environment was encouraging.,0.359,Positive,4,5,5,4,B,3,B.Tech
+380,474,EE301,Electrical Machines,3,S3526,4,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,0.576,Positive,4,3,4,2,B,3,B.Tech
+381,474,EE301,Electrical Machines,4,S1852,5,The professor motivates us and clears doubts patiently. This is for the course Organic Chemistry.,0.957,Positive,4,4,5,5,A,3,B.Tech
+382,474,EE301,Electrical Machines,4,S4716,4,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.542,Positive,4,4,4,5,A,3,B.Tech
+383,474,EE301,Electrical Machines,4,S4432,4,The sessions are well-organized and engaging. The session coverage was appropriate.,0.987,Positive,2,4,5,5,A,3,B.Tech
+384,474,EE301,Electrical Machines,4,S1319,4,The pace of teaching is comfortable and structured. This is for the course Organic Chemistry.,0.676,Positive,4,3,4,4,B,3,B.Tech
+385,474,EE301,Electrical Machines,4,S4903,5,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.842,Positive,5,5,4,5,A,3,B.Tech
+386,474,EE301,Electrical Machines,4,S3702,3,The class is okay but can be more interactive. The session coverage was appropriate.,-0.115,Neutral,2,5,1,5,B,3,B.Tech
+387,474,EE301,Electrical Machines,4,S2783,5,Amazing clarity and teaching methodology. The session coverage was appropriate.,1,Positive,5,5,4,3,A,3,B.Tech
+388,474,EE301,Electrical Machines,4,S1109,3,The course delivery is moderate and could be improved. The lecture pacing affected my understanding.,0.12,Neutral,4,4,4,2,A,3,B.Tech
+389,474,EE301,Electrical Machines,4,S2322,4,"One of the best courses, very well taught. The session coverage was appropriate.",0.508,Positive,5,4,5,2,B,3,B.Tech
+390,474,EE301,Electrical Machines,4,S3964,2,Teaching style is monotonous and lacks engagement. The session covered important fundamentals.,-0.453,Negative,3,4,1,3,B,3,B.Tech
+391,474,EE301,Electrical Machines,5,S1786,3,The course delivery is moderate and could be improved. This is for the course Organic Chemistry.,-0.154,Neutral,4,2,3,4,B,3,B.Tech
+392,474,EE301,Electrical Machines,5,S4672,3,Some topics are clear while others require better explanation. The teaching style influenced my learning positively.,0.051,Neutral,3,4,2,3,A,3,B.Tech
+393,474,EE301,Electrical Machines,5,S4764,4,"One of the best courses, very well taught. The teaching style influenced my learning positively.",0.362,Positive,3,4,4,4,A,3,B.Tech
+394,474,EE301,Electrical Machines,5,S3852,4,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.596,Positive,3,3,5,3,B,3,B.Tech
+395,474,EE301,Electrical Machines,5,S0313,5,The pace of teaching is comfortable and structured. I would appreciate more doubt-solving time.,0.957,Positive,4,5,4,5,A,3,B.Tech
+396,474,EE301,Electrical Machines,5,S0647,4,The classes are very clear and engaging. The lecture pacing affected my understanding.,0.495,Positive,4,4,3,3,C,3,B.Tech
+397,474,EE301,Electrical Machines,5,S2461,3,I understand most topics but sometimes feel disconnected. The session coverage was appropriate.,0.184,Neutral,4,2,3,4,A,3,B.Tech
+398,474,EE301,Electrical Machines,5,S3444,4,Amazing clarity and teaching methodology.,0.455,Positive,4,4,4,4,A,3,B.Tech
+399,474,EE301,Electrical Machines,5,S3111,3,I understand most topics but sometimes feel disconnected. The teaching style influenced my learning positively.,0.048,Neutral,2,4,3,4,A,3,B.Tech
+400,474,EE301,Electrical Machines,5,S4102,4,Interactive teaching style helps in understanding topics better. The topic flow felt slightly abrupt.,0.639,Positive,4,5,5,4,C,3,B.Tech
+401,499,ECE201,Signal Processing,1,S0708,5,The sessions are well-organized and engaging. The examples used were memorable.,0.849,Positive,5,5,4,4,B,1,B.Tech
+402,499,ECE201,Signal Processing,1,S2247,4,The pace of teaching is comfortable and structured. The class environment was encouraging.,0.368,Positive,4,5,4,5,A,1,B.Tech
+403,499,ECE201,Signal Processing,1,S1790,5,The pace of teaching is comfortable and structured. The teaching style influenced my learning positively.,0.695,Positive,5,4,5,4,C,1,B.Tech
+404,499,ECE201,Signal Processing,1,S3920,5,The sessions are well-organized and engaging. The examples used were memorable.,0.767,Positive,4,5,4,4,B,1,B.Tech
+405,499,ECE201,Signal Processing,1,S1317,3,The class is okay but can be more interactive. The session coverage was appropriate.,0.197,Neutral,4,2,3,4,B,1,B.Tech
+406,499,ECE201,Signal Processing,1,S4444,5,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.867,Positive,4,5,5,5,C,1,B.Tech
+407,499,ECE201,Signal Processing,1,S0783,4,Explains concepts very effectively with relatable examples. The class environment was encouraging.,0.577,Positive,3,5,4,5,A,1,B.Tech
+408,499,ECE201,Signal Processing,1,S4576,4,The classes are very clear and engaging.,0.527,Positive,4,5,4,4,C,1,B.Tech
+409,499,ECE201,Signal Processing,1,S2094,2,I understand most topics but sometimes feel disconnected.,-0.075,Neutral,1,3,2,3,B,1,B.Tech
+410,499,ECE201,Signal Processing,1,S0293,4,I enjoy attending this class; explanations are very crisp. The teaching style influenced my learning positively.,0.495,Positive,3,4,4,5,C,1,B.Tech
+411,499,ECE201,Signal Processing,2,S2061,5,Amazing clarity and teaching methodology. The teaching style influenced my learning positively.,0.988,Positive,5,5,5,5,A,1,B.Tech
+412,499,ECE201,Signal Processing,2,S3178,3,Satisfactory experience but needs improvement in clarity. The class environment was encouraging.,-0.134,Neutral,4,3,3,4,B,1,B.Tech
+413,499,ECE201,Signal Processing,2,S3567,5,Concepts are broken down in a simple and logical manner. The teaching style influenced my learning positively.,0.976,Positive,3,5,5,5,C,1,B.Tech
+414,499,ECE201,Signal Processing,2,S2050,4,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.613,Positive,5,2,4,4,C,1,B.Tech
+415,499,ECE201,Signal Processing,2,S4087,3,Struggle to understand most concepts in class. The teaching style influenced my learning positively.,-0.287,Negative,3,2,4,1,C,1,B.Tech
+416,499,ECE201,Signal Processing,2,S3297,5,Amazing clarity and teaching methodology. The class environment was encouraging.,0.939,Positive,5,4,5,5,C,1,B.Tech
+417,499,ECE201,Signal Processing,2,S3004,4,The classes are very clear and engaging. I would appreciate more doubt-solving time.,0.547,Positive,4,5,4,4,B,1,B.Tech
+418,499,ECE201,Signal Processing,2,S1879,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.374,Positive,3,4,4,3,A,1,B.Tech
+419,499,ECE201,Signal Processing,2,S2341,5,The classes are very clear and engaging. The session covered important fundamentals.,0.831,Positive,5,5,5,5,B,1,B.Tech
+420,499,ECE201,Signal Processing,2,S1478,5,The sessions are well-organized and engaging. The session covered important fundamentals.,0.931,Positive,5,5,5,5,C,1,B.Tech
+421,499,ECE201,Signal Processing,3,S3674,5,The classes are very clear and engaging. I would appreciate more doubt-solving time.,1,Positive,5,4,4,3,C,1,B.Tech
+422,499,ECE201,Signal Processing,3,S4491,5,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,0.991,Positive,5,5,5,5,B,1,B.Tech
+423,499,ECE201,Signal Processing,3,S1691,4,Explains concepts very effectively with relatable examples. The session coverage was appropriate.,0.321,Positive,4,4,4,4,B,1,B.Tech
+424,499,ECE201,Signal Processing,3,S1173,4,Concepts are broken down in a simple and logical manner.,0.306,Positive,3,4,2,3,C,1,B.Tech
+425,499,ECE201,Signal Processing,3,S2696,4,Explains concepts very effectively with relatable examples. I would appreciate more doubt-solving time.,0.483,Positive,3,4,3,3,B,1,B.Tech
+426,499,ECE201,Signal Processing,3,S4321,4,Explains concepts very effectively with relatable examples.,0.63,Positive,3,5,4,5,B,1,B.Tech
+427,499,ECE201,Signal Processing,3,S0642,5,The pace of teaching is comfortable and structured. The examples used were memorable.,0.876,Positive,5,5,5,5,B,1,B.Tech
+428,499,ECE201,Signal Processing,3,S4237,4,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,0.553,Positive,3,4,3,5,C,1,B.Tech
+429,499,ECE201,Signal Processing,3,S4033,3,Satisfactory experience but needs improvement in clarity. The session coverage was appropriate.,0.044,Neutral,3,3,2,3,B,1,B.Tech
+430,499,ECE201,Signal Processing,3,S3023,3,Teaching style is monotonous and lacks engagement. The teaching style influenced my learning positively.,-0.313,Negative,3,3,3,2,B,1,B.Tech
+431,499,ECE201,Signal Processing,4,S3521,3,"The course is fine, but teaching could be more structured. The lecture pacing affected my understanding.",-0.007,Neutral,3,5,2,4,A,1,B.Tech
+432,499,ECE201,Signal Processing,4,S2383,4,Concepts are broken down in a simple and logical manner. This is for the course Engineering Chemistry.,0.453,Positive,4,4,4,2,A,1,B.Tech
+433,499,ECE201,Signal Processing,4,S2002,3,"Average teaching, mixed understanding across topics. The topic flow felt slightly abrupt.",0.056,Neutral,2,4,4,2,B,1,B.Tech
+434,499,ECE201,Signal Processing,4,S0359,5,"One of the best courses, very well taught. The lecture pacing affected my understanding.",0.839,Positive,5,5,5,5,B,1,B.Tech
+435,499,ECE201,Signal Processing,4,S3800,4,The professor motivates us and clears doubts patiently. I would appreciate more doubt-solving time.,0.408,Positive,4,4,5,4,A,1,B.Tech
+436,499,ECE201,Signal Processing,4,S2035,4,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.764,Positive,3,4,5,4,B,1,B.Tech
+437,499,ECE201,Signal Processing,4,S3075,4,I enjoy attending this class; explanations are very crisp. The lecture pacing affected my understanding.,0.558,Positive,2,3,3,3,A,1,B.Tech
+438,499,ECE201,Signal Processing,4,S1192,4,I enjoy attending this class; explanations are very crisp. The session covered important fundamentals.,0.511,Positive,4,4,4,3,B,1,B.Tech
+439,499,ECE201,Signal Processing,4,S3415,5,The professor motivates us and clears doubts patiently.,0.777,Positive,5,4,5,4,C,1,B.Tech
+440,499,ECE201,Signal Processing,4,S4489,3,Teaching quality is acceptable but could be better. The session coverage was appropriate.,-0.033,Neutral,3,3,3,4,C,1,B.Tech
+441,499,ECE201,Signal Processing,5,S4467,3,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.231,Positive,2,4,2,4,A,1,B.Tech
+442,499,ECE201,Signal Processing,5,S1399,4,Explains concepts very effectively with relatable examples.,0.423,Positive,5,3,4,4,A,1,B.Tech
+443,499,ECE201,Signal Processing,5,S4352,2,Struggle to understand most concepts in class. The topic flow felt slightly abrupt.,-0.272,Negative,3,3,2,2,A,1,B.Tech
+444,499,ECE201,Signal Processing,5,S4030,3,"Average teaching, mixed understanding across topics. The teaching style influenced my learning positively.",-0.125,Neutral,4,3,4,4,A,1,B.Tech
+445,499,ECE201,Signal Processing,5,S1428,3,The course delivery is moderate and could be improved. The lecture pacing affected my understanding.,-0.11,Neutral,4,3,2,3,C,1,B.Tech
+446,499,ECE201,Signal Processing,5,S0766,4,I enjoy attending this class; explanations are very crisp. The class environment was encouraging.,0.602,Positive,4,5,4,4,C,1,B.Tech
+447,499,ECE201,Signal Processing,5,S0348,5,The sessions are well-organized and engaging. The class environment was encouraging.,0.775,Positive,5,5,4,5,C,1,B.Tech
+448,499,ECE201,Signal Processing,5,S4852,4,The classes are very clear and engaging. I would appreciate more doubt-solving time.,0.364,Positive,4,4,4,4,C,1,B.Tech
+449,499,ECE201,Signal Processing,5,S4014,4,Amazing clarity and teaching methodology. The examples used were memorable.,0.482,Positive,4,5,4,4,A,1,B.Tech
+450,499,ECE201,Signal Processing,5,S1263,3,I understand most topics but sometimes feel disconnected. The examples used were memorable.,0.096,Neutral,2,5,3,4,A,1,B.Tech
+451,426,PHY201,Quantum Mechanics,1,S0519,4,The sessions are well-organized and engaging. The teaching style influenced my learning positively.,0.845,Positive,3,3,5,5,A,1,B.Tech
+452,426,PHY201,Quantum Mechanics,1,S1322,4,Interactive teaching style helps in understanding topics better. The class environment was encouraging.,0.457,Positive,4,4,4,2,A,1,B.Tech
+453,426,PHY201,Quantum Mechanics,1,S3386,5,"One of the best courses, very well taught. The session coverage was appropriate.",0.935,Positive,4,5,4,4,C,1,B.Tech
+454,426,PHY201,Quantum Mechanics,1,S3257,5,Explains concepts very effectively with relatable examples. This is for the course Structural Analysis.,1,Positive,4,5,5,5,C,1,B.Tech
+455,426,PHY201,Quantum Mechanics,1,S3539,3,"Sometimes the pace is fast, but manageable overall. The session covered important fundamentals.",-0.032,Neutral,3,3,2,2,B,1,B.Tech
+456,426,PHY201,Quantum Mechanics,1,S2874,4,The classes are very clear and engaging. This is for the course Structural Analysis.,0.463,Positive,5,4,3,4,C,1,B.Tech
+457,426,PHY201,Quantum Mechanics,1,S3456,4,Explains concepts very effectively with relatable examples. The examples used were memorable.,0.561,Positive,4,4,3,4,B,1,B.Tech
+458,426,PHY201,Quantum Mechanics,1,S3538,3,Teaching quality is acceptable but could be better. The topic flow felt slightly abrupt.,-0.06,Neutral,3,4,4,3,A,1,B.Tech
+459,426,PHY201,Quantum Mechanics,1,S2138,5,"One of the best courses, very well taught. The lecture pacing affected my understanding.",1,Positive,5,5,5,5,C,1,B.Tech
+460,426,PHY201,Quantum Mechanics,1,S0552,4,The professor motivates us and clears doubts patiently. The teaching style influenced my learning positively.,0.463,Positive,2,3,4,3,B,1,B.Tech
+461,426,PHY201,Quantum Mechanics,2,S3893,4,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,0.258,Positive,3,5,4,3,A,1,B.Tech
+462,426,PHY201,Quantum Mechanics,2,S2443,4,The sessions are well-organized and engaging. The examples used were memorable.,0.675,Positive,5,5,4,4,C,1,B.Tech
+463,426,PHY201,Quantum Mechanics,2,S3279,3,Teaching quality is acceptable but could be better. I would appreciate more doubt-solving time.,-0.068,Neutral,2,3,4,4,B,1,B.Tech
+464,426,PHY201,Quantum Mechanics,2,S1861,5,Concepts are broken down in a simple and logical manner.,0.764,Positive,4,5,5,5,B,1,B.Tech
+465,426,PHY201,Quantum Mechanics,2,S4087,4,Amazing clarity and teaching methodology. The teaching style influenced my learning positively.,0.394,Positive,4,3,5,4,C,1,B.Tech
+466,426,PHY201,Quantum Mechanics,2,S2236,5,Explains concepts very effectively with relatable examples. I would appreciate more doubt-solving time.,0.796,Positive,5,3,5,5,A,1,B.Tech
+467,426,PHY201,Quantum Mechanics,2,S3027,2,The concepts were unclear and difficult to follow. The session covered important fundamentals.,-0.419,Negative,1,1,2,3,C,1,B.Tech
+468,426,PHY201,Quantum Mechanics,2,S4831,3,"Average teaching, mixed understanding across topics.",-0.1,Neutral,2,3,3,3,C,1,B.Tech
+469,426,PHY201,Quantum Mechanics,2,S4047,4,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.477,Positive,4,5,3,4,B,1,B.Tech
+470,426,PHY201,Quantum Mechanics,2,S0907,4,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.555,Positive,3,4,4,3,C,1,B.Tech
+471,426,PHY201,Quantum Mechanics,3,S2906,5,I enjoy attending this class; explanations are very crisp. I would appreciate more doubt-solving time.,0.724,Positive,4,5,5,4,A,1,B.Tech
+472,426,PHY201,Quantum Mechanics,3,S3707,4,"One of the best courses, very well taught. I would appreciate more doubt-solving time.",0.38,Positive,4,4,3,3,B,1,B.Tech
+473,426,PHY201,Quantum Mechanics,3,S0520,3,The class is okay but can be more interactive. The topic flow felt slightly abrupt.,-0.096,Neutral,4,3,5,3,C,1,B.Tech
+474,426,PHY201,Quantum Mechanics,3,S0098,4,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.446,Positive,5,3,4,5,C,1,B.Tech
+475,426,PHY201,Quantum Mechanics,3,S3100,4,"One of the best courses, very well taught. The session covered important fundamentals.",0.372,Positive,4,4,4,3,C,1,B.Tech
+476,426,PHY201,Quantum Mechanics,3,S2990,3,Struggle to understand most concepts in class.,-0.387,Negative,3,3,2,3,C,1,B.Tech
+477,426,PHY201,Quantum Mechanics,3,S4951,4,Amazing clarity and teaching methodology. The class environment was encouraging.,0.351,Positive,3,4,4,3,C,1,B.Tech
+478,426,PHY201,Quantum Mechanics,3,S1645,4,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,0.477,Positive,4,5,4,5,C,1,B.Tech
+479,426,PHY201,Quantum Mechanics,3,S1437,4,The professor motivates us and clears doubts patiently. The class environment was encouraging.,0.609,Positive,2,3,4,4,C,1,B.Tech
+480,426,PHY201,Quantum Mechanics,3,S3933,5,Explains concepts very effectively with relatable examples. The class environment was encouraging.,1,Positive,4,5,5,5,C,1,B.Tech
+481,426,PHY201,Quantum Mechanics,4,S3354,4,Explains concepts very effectively with relatable examples. The examples used were memorable.,0.421,Positive,5,5,4,4,A,1,B.Tech
+482,426,PHY201,Quantum Mechanics,4,S3962,3,Some topics are clear while others require better explanation. The teaching style influenced my learning positively.,0.188,Neutral,3,2,3,1,C,1,B.Tech
+483,426,PHY201,Quantum Mechanics,4,S4307,4,Concepts are broken down in a simple and logical manner. The topic flow felt slightly abrupt.,0.318,Positive,3,4,4,3,C,1,B.Tech
+484,426,PHY201,Quantum Mechanics,4,S1733,3,The class is okay but can be more interactive. This is for the course Structural Analysis.,-0.041,Neutral,3,4,4,2,B,1,B.Tech
+485,426,PHY201,Quantum Mechanics,4,S4997,4,I enjoy attending this class; explanations are very crisp. The class environment was encouraging.,0.48,Positive,4,4,3,5,A,1,B.Tech
+486,426,PHY201,Quantum Mechanics,4,S2443,4,The sessions are well-organized and engaging. The examples used were memorable.,0.308,Positive,4,4,4,3,A,1,B.Tech
+487,426,PHY201,Quantum Mechanics,4,S2935,4,Amazing clarity and teaching methodology. The session covered important fundamentals.,0.808,Positive,3,4,4,4,C,1,B.Tech
+488,426,PHY201,Quantum Mechanics,4,S4954,5,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,1,Positive,5,5,5,4,B,1,B.Tech
+489,426,PHY201,Quantum Mechanics,4,S0543,4,I enjoy attending this class; explanations are very crisp. The topic flow felt slightly abrupt.,0.319,Positive,5,4,5,4,A,1,B.Tech
+490,426,PHY201,Quantum Mechanics,4,S1454,4,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.565,Positive,2,4,5,3,B,1,B.Tech
+491,426,PHY201,Quantum Mechanics,5,S4933,3,More real-life examples could improve understanding. The session covered important fundamentals.,-0.018,Neutral,2,1,3,2,A,1,B.Tech
+492,426,PHY201,Quantum Mechanics,5,S0651,4,The professor motivates us and clears doubts patiently. The topic flow felt slightly abrupt.,0.348,Positive,4,5,4,3,C,1,B.Tech
+493,426,PHY201,Quantum Mechanics,5,S2955,3,Teaching quality is acceptable but could be better. The topic flow felt slightly abrupt.,0.092,Neutral,3,1,3,4,B,1,B.Tech
+494,426,PHY201,Quantum Mechanics,5,S4210,5,The sessions are well-organized and engaging. The session coverage was appropriate.,0.81,Positive,4,5,4,5,C,1,B.Tech
+495,426,PHY201,Quantum Mechanics,5,S2320,5,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.941,Positive,5,5,5,5,B,1,B.Tech
+496,426,PHY201,Quantum Mechanics,5,S4942,5,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,1,Positive,5,5,5,4,B,1,B.Tech
+497,426,PHY201,Quantum Mechanics,5,S2985,5,The classes are very clear and engaging. This is for the course Structural Analysis.,0.583,Positive,5,4,5,5,B,1,B.Tech
+498,426,PHY201,Quantum Mechanics,5,S0819,3,"The course is fine, but teaching could be more structured. This is for the course Structural Analysis.",-0.178,Neutral,3,3,4,3,B,1,B.Tech
+499,426,PHY201,Quantum Mechanics,5,S1737,4,The sessions are well-organized and engaging. The session coverage was appropriate.,0.411,Positive,3,4,4,4,A,1,B.Tech
+500,426,PHY201,Quantum Mechanics,5,S0695,5,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,0.702,Positive,5,5,5,5,A,1,B.Tech
+501,577,ME101,Thermodynamics,1,S4895,4,Amazing clarity and teaching methodology. The session covered important fundamentals.,0.393,Positive,5,5,3,5,A,1,B.Tech
+502,577,ME101,Thermodynamics,1,S3891,5,Explains concepts very effectively with relatable examples. The class environment was encouraging.,1,Positive,3,5,5,5,A,1,B.Tech
+503,577,ME101,Thermodynamics,1,S4979,3,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.24,Positive,3,3,3,4,B,1,B.Tech
+504,577,ME101,Thermodynamics,1,S4822,4,The sessions are well-organized and engaging. This is for the course Thermodynamics.,0.469,Positive,5,4,4,4,C,1,B.Tech
+505,577,ME101,Thermodynamics,1,S0662,4,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,0.642,Positive,5,3,3,5,B,1,B.Tech
+506,577,ME101,Thermodynamics,1,S1849,5,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.727,Positive,5,3,5,5,B,1,B.Tech
+507,577,ME101,Thermodynamics,1,S0970,3,The course feels unorganized and confusing. The session coverage was appropriate.,-0.257,Negative,2,4,4,3,A,1,B.Tech
+508,577,ME101,Thermodynamics,1,S0945,3,"Average teaching, mixed understanding across topics. The teaching style influenced my learning positively.",-0.168,Neutral,3,3,3,3,B,1,B.Tech
+509,577,ME101,Thermodynamics,1,S3903,5,The pace of teaching is comfortable and structured. The teaching style influenced my learning positively.,0.877,Positive,5,5,5,3,B,1,B.Tech
+510,577,ME101,Thermodynamics,1,S2436,5,"One of the best courses, very well taught.",1,Positive,5,4,5,5,C,1,B.Tech
+511,577,ME101,Thermodynamics,2,S3439,4,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.611,Positive,5,4,5,4,C,1,B.Tech
+512,577,ME101,Thermodynamics,2,S0924,5,"One of the best courses, very well taught. The session coverage was appropriate.",0.816,Positive,5,4,5,5,C,1,B.Tech
+513,577,ME101,Thermodynamics,2,S0283,4,Explains concepts very effectively with relatable examples. The examples used were memorable.,0.438,Positive,5,5,5,5,B,1,B.Tech
+514,577,ME101,Thermodynamics,2,S3229,3,The course delivery is moderate and could be improved. I would appreciate more doubt-solving time.,-0.12,Neutral,3,4,2,3,A,1,B.Tech
+515,577,ME101,Thermodynamics,2,S4444,3,"The course is fine, but teaching could be more structured. The examples used were memorable.",-0.033,Neutral,2,4,3,5,A,1,B.Tech
+516,577,ME101,Thermodynamics,2,S4227,4,I enjoy attending this class; explanations are very crisp. The class environment was encouraging.,0.36,Positive,4,5,4,4,B,1,B.Tech
+517,577,ME101,Thermodynamics,2,S4002,5,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.824,Positive,5,4,5,5,C,1,B.Tech
+518,577,ME101,Thermodynamics,2,S2407,5,The professor motivates us and clears doubts patiently.,0.856,Positive,4,3,4,5,C,1,B.Tech
+519,577,ME101,Thermodynamics,2,S1008,2,Teaching style is monotonous and lacks engagement. This is for the course Thermodynamics.,-0.411,Negative,2,2,1,3,B,1,B.Tech
+520,577,ME101,Thermodynamics,2,S3148,5,The pace of teaching is comfortable and structured. The class environment was encouraging.,1,Positive,4,5,5,5,B,1,B.Tech
+521,577,ME101,Thermodynamics,3,S3666,5,Amazing clarity and teaching methodology. This is for the course Thermodynamics.,0.799,Positive,5,5,5,5,A,1,B.Tech
+522,577,ME101,Thermodynamics,3,S2525,3,More real-life examples could improve understanding. The examples used were memorable.,-0.027,Neutral,4,3,3,2,C,1,B.Tech
+523,577,ME101,Thermodynamics,3,S1234,4,I enjoy attending this class; explanations are very crisp. The session coverage was appropriate.,0.626,Positive,4,4,5,5,C,1,B.Tech
+524,577,ME101,Thermodynamics,3,S2954,3,Some topics are clear while others require better explanation. The session coverage was appropriate.,0.175,Neutral,3,2,2,4,C,1,B.Tech
+525,577,ME101,Thermodynamics,3,S3769,3,The course delivery is moderate and could be improved.,-0.063,Neutral,3,4,3,4,A,1,B.Tech
+526,577,ME101,Thermodynamics,3,S0192,4,Explains concepts very effectively with relatable examples. The examples used were memorable.,0.293,Positive,4,4,4,4,B,1,B.Tech
+527,577,ME101,Thermodynamics,3,S3218,4,Concepts are broken down in a simple and logical manner. I would appreciate more doubt-solving time.,0.33,Positive,3,5,4,3,C,1,B.Tech
+528,577,ME101,Thermodynamics,3,S1868,4,I enjoy attending this class; explanations are very crisp.,0.515,Positive,5,4,4,3,B,1,B.Tech
+529,577,ME101,Thermodynamics,3,S3444,4,The pace of teaching is comfortable and structured. The teaching style influenced my learning positively.,0.523,Positive,5,5,4,4,B,1,B.Tech
+530,577,ME101,Thermodynamics,3,S3049,3,Teaching quality is acceptable but could be better. The session coverage was appropriate.,-0.141,Neutral,3,3,4,2,A,1,B.Tech
+531,577,ME101,Thermodynamics,4,S1879,5,The pace of teaching is comfortable and structured. I would appreciate more doubt-solving time.,0.837,Positive,5,5,5,5,B,1,B.Tech
+532,577,ME101,Thermodynamics,4,S0759,3,Examples are insufficient and unclear. The examples used were memorable.,-0.23,Negative,4,3,4,1,C,1,B.Tech
+533,577,ME101,Thermodynamics,4,S4373,4,Amazing clarity and teaching methodology. The class environment was encouraging.,0.369,Positive,4,4,5,5,A,1,B.Tech
+534,577,ME101,Thermodynamics,4,S1104,5,The classes are very clear and engaging. The class environment was encouraging.,1,Positive,4,5,5,5,C,1,B.Tech
+535,577,ME101,Thermodynamics,4,S0056,5,Explains concepts very effectively with relatable examples. The topic flow felt slightly abrupt.,0.811,Positive,5,5,5,5,C,1,B.Tech
+536,577,ME101,Thermodynamics,4,S0515,5,Concepts are broken down in a simple and logical manner. The topic flow felt slightly abrupt.,0.816,Positive,4,5,5,4,B,1,B.Tech
+537,577,ME101,Thermodynamics,4,S2398,4,Amazing clarity and teaching methodology. The teaching style influenced my learning positively.,0.473,Positive,3,4,4,5,B,1,B.Tech
+538,577,ME101,Thermodynamics,4,S2738,5,Concepts are broken down in a simple and logical manner. The topic flow felt slightly abrupt.,0.913,Positive,5,4,5,5,A,1,B.Tech
+539,577,ME101,Thermodynamics,4,S3302,4,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.36,Positive,4,4,5,4,B,1,B.Tech
+540,577,ME101,Thermodynamics,4,S4453,3,The classes are very clear and engaging. The session covered important fundamentals.,0.246,Positive,4,3,3,3,C,1,B.Tech
+541,577,ME101,Thermodynamics,5,S2414,5,The pace of teaching is comfortable and structured. The examples used were memorable.,0.764,Positive,5,5,4,5,C,1,B.Tech
+542,577,ME101,Thermodynamics,5,S0138,4,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.72,Positive,4,4,4,5,C,1,B.Tech
+543,577,ME101,Thermodynamics,5,S0732,2,Struggle to understand most concepts in class. The examples used were memorable.,-0.48,Negative,2,2,1,2,B,1,B.Tech
+544,577,ME101,Thermodynamics,5,S0960,3,Interactive teaching style helps in understanding topics better. The topic flow felt slightly abrupt.,0.208,Positive,5,4,1,3,C,1,B.Tech
+545,577,ME101,Thermodynamics,5,S1800,4,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,0.489,Positive,3,5,4,2,A,1,B.Tech
+546,577,ME101,Thermodynamics,5,S3513,3,Satisfactory experience but needs improvement in clarity.,0.012,Neutral,2,3,2,4,A,1,B.Tech
+547,577,ME101,Thermodynamics,5,S0460,5,I enjoy attending this class; explanations are very crisp. The session coverage was appropriate.,0.98,Positive,5,5,4,3,B,1,B.Tech
+548,577,ME101,Thermodynamics,5,S3116,5,The sessions are well-organized and engaging. The class environment was encouraging.,1,Positive,5,5,5,5,B,1,B.Tech
+549,577,ME101,Thermodynamics,5,S2978,4,I enjoy attending this class; explanations are very crisp. The topic flow felt slightly abrupt.,0.273,Positive,4,4,3,5,A,1,B.Tech
+550,577,ME101,Thermodynamics,5,S0053,3,"Sometimes the pace is fast, but manageable overall. I would appreciate more doubt-solving time.",0.041,Neutral,2,3,2,3,B,1,B.Tech
+551,520,EE301,Electrical Machines,1,S3742,5,Concepts are broken down in a simple and logical manner. This is for the course Structural Analysis.,0.911,Positive,5,4,5,4,C,1,B.Tech
+552,520,EE301,Electrical Machines,1,S1567,5,The sessions are well-organized and engaging. The session coverage was appropriate.,0.89,Positive,4,4,5,4,A,1,B.Tech
+553,520,EE301,Electrical Machines,1,S3370,3,Teaching quality is acceptable but could be better. The class environment was encouraging.,-0.108,Neutral,3,4,3,4,C,1,B.Tech
+554,520,EE301,Electrical Machines,1,S3219,2,Examples are insufficient and unclear. This is for the course Structural Analysis.,-0.432,Negative,1,3,2,2,B,1,B.Tech
+555,520,EE301,Electrical Machines,1,S2804,4,"One of the best courses, very well taught. The session covered important fundamentals.",0.605,Positive,4,5,4,5,B,1,B.Tech
+556,520,EE301,Electrical Machines,1,S2942,4,Explains concepts very effectively with relatable examples. This is for the course Structural Analysis.,0.638,Positive,5,5,4,3,A,1,B.Tech
+557,520,EE301,Electrical Machines,1,S2617,3,The class is okay but can be more interactive.,0.038,Neutral,2,3,2,1,B,1,B.Tech
+558,520,EE301,Electrical Machines,1,S1302,3,"The course is fine, but teaching could be more structured. The session coverage was appropriate.",-0.122,Neutral,4,3,3,4,B,1,B.Tech
+559,520,EE301,Electrical Machines,1,S4274,3,More real-life examples could improve understanding. The session coverage was appropriate.,-0.027,Neutral,3,4,3,4,A,1,B.Tech
+560,520,EE301,Electrical Machines,1,S4163,4,The professor motivates us and clears doubts patiently. The class environment was encouraging.,0.639,Positive,3,4,4,4,C,1,B.Tech
+561,520,EE301,Electrical Machines,2,S3720,3,"The course is fine, but teaching could be more structured. The session covered important fundamentals.",-0.131,Neutral,2,4,3,3,C,1,B.Tech
+562,520,EE301,Electrical Machines,2,S3791,3,More real-life examples could improve understanding. The session coverage was appropriate.,-0.175,Neutral,3,2,3,4,A,1,B.Tech
+563,520,EE301,Electrical Machines,2,S2324,3,"Average teaching, mixed understanding across topics. The class environment was encouraging.",0.183,Neutral,4,4,3,4,B,1,B.Tech
+564,520,EE301,Electrical Machines,2,S1696,4,The professor motivates us and clears doubts patiently. This is for the course Structural Analysis.,0.371,Positive,4,5,5,2,C,1,B.Tech
+565,520,EE301,Electrical Machines,2,S4061,4,The sessions are well-organized and engaging.,0.545,Positive,5,5,4,5,A,1,B.Tech
+566,520,EE301,Electrical Machines,2,S2919,2,"The pace is too fast, making the class hard to understand. The lecture pacing affected my understanding.",-0.425,Negative,2,1,4,1,C,1,B.Tech
+567,520,EE301,Electrical Machines,2,S0680,4,Concepts are broken down in a simple and logical manner. I would appreciate more doubt-solving time.,0.694,Positive,4,3,5,4,B,1,B.Tech
+568,520,EE301,Electrical Machines,2,S2879,5,The professor motivates us and clears doubts patiently. This is for the course Structural Analysis.,1,Positive,5,5,4,4,A,1,B.Tech
+569,520,EE301,Electrical Machines,2,S4476,3,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.354,Positive,5,3,3,2,A,1,B.Tech
+570,520,EE301,Electrical Machines,2,S1733,3,The class is okay but can be more interactive. The teaching style influenced my learning positively.,-0.021,Neutral,3,3,2,2,B,1,B.Tech
+571,520,EE301,Electrical Machines,3,S1746,4,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.397,Positive,5,5,5,4,C,1,B.Tech
+572,520,EE301,Electrical Machines,3,S4949,2,Examples are insufficient and unclear. The session coverage was appropriate.,-0.355,Negative,2,2,1,1,B,1,B.Tech
+573,520,EE301,Electrical Machines,3,S3033,4,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,0.288,Positive,5,5,4,3,A,1,B.Tech
+574,520,EE301,Electrical Machines,3,S4644,4,"One of the best courses, very well taught. The teaching style influenced my learning positively.",0.523,Positive,4,5,5,4,C,1,B.Tech
+575,520,EE301,Electrical Machines,3,S1467,4,I enjoy attending this class; explanations are very crisp. The class environment was encouraging.,0.427,Positive,5,5,4,3,B,1,B.Tech
+576,520,EE301,Electrical Machines,3,S1301,3,Some topics are clear while others require better explanation. The session coverage was appropriate.,0.175,Neutral,4,2,2,3,A,1,B.Tech
+577,520,EE301,Electrical Machines,3,S2859,5,I enjoy attending this class; explanations are very crisp.,0.975,Positive,4,5,5,5,B,1,B.Tech
+578,520,EE301,Electrical Machines,3,S4297,5,Explains concepts very effectively with relatable examples.,0.548,Positive,5,5,5,3,C,1,B.Tech
+579,520,EE301,Electrical Machines,3,S2954,5,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,0.962,Positive,5,5,5,5,B,1,B.Tech
+580,520,EE301,Electrical Machines,3,S0906,4,The classes are very clear and engaging. The topic flow felt slightly abrupt.,0.532,Positive,4,5,5,3,C,1,B.Tech
+581,520,EE301,Electrical Machines,4,S1374,4,Concepts are broken down in a simple and logical manner. The class environment was encouraging.,0.413,Positive,4,5,5,4,C,1,B.Tech
+582,520,EE301,Electrical Machines,4,S0064,4,Amazing clarity and teaching methodology. This is for the course Structural Analysis.,0.588,Positive,3,3,5,3,B,1,B.Tech
+583,520,EE301,Electrical Machines,4,S2599,3,Some topics are clear while others require better explanation. The topic flow felt slightly abrupt.,-0.125,Neutral,3,3,4,3,C,1,B.Tech
+584,520,EE301,Electrical Machines,4,S2915,5,Interactive teaching style helps in understanding topics better. The teaching style influenced my learning positively.,0.785,Positive,5,5,5,4,C,1,B.Tech
+585,520,EE301,Electrical Machines,4,S1922,4,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.579,Positive,4,4,5,3,A,1,B.Tech
+586,520,EE301,Electrical Machines,4,S1589,5,The sessions are well-organized and engaging. The teaching style influenced my learning positively.,1,Positive,5,5,5,5,B,1,B.Tech
+587,520,EE301,Electrical Machines,4,S3859,4,Explains concepts very effectively with relatable examples. I would appreciate more doubt-solving time.,0.538,Positive,5,4,5,5,A,1,B.Tech
+588,520,EE301,Electrical Machines,4,S1543,3,Teaching quality is acceptable but could be better. The teaching style influenced my learning positively.,0.18,Neutral,3,4,2,3,C,1,B.Tech
+589,520,EE301,Electrical Machines,4,S4332,4,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,0.628,Positive,3,4,4,2,C,1,B.Tech
+590,520,EE301,Electrical Machines,4,S0285,3,"The course is fine, but teaching could be more structured. I would appreciate more doubt-solving time.",-0.132,Neutral,3,2,4,3,C,1,B.Tech
+591,520,EE301,Electrical Machines,5,S3293,3,The class is okay but can be more interactive. I would appreciate more doubt-solving time.,0.019,Neutral,3,4,2,2,B,1,B.Tech
+592,520,EE301,Electrical Machines,5,S4289,4,"One of the best courses, very well taught. The class environment was encouraging.",0.549,Positive,4,4,2,1,C,1,B.Tech
+593,520,EE301,Electrical Machines,5,S3076,4,Amazing clarity and teaching methodology. The examples used were memorable.,0.412,Positive,4,5,4,4,A,1,B.Tech
+594,520,EE301,Electrical Machines,5,S4463,4,The professor motivates us and clears doubts patiently. I would appreciate more doubt-solving time.,0.573,Positive,2,5,4,4,A,1,B.Tech
+595,520,EE301,Electrical Machines,5,S4354,4,Interactive teaching style helps in understanding topics better. The lecture pacing affected my understanding.,0.552,Positive,4,3,3,5,C,1,B.Tech
+596,520,EE301,Electrical Machines,5,S0992,4,Amazing clarity and teaching methodology. The teaching style influenced my learning positively.,0.206,Positive,4,5,4,3,B,1,B.Tech
+597,520,EE301,Electrical Machines,5,S1651,3,Teaching quality is acceptable but could be better. The lecture pacing affected my understanding.,-0.062,Neutral,2,3,4,3,A,1,B.Tech
+598,520,EE301,Electrical Machines,5,S0007,5,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,0.962,Positive,5,5,5,5,C,1,B.Tech
+599,520,EE301,Electrical Machines,5,S4383,4,Concepts are broken down in a simple and logical manner. The teaching style influenced my learning positively.,0.596,Positive,4,4,3,3,B,1,B.Tech
+600,520,EE301,Electrical Machines,5,S4494,4,Concepts are broken down in a simple and logical manner. This is for the course Structural Analysis.,0.48,Positive,3,3,5,4,B,1,B.Tech
+601,349,CSE301,Operating Systems,1,S4111,4,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,0.294,Positive,3,3,4,4,B,1,B.Tech
+602,349,CSE301,Operating Systems,1,S2572,5,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,1,Positive,5,5,5,5,B,1,B.Tech
+603,349,CSE301,Operating Systems,1,S4151,4,The professor motivates us and clears doubts patiently. The topic flow felt slightly abrupt.,0.543,Positive,3,5,4,4,C,1,B.Tech
+604,349,CSE301,Operating Systems,1,S4769,3,More real-life examples could improve understanding. The session coverage was appropriate.,0.04,Neutral,3,3,3,2,C,1,B.Tech
+605,349,CSE301,Operating Systems,1,S2906,3,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.238,Positive,3,3,2,4,C,1,B.Tech
+606,349,CSE301,Operating Systems,1,S3826,3,Some topics are clear while others require better explanation. The examples used were memorable.,0.01,Neutral,3,3,3,3,B,1,B.Tech
+607,349,CSE301,Operating Systems,1,S1839,4,Interactive teaching style helps in understanding topics better. The examples used were memorable.,0.576,Positive,3,4,5,2,A,1,B.Tech
+608,349,CSE301,Operating Systems,1,S2754,3,"Sometimes the pace is fast, but manageable overall. The topic flow felt slightly abrupt.",0.002,Neutral,3,3,3,3,A,1,B.Tech
+609,349,CSE301,Operating Systems,1,S0181,4,The sessions are well-organized and engaging. The class environment was encouraging.,0.538,Positive,3,5,3,3,B,1,B.Tech
+610,349,CSE301,Operating Systems,1,S2460,3,The course delivery is moderate and could be improved.,0.06,Neutral,3,3,3,4,B,1,B.Tech
+611,349,CSE301,Operating Systems,2,S0462,4,The classes are very clear and engaging. The session covered important fundamentals.,0.344,Positive,5,4,4,3,A,1,B.Tech
+612,349,CSE301,Operating Systems,2,S3051,3,The class is okay but can be more interactive.,-0.161,Neutral,2,5,4,2,A,1,B.Tech
+613,349,CSE301,Operating Systems,2,S4557,5,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.997,Positive,3,5,4,5,A,1,B.Tech
+614,349,CSE301,Operating Systems,2,S4398,4,The sessions are well-organized and engaging. The session covered important fundamentals.,0.524,Positive,5,2,5,4,A,1,B.Tech
+615,349,CSE301,Operating Systems,2,S3103,3,I understand most topics but sometimes feel disconnected. The class environment was encouraging.,0.105,Neutral,4,3,1,4,A,1,B.Tech
+616,349,CSE301,Operating Systems,2,S4421,4,I enjoy attending this class; explanations are very crisp. The session coverage was appropriate.,0.501,Positive,4,5,4,5,B,1,B.Tech
+617,349,CSE301,Operating Systems,2,S0450,4,Explains concepts very effectively with relatable examples.,0.295,Positive,5,4,4,5,C,1,B.Tech
+618,349,CSE301,Operating Systems,2,S3058,3,The classes are very clear and engaging. The class environment was encouraging.,0.27,Positive,4,2,3,4,B,1,B.Tech
+619,349,CSE301,Operating Systems,2,S2521,4,"One of the best courses, very well taught. The session coverage was appropriate.",0.36,Positive,4,3,5,3,B,1,B.Tech
+620,349,CSE301,Operating Systems,2,S2435,2,Doubts are not clarified properly during lectures. I would appreciate more doubt-solving time.,-0.677,Negative,2,1,3,1,A,1,B.Tech
+621,349,CSE301,Operating Systems,3,S0034,3,The class is okay but can be more interactive. This is for the course Thermodynamics.,-0.081,Neutral,4,4,3,4,B,1,B.Tech
+622,349,CSE301,Operating Systems,3,S0583,5,The pace of teaching is comfortable and structured. The teaching style influenced my learning positively.,0.87,Positive,5,5,5,5,A,1,B.Tech
+623,349,CSE301,Operating Systems,3,S4376,5,"One of the best courses, very well taught. The teaching style influenced my learning positively.",0.919,Positive,5,5,4,5,C,1,B.Tech
+624,349,CSE301,Operating Systems,3,S2259,4,The classes are very clear and engaging. This is for the course Thermodynamics.,0.605,Positive,3,4,4,3,C,1,B.Tech
+625,349,CSE301,Operating Systems,3,S1262,3,Teaching quality is acceptable but could be better. This is for the course Thermodynamics.,-0.035,Neutral,4,4,4,4,C,1,B.Tech
+626,349,CSE301,Operating Systems,3,S3571,5,The classes are very clear and engaging. The topic flow felt slightly abrupt.,0.882,Positive,3,5,5,5,C,1,B.Tech
+627,349,CSE301,Operating Systems,3,S3914,3,I understand most topics but sometimes feel disconnected. The session covered important fundamentals.,-0.165,Neutral,2,3,3,4,A,1,B.Tech
+628,349,CSE301,Operating Systems,3,S3766,3,The course delivery is moderate and could be improved. The session covered important fundamentals.,-0.071,Neutral,3,2,2,4,C,1,B.Tech
+629,349,CSE301,Operating Systems,3,S1566,3,The course delivery is moderate and could be improved. The class environment was encouraging.,-0.012,Neutral,2,2,4,4,B,1,B.Tech
+630,349,CSE301,Operating Systems,3,S1829,5,I enjoy attending this class; explanations are very crisp. The class environment was encouraging.,0.736,Positive,4,5,5,5,A,1,B.Tech
+631,349,CSE301,Operating Systems,4,S4912,5,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,0.782,Positive,5,5,4,5,A,1,B.Tech
+632,349,CSE301,Operating Systems,4,S2915,5,"One of the best courses, very well taught. I would appreciate more doubt-solving time.",0.918,Positive,5,5,5,5,B,1,B.Tech
+633,349,CSE301,Operating Systems,4,S3009,2,The class is okay but can be more interactive. The teaching style influenced my learning positively.,-0.101,Neutral,2,2,2,1,C,1,B.Tech
+634,349,CSE301,Operating Systems,4,S3876,5,The pace of teaching is comfortable and structured.,0.862,Positive,5,5,4,5,A,1,B.Tech
+635,349,CSE301,Operating Systems,4,S0859,5,The pace of teaching is comfortable and structured. The session coverage was appropriate.,0.769,Positive,5,5,4,5,C,1,B.Tech
+636,349,CSE301,Operating Systems,4,S4638,4,Concepts are broken down in a simple and logical manner. The teaching style influenced my learning positively.,0.684,Positive,5,4,5,4,B,1,B.Tech
+637,349,CSE301,Operating Systems,4,S1574,5,Amazing clarity and teaching methodology. This is for the course Thermodynamics.,0.792,Positive,4,5,5,4,A,1,B.Tech
+638,349,CSE301,Operating Systems,4,S2217,3,The concepts were unclear and difficult to follow. This is for the course Thermodynamics.,-0.238,Negative,3,3,2,4,C,1,B.Tech
+639,349,CSE301,Operating Systems,4,S3327,4,I enjoy attending this class; explanations are very crisp.,0.425,Positive,5,4,4,4,C,1,B.Tech
+640,349,CSE301,Operating Systems,4,S2350,5,Explains concepts very effectively with relatable examples. The teaching style influenced my learning positively.,0.958,Positive,5,5,5,5,A,1,B.Tech
+641,349,CSE301,Operating Systems,5,S3703,3,The course delivery is moderate and could be improved. The examples used were memorable.,-0.155,Neutral,3,3,3,3,B,1,B.Tech
+642,349,CSE301,Operating Systems,5,S0402,3,Doubts are not clarified properly during lectures. This is for the course Thermodynamics.,-0.237,Negative,3,3,2,3,A,1,B.Tech
+643,349,CSE301,Operating Systems,5,S4434,3,The course delivery is moderate and could be improved. The topic flow felt slightly abrupt.,-0.014,Neutral,4,2,2,4,C,1,B.Tech
+644,349,CSE301,Operating Systems,5,S4203,4,The pace of teaching is comfortable and structured. The session coverage was appropriate.,0.736,Positive,4,4,4,4,A,1,B.Tech
+645,349,CSE301,Operating Systems,5,S2276,3,"Average teaching, mixed understanding across topics. The session covered important fundamentals.",0.077,Neutral,4,4,3,3,A,1,B.Tech
+646,349,CSE301,Operating Systems,5,S0861,5,Concepts are broken down in a simple and logical manner. The teaching style influenced my learning positively.,0.655,Positive,5,5,5,4,B,1,B.Tech
+647,349,CSE301,Operating Systems,5,S2720,4,The professor motivates us and clears doubts patiently. The class environment was encouraging.,0.371,Positive,5,5,4,5,A,1,B.Tech
+648,349,CSE301,Operating Systems,5,S4060,2,The course feels unorganized and confusing. The class environment was encouraging.,-0.397,Negative,2,3,1,2,C,1,B.Tech
+649,349,CSE301,Operating Systems,5,S4173,4,"One of the best courses, very well taught. The lecture pacing affected my understanding.",0.325,Positive,4,3,4,3,A,1,B.Tech
+650,349,CSE301,Operating Systems,5,S3938,5,The classes are very clear and engaging. The teaching style influenced my learning positively.,0.958,Positive,5,4,5,4,B,1,B.Tech
+651,301,MTH101,Calculus,1,S3085,4,"One of the best courses, very well taught. The teaching style influenced my learning positively.",0.442,Positive,4,5,4,4,C,3,B.Tech
+652,301,MTH101,Calculus,1,S4521,5,Interactive teaching style helps in understanding topics better. The examples used were memorable.,0.671,Positive,5,5,5,5,B,3,B.Tech
+653,301,MTH101,Calculus,1,S3839,2,The concepts were unclear and difficult to follow. The session covered important fundamentals.,-0.276,Negative,3,2,2,2,A,3,B.Tech
+654,301,MTH101,Calculus,1,S4610,4,Amazing clarity and teaching methodology. The teaching style influenced my learning positively.,0.373,Positive,4,4,5,3,B,3,B.Tech
+655,301,MTH101,Calculus,1,S0440,4,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.702,Positive,4,3,4,3,A,3,B.Tech
+656,301,MTH101,Calculus,1,S3154,5,Explains concepts very effectively with relatable examples. The session coverage was appropriate.,0.796,Positive,5,5,5,4,C,3,B.Tech
+657,301,MTH101,Calculus,1,S3890,4,The classes are very clear and engaging. The teaching style influenced my learning positively.,0.627,Positive,4,3,4,3,C,3,B.Tech
+658,301,MTH101,Calculus,1,S4115,3,More real-life examples could improve understanding. The teaching style influenced my learning positively.,-0.011,Neutral,4,3,3,3,C,3,B.Tech
+659,301,MTH101,Calculus,1,S1758,5,Concepts are broken down in a simple and logical manner. I would appreciate more doubt-solving time.,0.945,Positive,5,5,5,5,A,3,B.Tech
+660,301,MTH101,Calculus,1,S1607,3,More real-life examples could improve understanding. The class environment was encouraging.,-0.003,Neutral,2,4,3,3,A,3,B.Tech
+661,301,MTH101,Calculus,2,S1595,5,The pace of teaching is comfortable and structured. This is for the course Algorithms.,0.978,Positive,5,5,5,5,C,3,B.Tech
+662,301,MTH101,Calculus,2,S3627,3,"The course is fine, but teaching could be more structured. The examples used were memorable.",0.099,Neutral,2,4,4,3,A,3,B.Tech
+663,301,MTH101,Calculus,2,S0318,4,The professor motivates us and clears doubts patiently. This is for the course Algorithms.,0.46,Positive,4,3,4,4,B,3,B.Tech
+664,301,MTH101,Calculus,2,S1912,4,The sessions are well-organized and engaging. The class environment was encouraging.,0.719,Positive,5,5,4,4,A,3,B.Tech
+665,301,MTH101,Calculus,2,S4088,4,The sessions are well-organized and engaging.,0.436,Positive,5,4,4,5,B,3,B.Tech
+666,301,MTH101,Calculus,2,S1819,5,The classes are very clear and engaging. The lecture pacing affected my understanding.,0.872,Positive,5,5,5,5,C,3,B.Tech
+667,301,MTH101,Calculus,2,S2839,4,"One of the best courses, very well taught. I would appreciate more doubt-solving time.",0.834,Positive,5,4,5,4,B,3,B.Tech
+668,301,MTH101,Calculus,2,S0097,5,Amazing clarity and teaching methodology. The session coverage was appropriate.,1,Positive,5,5,5,5,A,3,B.Tech
+669,301,MTH101,Calculus,2,S0415,5,The pace of teaching is comfortable and structured. The examples used were memorable.,1,Positive,5,5,5,5,C,3,B.Tech
+670,301,MTH101,Calculus,2,S2613,4,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,0.406,Positive,4,4,4,3,C,3,B.Tech
+671,301,MTH101,Calculus,3,S4211,2,Teaching needs major improvement. The examples used were memorable.,-0.366,Negative,1,2,1,1,C,3,B.Tech
+672,301,MTH101,Calculus,3,S3576,4,I enjoy attending this class; explanations are very crisp. The lecture pacing affected my understanding.,0.625,Positive,4,4,3,4,B,3,B.Tech
+673,301,MTH101,Calculus,3,S4886,5,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,1,Positive,5,5,5,3,C,3,B.Tech
+674,301,MTH101,Calculus,3,S0140,4,The professor motivates us and clears doubts patiently. I would appreciate more doubt-solving time.,0.52,Positive,4,2,4,4,B,3,B.Tech
+675,301,MTH101,Calculus,3,S0011,4,The classes are very clear and engaging. I would appreciate more doubt-solving time.,0.49,Positive,3,4,4,4,B,3,B.Tech
+676,301,MTH101,Calculus,3,S0058,4,Interactive teaching style helps in understanding topics better. The topic flow felt slightly abrupt.,0.468,Positive,3,5,4,5,B,3,B.Tech
+677,301,MTH101,Calculus,3,S2177,4,The classes are very clear and engaging. The teaching style influenced my learning positively.,0.377,Positive,4,3,4,5,A,3,B.Tech
+678,301,MTH101,Calculus,3,S0137,4,The pace of teaching is comfortable and structured. I would appreciate more doubt-solving time.,0.315,Positive,4,4,4,5,C,3,B.Tech
+679,301,MTH101,Calculus,3,S0424,4,Explains concepts very effectively with relatable examples. The teaching style influenced my learning positively.,0.745,Positive,4,2,5,4,B,3,B.Tech
+680,301,MTH101,Calculus,3,S1688,3,Satisfactory experience but needs improvement in clarity. The session coverage was appropriate.,-0.138,Neutral,4,5,2,4,B,3,B.Tech
+681,301,MTH101,Calculus,4,S4164,4,The classes are very clear and engaging. The session coverage was appropriate.,0.374,Positive,4,4,5,4,B,3,B.Tech
+682,301,MTH101,Calculus,4,S1597,5,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.843,Positive,4,5,5,5,B,3,B.Tech
+683,301,MTH101,Calculus,4,S2180,5,Concepts are broken down in a simple and logical manner. This is for the course Algorithms.,0.668,Positive,5,4,5,4,B,3,B.Tech
+684,301,MTH101,Calculus,4,S3778,4,Explains concepts very effectively with relatable examples. The examples used were memorable.,0.74,Positive,4,5,4,4,C,3,B.Tech
+685,301,MTH101,Calculus,4,S3702,4,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,0.519,Positive,3,5,3,4,B,3,B.Tech
+686,301,MTH101,Calculus,4,S1755,3,"Sometimes the pace is fast, but manageable overall. The topic flow felt slightly abrupt.",0.124,Neutral,3,3,3,4,A,3,B.Tech
+687,301,MTH101,Calculus,4,S1933,4,The classes are very clear and engaging. The session covered important fundamentals.,0.709,Positive,3,4,4,5,B,3,B.Tech
+688,301,MTH101,Calculus,4,S4603,4,The professor motivates us and clears doubts patiently. The teaching style influenced my learning positively.,0.595,Positive,4,5,5,4,B,3,B.Tech
+689,301,MTH101,Calculus,4,S4667,4,"One of the best courses, very well taught. The examples used were memorable.",0.794,Positive,4,4,4,5,A,3,B.Tech
+690,301,MTH101,Calculus,4,S3774,4,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.621,Positive,4,3,5,4,B,3,B.Tech
+691,301,MTH101,Calculus,5,S0303,4,The class is okay but can be more interactive.,0.195,Neutral,2,5,5,3,A,3,B.Tech
+692,301,MTH101,Calculus,5,S2372,4,Amazing clarity and teaching methodology. The class environment was encouraging.,0.625,Positive,3,4,4,4,A,3,B.Tech
+693,301,MTH101,Calculus,5,S4230,3,More real-life examples could improve understanding. This is for the course Algorithms.,0.104,Neutral,3,3,3,3,C,3,B.Tech
+694,301,MTH101,Calculus,5,S1871,5,I enjoy attending this class; explanations are very crisp. The lecture pacing affected my understanding.,0.919,Positive,5,5,5,5,B,3,B.Tech
+695,301,MTH101,Calculus,5,S2036,4,The classes are very clear and engaging. This is for the course Algorithms.,0.661,Positive,4,4,4,4,B,3,B.Tech
+696,301,MTH101,Calculus,5,S2492,4,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.426,Positive,4,5,5,4,C,3,B.Tech
+697,301,MTH101,Calculus,5,S3754,3,"The course is fine, but teaching could be more structured. The session coverage was appropriate.",-0.05,Neutral,3,3,3,3,A,3,B.Tech
+698,301,MTH101,Calculus,5,S2730,3,Some topics are clear while others require better explanation. The examples used were memorable.,-0.074,Neutral,4,5,2,3,C,3,B.Tech
+699,301,MTH101,Calculus,5,S4908,2,"The pace is too fast, making the class hard to understand. The class environment was encouraging.",-0.266,Negative,3,3,4,3,C,3,B.Tech
+700,301,MTH101,Calculus,5,S3293,4,Explains concepts very effectively with relatable examples. The teaching style influenced my learning positively.,0.553,Positive,5,4,4,2,B,3,B.Tech
+701,318,ME301,Machine Design,1,S1624,5,I enjoy attending this class; explanations are very crisp. I would appreciate more doubt-solving time.,1,Positive,5,5,5,5,A,1,B.Tech
+702,318,ME301,Machine Design,1,S1581,3,Explains concepts very effectively with relatable examples. The teaching style influenced my learning positively.,0.245,Positive,1,4,2,3,A,1,B.Tech
+703,318,ME301,Machine Design,1,S3490,5,Concepts are broken down in a simple and logical manner. This is for the course Structural Analysis.,0.944,Positive,5,5,5,4,B,1,B.Tech
+704,318,ME301,Machine Design,1,S1210,5,Concepts are broken down in a simple and logical manner. I would appreciate more doubt-solving time.,0.785,Positive,5,4,5,3,B,1,B.Tech
+705,318,ME301,Machine Design,1,S1112,5,Explains concepts very effectively with relatable examples. The teaching style influenced my learning positively.,1,Positive,5,5,4,4,B,1,B.Tech
+706,318,ME301,Machine Design,1,S4142,4,The pace of teaching is comfortable and structured. This is for the course Structural Analysis.,0.371,Positive,4,4,5,4,B,1,B.Tech
+707,318,ME301,Machine Design,1,S0837,2,Doubts are not clarified properly during lectures. The session covered important fundamentals.,-0.514,Negative,1,1,2,2,B,1,B.Tech
+708,318,ME301,Machine Design,1,S3037,4,The pace of teaching is comfortable and structured. This is for the course Structural Analysis.,0.342,Positive,4,4,4,4,A,1,B.Tech
+709,318,ME301,Machine Design,1,S2679,5,Explains concepts very effectively with relatable examples. I would appreciate more doubt-solving time.,1,Positive,5,3,5,3,C,1,B.Tech
+710,318,ME301,Machine Design,1,S2788,4,Explains concepts very effectively with relatable examples. The topic flow felt slightly abrupt.,0.462,Positive,4,4,5,5,A,1,B.Tech
+711,318,ME301,Machine Design,2,S3243,4,The classes are very clear and engaging. This is for the course Structural Analysis.,0.395,Positive,3,1,3,5,C,1,B.Tech
+712,318,ME301,Machine Design,2,S2286,4,The sessions are well-organized and engaging. The session coverage was appropriate.,0.624,Positive,5,5,4,3,A,1,B.Tech
+713,318,ME301,Machine Design,2,S0968,5,I enjoy attending this class; explanations are very crisp. The session covered important fundamentals.,0.816,Positive,4,5,5,5,C,1,B.Tech
+714,318,ME301,Machine Design,2,S2160,3,Examples are insufficient and unclear. The teaching style influenced my learning positively.,-0.277,Negative,4,5,4,2,B,1,B.Tech
+715,318,ME301,Machine Design,2,S2453,4,The classes are very clear and engaging. This is for the course Structural Analysis.,0.545,Positive,4,5,4,5,C,1,B.Tech
+716,318,ME301,Machine Design,2,S4066,5,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,1,Positive,5,5,4,4,C,1,B.Tech
+717,318,ME301,Machine Design,2,S3160,3,The course delivery is moderate and could be improved. The topic flow felt slightly abrupt.,0.194,Neutral,4,2,3,3,A,1,B.Tech
+718,318,ME301,Machine Design,2,S1475,3,Teaching needs major improvement. This is for the course Structural Analysis.,-0.37,Negative,4,3,4,3,A,1,B.Tech
+719,318,ME301,Machine Design,2,S0253,3,The class is okay but can be more interactive. The session covered important fundamentals.,-0.013,Neutral,3,4,3,3,B,1,B.Tech
+720,318,ME301,Machine Design,2,S4320,4,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.335,Positive,4,3,3,4,C,1,B.Tech
+721,318,ME301,Machine Design,3,S3977,4,I enjoy attending this class; explanations are very crisp. The topic flow felt slightly abrupt.,0.307,Positive,3,5,4,4,C,1,B.Tech
+722,318,ME301,Machine Design,3,S4407,5,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,1,Positive,5,4,5,5,B,1,B.Tech
+723,318,ME301,Machine Design,3,S2333,4,The classes are very clear and engaging. The topic flow felt slightly abrupt.,0.587,Positive,5,5,4,4,A,1,B.Tech
+724,318,ME301,Machine Design,3,S4023,3,Some topics are clear while others require better explanation. The topic flow felt slightly abrupt.,0.077,Neutral,5,4,3,3,A,1,B.Tech
+725,318,ME301,Machine Design,3,S3210,2,Struggle to understand most concepts in class. This is for the course Structural Analysis.,-0.592,Negative,3,2,2,3,C,1,B.Tech
+726,318,ME301,Machine Design,3,S4498,5,The classes are very clear and engaging. The examples used were memorable.,0.821,Positive,5,4,5,4,C,1,B.Tech
+727,318,ME301,Machine Design,3,S4361,4,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.72,Positive,4,5,4,3,C,1,B.Tech
+728,318,ME301,Machine Design,3,S3470,4,"One of the best courses, very well taught. The session covered important fundamentals.",0.648,Positive,5,4,3,4,B,1,B.Tech
+729,318,ME301,Machine Design,3,S1791,4,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,0.708,Positive,4,5,5,4,C,1,B.Tech
+730,318,ME301,Machine Design,3,S0968,3,I understand most topics but sometimes feel disconnected. The teaching style influenced my learning positively.,0.125,Neutral,2,3,3,3,C,1,B.Tech
+731,318,ME301,Machine Design,4,S0864,3,Satisfactory experience but needs improvement in clarity. The topic flow felt slightly abrupt.,0.198,Neutral,4,3,3,4,B,1,B.Tech
+732,318,ME301,Machine Design,4,S3993,5,The sessions are well-organized and engaging.,1,Positive,5,5,5,5,B,1,B.Tech
+733,318,ME301,Machine Design,4,S0258,5,The classes are very clear and engaging. The session coverage was appropriate.,0.754,Positive,5,5,5,5,A,1,B.Tech
+734,318,ME301,Machine Design,4,S4766,4,Concepts are broken down in a simple and logical manner. The teaching style influenced my learning positively.,0.453,Positive,4,5,3,4,B,1,B.Tech
+735,318,ME301,Machine Design,4,S2374,4,The professor motivates us and clears doubts patiently. The class environment was encouraging.,0.402,Positive,4,3,4,4,C,1,B.Tech
+736,318,ME301,Machine Design,4,S0742,5,The professor motivates us and clears doubts patiently. I would appreciate more doubt-solving time.,0.961,Positive,5,5,4,4,B,1,B.Tech
+737,318,ME301,Machine Design,4,S3055,3,"The course is fine, but teaching could be more structured. The session coverage was appropriate.",-0.024,Neutral,3,3,2,3,A,1,B.Tech
+738,318,ME301,Machine Design,4,S0742,4,The classes are very clear and engaging. The class environment was encouraging.,0.812,Positive,4,5,4,4,C,1,B.Tech
+739,318,ME301,Machine Design,4,S2241,4,The classes are very clear and engaging. The class environment was encouraging.,0.544,Positive,3,5,4,4,C,1,B.Tech
+740,318,ME301,Machine Design,4,S4954,3,"Sometimes the pace is fast, but manageable overall. The lecture pacing affected my understanding.",0.14,Neutral,5,2,2,2,A,1,B.Tech
+741,318,ME301,Machine Design,5,S4903,4,"One of the best courses, very well taught. The teaching style influenced my learning positively.",0.752,Positive,4,4,5,4,C,1,B.Tech
+742,318,ME301,Machine Design,5,S1031,4,The classes are very clear and engaging. The session covered important fundamentals.,0.361,Positive,4,4,4,3,B,1,B.Tech
+743,318,ME301,Machine Design,5,S2419,3,The class is okay but can be more interactive. The session coverage was appropriate.,-0.071,Neutral,2,3,2,4,B,1,B.Tech
+744,318,ME301,Machine Design,5,S3775,3,Teaching quality is acceptable but could be better. The examples used were memorable.,-0.134,Neutral,3,2,2,3,B,1,B.Tech
+745,318,ME301,Machine Design,5,S4612,4,Amazing clarity and teaching methodology. The lecture pacing affected my understanding.,0.492,Positive,5,4,4,4,C,1,B.Tech
+746,318,ME301,Machine Design,5,S3259,5,Concepts are broken down in a simple and logical manner. The examples used were memorable.,0.899,Positive,5,5,4,5,A,1,B.Tech
+747,318,ME301,Machine Design,5,S2862,5,The classes are very clear and engaging. The examples used were memorable.,0.858,Positive,5,5,3,5,A,1,B.Tech
+748,318,ME301,Machine Design,5,S4950,4,The sessions are well-organized and engaging. The class environment was encouraging.,0.395,Positive,5,5,4,5,A,1,B.Tech
+749,318,ME301,Machine Design,5,S3096,4,Concepts are broken down in a simple and logical manner. The topic flow felt slightly abrupt.,0.648,Positive,3,5,4,4,A,1,B.Tech
+750,318,ME301,Machine Design,5,S3587,3,Teaching needs major improvement. The teaching style influenced my learning positively.,-0.277,Negative,2,4,3,5,A,1,B.Tech
+751,338,ME101,Thermodynamics,1,S3299,5,The professor motivates us and clears doubts patiently. This is for the course Structural Analysis.,0.775,Positive,5,5,5,4,C,1,B.Tech
+752,338,ME101,Thermodynamics,1,S0281,5,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.8,Positive,5,5,5,5,B,1,B.Tech
+753,338,ME101,Thermodynamics,1,S2970,4,I enjoy attending this class; explanations are very crisp. The teaching style influenced my learning positively.,0.549,Positive,3,4,3,4,C,1,B.Tech
+754,338,ME101,Thermodynamics,1,S1683,4,The sessions are well-organized and engaging. This is for the course Structural Analysis.,0.427,Positive,3,4,3,5,C,1,B.Tech
+755,338,ME101,Thermodynamics,1,S1618,5,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,0.967,Positive,5,5,4,5,A,1,B.Tech
+756,338,ME101,Thermodynamics,1,S3606,5,The pace of teaching is comfortable and structured.,0.912,Positive,4,4,4,5,A,1,B.Tech
+757,338,ME101,Thermodynamics,1,S3283,4,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.516,Positive,5,3,5,5,B,1,B.Tech
+758,338,ME101,Thermodynamics,1,S3329,3,"The course is fine, but teaching could be more structured. The lecture pacing affected my understanding.",0.021,Neutral,3,3,4,4,A,1,B.Tech
+759,338,ME101,Thermodynamics,1,S0739,3,The class is okay but can be more interactive. The class environment was encouraging.,0.152,Neutral,4,2,4,1,C,1,B.Tech
+760,338,ME101,Thermodynamics,1,S4735,3,Satisfactory experience but needs improvement in clarity. The session covered important fundamentals.,-0.028,Neutral,2,4,3,3,B,1,B.Tech
+761,338,ME101,Thermodynamics,2,S4837,3,Some topics are clear while others require better explanation.,0.078,Neutral,2,4,3,3,B,1,B.Tech
+762,338,ME101,Thermodynamics,2,S4669,2,The course feels unorganized and confusing. The class environment was encouraging.,-0.247,Negative,2,1,1,1,C,1,B.Tech
+763,338,ME101,Thermodynamics,2,S3580,5,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.86,Positive,5,3,4,5,C,1,B.Tech
+764,338,ME101,Thermodynamics,2,S1891,4,The pace of teaching is comfortable and structured. The examples used were memorable.,0.662,Positive,5,5,4,4,C,1,B.Tech
+765,338,ME101,Thermodynamics,2,S4875,3,I understand most topics but sometimes feel disconnected. The examples used were memorable.,-0.174,Neutral,3,2,1,2,B,1,B.Tech
+766,338,ME101,Thermodynamics,2,S1210,3,Some topics are clear while others require better explanation. The topic flow felt slightly abrupt.,0.06,Neutral,3,2,4,2,A,1,B.Tech
+767,338,ME101,Thermodynamics,2,S1531,5,The classes are very clear and engaging. The examples used were memorable.,0.587,Positive,4,5,5,5,B,1,B.Tech
+768,338,ME101,Thermodynamics,2,S2093,3,Teaching quality is acceptable but could be better. The session coverage was appropriate.,-0.195,Neutral,3,1,2,2,B,1,B.Tech
+769,338,ME101,Thermodynamics,2,S4704,4,Amazing clarity and teaching methodology. The class environment was encouraging.,0.64,Positive,3,3,4,4,A,1,B.Tech
+770,338,ME101,Thermodynamics,2,S2514,3,The sessions are well-organized and engaging. The session coverage was appropriate.,0.224,Positive,4,3,2,3,A,1,B.Tech
+771,338,ME101,Thermodynamics,3,S4774,4,The professor motivates us and clears doubts patiently.,0.43,Positive,4,4,5,3,C,1,B.Tech
+772,338,ME101,Thermodynamics,3,S4206,4,Amazing clarity and teaching methodology. The examples used were memorable.,0.422,Positive,3,4,5,5,C,1,B.Tech
+773,338,ME101,Thermodynamics,3,S1774,1,Slides are read without proper explanation. The topic flow felt slightly abrupt.,-0.975,Negative,2,1,2,1,B,1,B.Tech
+774,338,ME101,Thermodynamics,3,S0947,3,Teaching quality is acceptable but could be better. The session coverage was appropriate.,-0.157,Neutral,3,3,2,3,A,1,B.Tech
+775,338,ME101,Thermodynamics,3,S4064,5,I enjoy attending this class; explanations are very crisp. I would appreciate more doubt-solving time.,1,Positive,5,5,4,5,B,1,B.Tech
+776,338,ME101,Thermodynamics,3,S3064,4,I enjoy attending this class; explanations are very crisp. The session covered important fundamentals.,0.538,Positive,5,4,3,5,C,1,B.Tech
+777,338,ME101,Thermodynamics,3,S0612,3,Teaching quality is acceptable but could be better. The class environment was encouraging.,-0.009,Neutral,5,3,3,3,B,1,B.Tech
+778,338,ME101,Thermodynamics,3,S1109,5,I enjoy attending this class; explanations are very crisp. I would appreciate more doubt-solving time.,0.998,Positive,4,5,5,5,B,1,B.Tech
+779,338,ME101,Thermodynamics,3,S1073,5,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.704,Positive,5,5,5,5,B,1,B.Tech
+780,338,ME101,Thermodynamics,3,S3782,3,The class is okay but can be more interactive. The session covered important fundamentals.,-0.102,Neutral,2,2,3,2,A,1,B.Tech
+781,338,ME101,Thermodynamics,4,S2373,4,Interactive teaching style helps in understanding topics better. The session covered important fundamentals.,0.494,Positive,5,4,4,2,A,1,B.Tech
+782,338,ME101,Thermodynamics,4,S2804,4,The sessions are well-organized and engaging. The teaching style influenced my learning positively.,0.373,Positive,5,4,4,5,A,1,B.Tech
+783,338,ME101,Thermodynamics,4,S4560,2,Examples are insufficient and unclear. The class environment was encouraging.,-0.263,Negative,2,2,2,2,A,1,B.Tech
+784,338,ME101,Thermodynamics,4,S2176,5,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.917,Positive,5,5,4,5,B,1,B.Tech
+785,338,ME101,Thermodynamics,4,S0934,5,Amazing clarity and teaching methodology. The class environment was encouraging.,0.733,Positive,4,5,5,5,A,1,B.Tech
+786,338,ME101,Thermodynamics,4,S0366,4,Interactive teaching style helps in understanding topics better. The teaching style influenced my learning positively.,0.621,Positive,4,5,4,4,A,1,B.Tech
+787,338,ME101,Thermodynamics,4,S0863,4,Concepts are broken down in a simple and logical manner. I would appreciate more doubt-solving time.,0.741,Positive,5,4,3,4,A,1,B.Tech
+788,338,ME101,Thermodynamics,4,S2640,4,The classes are very clear and engaging. The session covered important fundamentals.,0.46,Positive,4,3,3,5,B,1,B.Tech
+789,338,ME101,Thermodynamics,4,S2874,4,The sessions are well-organized and engaging. The teaching style influenced my learning positively.,0.418,Positive,2,4,5,3,B,1,B.Tech
+790,338,ME101,Thermodynamics,4,S3686,2,"Very little interaction, topics feel incomplete. The class environment was encouraging.",-0.377,Negative,2,2,2,3,C,1,B.Tech
+791,338,ME101,Thermodynamics,5,S2265,3,Interactive teaching style helps in understanding topics better. The session covered important fundamentals.,0.241,Positive,4,4,4,4,B,1,B.Tech
+792,338,ME101,Thermodynamics,5,S1299,5,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.852,Positive,5,5,4,5,B,1,B.Tech
+793,338,ME101,Thermodynamics,5,S0217,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.726,Positive,3,5,4,4,C,1,B.Tech
+794,338,ME101,Thermodynamics,5,S2780,4,Concepts are broken down in a simple and logical manner. The teaching style influenced my learning positively.,0.43,Positive,4,4,3,2,B,1,B.Tech
+795,338,ME101,Thermodynamics,5,S3430,5,The sessions are well-organized and engaging. The examples used were memorable.,0.961,Positive,5,4,5,5,B,1,B.Tech
+796,338,ME101,Thermodynamics,5,S2173,4,"One of the best courses, very well taught. I would appreciate more doubt-solving time.",0.338,Positive,4,4,5,4,A,1,B.Tech
+797,338,ME101,Thermodynamics,5,S4163,4,The professor motivates us and clears doubts patiently. The session coverage was appropriate.,0.717,Positive,2,4,3,3,C,1,B.Tech
+798,338,ME101,Thermodynamics,5,S1324,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.485,Positive,4,4,4,5,A,1,B.Tech
+799,338,ME101,Thermodynamics,5,S0029,5,The professor motivates us and clears doubts patiently. This is for the course Structural Analysis.,0.723,Positive,4,5,5,5,B,1,B.Tech
+800,338,ME101,Thermodynamics,5,S1152,4,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,0.625,Positive,3,5,4,3,B,1,B.Tech
+801,130,CHM201,Organic Chemistry,1,S4315,2,"Very little interaction, topics feel incomplete. The session coverage was appropriate.",-0.626,Negative,3,2,2,1,A,1,B.Tech
+802,130,CHM201,Organic Chemistry,1,S2848,3,More real-life examples could improve understanding.,-0.078,Neutral,2,3,2,3,B,1,B.Tech
+803,130,CHM201,Organic Chemistry,1,S0443,3,I understand most topics but sometimes feel disconnected. This is for the course Calculus.,0.195,Neutral,4,4,2,1,A,1,B.Tech
+804,130,CHM201,Organic Chemistry,1,S1824,3,Satisfactory experience but needs improvement in clarity. The session covered important fundamentals.,0.043,Neutral,2,3,4,3,A,1,B.Tech
+805,130,CHM201,Organic Chemistry,1,S2808,3,The course delivery is moderate and could be improved.,-0.015,Neutral,3,3,3,4,C,1,B.Tech
+806,130,CHM201,Organic Chemistry,1,S2718,4,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.455,Positive,4,5,5,4,C,1,B.Tech
+807,130,CHM201,Organic Chemistry,1,S4598,4,"One of the best courses, very well taught. This is for the course Calculus.",0.443,Positive,3,4,4,4,C,1,B.Tech
+808,130,CHM201,Organic Chemistry,1,S4999,3,The class is okay but can be more interactive. The session coverage was appropriate.,0.019,Neutral,4,2,4,2,A,1,B.Tech
+809,130,CHM201,Organic Chemistry,1,S1620,3,"Sometimes the pace is fast, but manageable overall. The examples used were memorable.",-0.171,Neutral,3,4,1,2,A,1,B.Tech
+810,130,CHM201,Organic Chemistry,1,S0066,4,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.516,Positive,4,3,3,4,B,1,B.Tech
+811,130,CHM201,Organic Chemistry,2,S1081,4,The classes are very clear and engaging. The teaching style influenced my learning positively.,0.635,Positive,4,5,5,3,B,1,B.Tech
+812,130,CHM201,Organic Chemistry,2,S1660,4,Concepts are broken down in a simple and logical manner. This is for the course Calculus.,0.934,Positive,2,3,3,5,A,1,B.Tech
+813,130,CHM201,Organic Chemistry,2,S4757,5,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.886,Positive,4,5,4,5,B,1,B.Tech
+814,130,CHM201,Organic Chemistry,2,S4232,4,Interactive teaching style helps in understanding topics better.,0.48,Positive,5,5,3,5,B,1,B.Tech
+815,130,CHM201,Organic Chemistry,2,S4660,4,The course delivery is moderate and could be improved. The lecture pacing affected my understanding.,0.026,Neutral,3,4,5,3,C,1,B.Tech
+816,130,CHM201,Organic Chemistry,2,S2942,3,Some topics are clear while others require better explanation.,-0.093,Neutral,4,3,4,2,C,1,B.Tech
+817,130,CHM201,Organic Chemistry,2,S4164,5,The sessions are well-organized and engaging.,0.905,Positive,4,5,5,3,B,1,B.Tech
+818,130,CHM201,Organic Chemistry,2,S0616,4,The professor motivates us and clears doubts patiently. The teaching style influenced my learning positively.,0.547,Positive,3,4,5,4,B,1,B.Tech
+819,130,CHM201,Organic Chemistry,2,S0840,5,Concepts are broken down in a simple and logical manner. The examples used were memorable.,0.995,Positive,5,5,5,5,C,1,B.Tech
+820,130,CHM201,Organic Chemistry,2,S2719,4,The classes are very clear and engaging. The examples used were memorable.,0.79,Positive,4,4,4,3,C,1,B.Tech
+821,130,CHM201,Organic Chemistry,3,S2643,4,Interactive teaching style helps in understanding topics better. The teaching style influenced my learning positively.,0.627,Positive,4,5,5,3,C,1,B.Tech
+822,130,CHM201,Organic Chemistry,3,S2236,5,The pace of teaching is comfortable and structured. I would appreciate more doubt-solving time.,0.895,Positive,5,5,5,5,C,1,B.Tech
+823,130,CHM201,Organic Chemistry,3,S3600,4,The professor motivates us and clears doubts patiently. The teaching style influenced my learning positively.,0.509,Positive,4,4,4,5,A,1,B.Tech
+824,130,CHM201,Organic Chemistry,3,S2607,4,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,0.379,Positive,4,4,5,3,B,1,B.Tech
+825,130,CHM201,Organic Chemistry,3,S4952,4,Interactive teaching style helps in understanding topics better. The lecture pacing affected my understanding.,0.344,Positive,5,5,3,4,C,1,B.Tech
+826,130,CHM201,Organic Chemistry,3,S1102,4,The sessions are well-organized and engaging. The class environment was encouraging.,0.488,Positive,2,4,3,3,A,1,B.Tech
+827,130,CHM201,Organic Chemistry,3,S0384,5,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,1,Positive,5,5,4,5,A,1,B.Tech
+828,130,CHM201,Organic Chemistry,3,S4659,4,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.58,Positive,5,4,4,4,A,1,B.Tech
+829,130,CHM201,Organic Chemistry,3,S0153,3,The course delivery is moderate and could be improved. The topic flow felt slightly abrupt.,0.165,Neutral,4,3,3,3,C,1,B.Tech
+830,130,CHM201,Organic Chemistry,3,S3061,4,The sessions are well-organized and engaging. This is for the course Calculus.,0.695,Positive,4,3,3,4,C,1,B.Tech
+831,130,CHM201,Organic Chemistry,4,S1582,4,Amazing clarity and teaching methodology. This is for the course Calculus.,0.512,Positive,3,4,4,4,B,1,B.Tech
+832,130,CHM201,Organic Chemistry,4,S0368,5,The pace of teaching is comfortable and structured. The topic flow felt slightly abrupt.,0.816,Positive,4,5,4,5,C,1,B.Tech
+833,130,CHM201,Organic Chemistry,4,S0065,3,Some topics are clear while others require better explanation. The lecture pacing affected my understanding.,0.138,Neutral,3,4,3,5,A,1,B.Tech
+834,130,CHM201,Organic Chemistry,4,S0119,4,Amazing clarity and teaching methodology. The session covered important fundamentals.,0.459,Positive,5,4,5,3,A,1,B.Tech
+835,130,CHM201,Organic Chemistry,4,S2529,3,The course delivery is moderate and could be improved. The class environment was encouraging.,-0.02,Neutral,5,3,5,2,A,1,B.Tech
+836,130,CHM201,Organic Chemistry,4,S0860,5,"One of the best courses, very well taught. I would appreciate more doubt-solving time.",0.767,Positive,5,5,5,4,C,1,B.Tech
+837,130,CHM201,Organic Chemistry,4,S2259,5,The sessions are well-organized and engaging. The session covered important fundamentals.,0.989,Positive,5,5,5,5,C,1,B.Tech
+838,130,CHM201,Organic Chemistry,4,S2997,2,Examples are insufficient and unclear. The session covered important fundamentals.,-0.457,Negative,1,3,1,2,C,1,B.Tech
+839,130,CHM201,Organic Chemistry,4,S1488,5,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,0.978,Positive,5,4,5,5,B,1,B.Tech
+840,130,CHM201,Organic Chemistry,4,S2884,5,The classes are very clear and engaging. The topic flow felt slightly abrupt.,0.826,Positive,5,4,4,5,C,1,B.Tech
+841,130,CHM201,Organic Chemistry,5,S3682,3,More real-life examples could improve understanding. The examples used were memorable.,0.144,Neutral,4,2,3,2,A,1,B.Tech
+842,130,CHM201,Organic Chemistry,5,S0284,3,The class is okay but can be more interactive. The session coverage was appropriate.,0.069,Neutral,3,2,3,2,A,1,B.Tech
+843,130,CHM201,Organic Chemistry,5,S0472,5,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.894,Positive,5,5,5,5,A,1,B.Tech
+844,130,CHM201,Organic Chemistry,5,S3544,5,Concepts are broken down in a simple and logical manner. The examples used were memorable.,1,Positive,3,5,4,4,A,1,B.Tech
+845,130,CHM201,Organic Chemistry,5,S4658,4,Concepts are broken down in a simple and logical manner. The class environment was encouraging.,0.626,Positive,4,4,3,3,A,1,B.Tech
+846,130,CHM201,Organic Chemistry,5,S0170,3,Some topics are clear while others require better explanation. The class environment was encouraging.,0.043,Neutral,2,3,4,3,B,1,B.Tech
+847,130,CHM201,Organic Chemistry,5,S4917,3,The course feels unorganized and confusing. This is for the course Calculus.,-0.37,Negative,2,3,3,3,A,1,B.Tech
+848,130,CHM201,Organic Chemistry,5,S4727,2,Examples are insufficient and unclear. The session coverage was appropriate.,-0.268,Negative,3,2,3,2,A,1,B.Tech
+849,130,CHM201,Organic Chemistry,5,S2533,4,The sessions are well-organized and engaging. The lecture pacing affected my understanding.,0.555,Positive,4,4,4,4,B,1,B.Tech
+850,130,CHM201,Organic Chemistry,5,S0879,4,I enjoy attending this class; explanations are very crisp. The examples used were memorable.,0.601,Positive,4,4,5,4,B,1,B.Tech
+851,188,CE301,Geotechnical Engineering,1,S2247,5,The classes are very clear and engaging.,0.776,Positive,5,5,4,5,C,3,B.Tech
+852,188,CE301,Geotechnical Engineering,1,S4540,4,Amazing clarity and teaching methodology. I would appreciate more doubt-solving time.,0.304,Positive,5,5,4,5,C,3,B.Tech
+853,188,CE301,Geotechnical Engineering,1,S4664,4,Concepts are broken down in a simple and logical manner. The class environment was encouraging.,0.415,Positive,4,3,4,5,A,3,B.Tech
+854,188,CE301,Geotechnical Engineering,1,S0586,4,The professor motivates us and clears doubts patiently. I would appreciate more doubt-solving time.,0.494,Positive,3,4,4,4,A,3,B.Tech
+855,188,CE301,Geotechnical Engineering,1,S3254,3,Satisfactory experience but needs improvement in clarity. The lecture pacing affected my understanding.,-0.132,Neutral,4,3,3,3,C,3,B.Tech
+856,188,CE301,Geotechnical Engineering,1,S4032,3,Some topics are clear while others require better explanation.,0.094,Neutral,4,2,4,3,C,3,B.Tech
+857,188,CE301,Geotechnical Engineering,1,S3487,5,Amazing clarity and teaching methodology. This is for the course Algorithms.,0.905,Positive,5,5,5,5,C,3,B.Tech
+858,188,CE301,Geotechnical Engineering,1,S0894,5,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.774,Positive,4,5,4,5,C,3,B.Tech
+859,188,CE301,Geotechnical Engineering,1,S3664,2,Doubts are not clarified properly during lectures. I would appreciate more doubt-solving time.,-0.383,Negative,1,2,1,1,B,3,B.Tech
+860,188,CE301,Geotechnical Engineering,1,S3179,3,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.326,Positive,3,2,3,2,A,3,B.Tech
+861,188,CE301,Geotechnical Engineering,2,S1722,3,The class is okay but can be more interactive. The examples used were memorable.,-0.18,Neutral,2,2,4,4,C,3,B.Tech
+862,188,CE301,Geotechnical Engineering,2,S4393,4,"One of the best courses, very well taught.",0.489,Positive,3,3,4,4,C,3,B.Tech
+863,188,CE301,Geotechnical Engineering,2,S3577,3,"The course is fine, but teaching could be more structured. The session coverage was appropriate.",-0.006,Neutral,4,2,3,3,C,3,B.Tech
+864,188,CE301,Geotechnical Engineering,2,S1938,4,I enjoy attending this class; explanations are very crisp. The topic flow felt slightly abrupt.,0.389,Positive,3,3,4,4,B,3,B.Tech
+865,188,CE301,Geotechnical Engineering,2,S3515,3,Some topics are clear while others require better explanation. The examples used were memorable.,0.06,Neutral,3,3,2,3,C,3,B.Tech
+866,188,CE301,Geotechnical Engineering,2,S3575,4,Concepts are broken down in a simple and logical manner. The lecture pacing affected my understanding.,0.291,Positive,4,5,3,5,B,3,B.Tech
+867,188,CE301,Geotechnical Engineering,2,S2923,5,Interactive teaching style helps in understanding topics better. The examples used were memorable.,0.905,Positive,4,4,5,5,B,3,B.Tech
+868,188,CE301,Geotechnical Engineering,2,S4620,5,Interactive teaching style helps in understanding topics better. The lecture pacing affected my understanding.,1,Positive,5,5,5,5,A,3,B.Tech
+869,188,CE301,Geotechnical Engineering,2,S1018,5,The pace of teaching is comfortable and structured. The examples used were memorable.,0.878,Positive,5,4,4,5,B,3,B.Tech
+870,188,CE301,Geotechnical Engineering,2,S2048,4,The pace of teaching is comfortable and structured. The lecture pacing affected my understanding.,0.231,Positive,4,4,4,3,A,3,B.Tech
+871,188,CE301,Geotechnical Engineering,3,S0488,5,Interactive teaching style helps in understanding topics better. The lecture pacing affected my understanding.,0.933,Positive,5,5,5,5,B,3,B.Tech
+872,188,CE301,Geotechnical Engineering,3,S4525,5,I enjoy attending this class; explanations are very crisp. This is for the course Algorithms.,0.835,Positive,4,5,4,5,A,3,B.Tech
+873,188,CE301,Geotechnical Engineering,3,S2582,5,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,0.905,Positive,5,5,4,5,A,3,B.Tech
+874,188,CE301,Geotechnical Engineering,3,S2725,5,Concepts are broken down in a simple and logical manner. The class environment was encouraging.,1,Positive,5,5,4,5,B,3,B.Tech
+875,188,CE301,Geotechnical Engineering,3,S3073,3,Satisfactory experience but needs improvement in clarity. The teaching style influenced my learning positively.,-0.199,Neutral,3,3,2,2,A,3,B.Tech
+876,188,CE301,Geotechnical Engineering,3,S0774,3,Satisfactory experience but needs improvement in clarity.,0.192,Neutral,3,5,3,3,C,3,B.Tech
+877,188,CE301,Geotechnical Engineering,3,S1781,5,The pace of teaching is comfortable and structured. The class environment was encouraging.,0.797,Positive,5,5,5,5,B,3,B.Tech
+878,188,CE301,Geotechnical Engineering,3,S2459,5,The sessions are well-organized and engaging. The session covered important fundamentals.,0.929,Positive,5,5,5,4,A,3,B.Tech
+879,188,CE301,Geotechnical Engineering,3,S1234,4,The professor motivates us and clears doubts patiently.,0.399,Positive,4,5,4,5,C,3,B.Tech
+880,188,CE301,Geotechnical Engineering,3,S4568,4,Concepts are broken down in a simple and logical manner.,0.454,Positive,4,4,4,3,C,3,B.Tech
+881,188,CE301,Geotechnical Engineering,4,S4424,5,The pace of teaching is comfortable and structured. The teaching style influenced my learning positively.,1,Positive,4,5,5,4,B,3,B.Tech
+882,188,CE301,Geotechnical Engineering,4,S4817,4,"Sometimes the pace is fast, but manageable overall.",0.145,Neutral,4,5,3,4,A,3,B.Tech
+883,188,CE301,Geotechnical Engineering,4,S2563,4,I enjoy attending this class; explanations are very crisp. This is for the course Algorithms.,0.39,Positive,4,4,3,5,A,3,B.Tech
+884,188,CE301,Geotechnical Engineering,4,S3719,4,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,0.519,Positive,5,3,4,4,A,3,B.Tech
+885,188,CE301,Geotechnical Engineering,4,S3519,4,The pace of teaching is comfortable and structured. The session coverage was appropriate.,0.623,Positive,5,4,4,4,A,3,B.Tech
+886,188,CE301,Geotechnical Engineering,4,S2546,4,The classes are very clear and engaging. I would appreciate more doubt-solving time.,0.224,Positive,4,4,5,4,A,3,B.Tech
+887,188,CE301,Geotechnical Engineering,4,S0378,4,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.474,Positive,4,3,2,5,B,3,B.Tech
+888,188,CE301,Geotechnical Engineering,4,S4003,5,The professor motivates us and clears doubts patiently. The topic flow felt slightly abrupt.,1,Positive,5,4,5,4,C,3,B.Tech
+889,188,CE301,Geotechnical Engineering,4,S4122,3,The course delivery is moderate and could be improved. The class environment was encouraging.,-0.193,Neutral,2,3,3,3,B,3,B.Tech
+890,188,CE301,Geotechnical Engineering,4,S4378,4,The classes are very clear and engaging.,0.594,Positive,4,5,4,4,C,3,B.Tech
+891,188,CE301,Geotechnical Engineering,5,S4396,4,I enjoy attending this class; explanations are very crisp. The session covered important fundamentals.,0.381,Positive,5,4,4,2,A,3,B.Tech
+892,188,CE301,Geotechnical Engineering,5,S4481,5,I enjoy attending this class; explanations are very crisp. The class environment was encouraging.,0.884,Positive,4,5,5,5,B,3,B.Tech
+893,188,CE301,Geotechnical Engineering,5,S3117,3,The classes are very clear and engaging. The session covered important fundamentals.,0.412,Positive,2,3,4,3,C,3,B.Tech
+894,188,CE301,Geotechnical Engineering,5,S0811,4,I enjoy attending this class; explanations are very crisp. The session covered important fundamentals.,0.587,Positive,3,5,4,3,B,3,B.Tech
+895,188,CE301,Geotechnical Engineering,5,S0425,5,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.817,Positive,4,5,5,4,C,3,B.Tech
+896,188,CE301,Geotechnical Engineering,5,S1105,4,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.493,Positive,3,4,4,3,C,3,B.Tech
+897,188,CE301,Geotechnical Engineering,5,S2391,4,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,0.658,Positive,4,5,2,5,C,3,B.Tech
+898,188,CE301,Geotechnical Engineering,5,S0415,4,The pace of teaching is comfortable and structured.,0.259,Positive,4,5,5,4,A,3,B.Tech
+899,188,CE301,Geotechnical Engineering,5,S4468,5,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.588,Positive,5,5,4,5,A,3,B.Tech
+900,188,CE301,Geotechnical Engineering,5,S4666,4,The professor motivates us and clears doubts patiently. The examples used were memorable.,0.687,Positive,4,3,3,3,C,3,B.Tech
+901,537,PHY101,Engineering Physics,1,S4389,3,Doubts are not clarified properly during lectures. The class environment was encouraging.,-0.335,Negative,2,3,3,5,B,1,B.Tech
+902,537,PHY101,Engineering Physics,1,S0438,3,"The course is fine, but teaching could be more structured. The examples used were memorable.",-0.074,Neutral,2,4,3,1,C,1,B.Tech
+903,537,PHY101,Engineering Physics,1,S3114,3,The professor motivates us and clears doubts patiently. This is for the course Circuit Theory.,0.223,Positive,1,3,3,1,A,1,B.Tech
+904,537,PHY101,Engineering Physics,1,S4829,3,Teaching quality is acceptable but could be better. The session covered important fundamentals.,0.041,Neutral,2,4,2,4,A,1,B.Tech
+905,537,PHY101,Engineering Physics,1,S4803,4,The professor motivates us and clears doubts patiently. The lecture pacing affected my understanding.,0.478,Positive,4,3,4,5,B,1,B.Tech
+906,537,PHY101,Engineering Physics,1,S0513,4,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.367,Positive,3,5,4,3,A,1,B.Tech
+907,537,PHY101,Engineering Physics,1,S3950,1,"The pace is too fast, making the class hard to understand. The topic flow felt slightly abrupt.",-0.703,Negative,1,1,2,1,A,1,B.Tech
+908,537,PHY101,Engineering Physics,1,S3391,4,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.563,Positive,3,3,5,3,A,1,B.Tech
+909,537,PHY101,Engineering Physics,1,S2971,5,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,1,Positive,5,5,5,5,A,1,B.Tech
+910,537,PHY101,Engineering Physics,1,S3165,3,I understand most topics but sometimes feel disconnected. This is for the course Circuit Theory.,-0.117,Neutral,2,2,2,3,A,1,B.Tech
+911,537,PHY101,Engineering Physics,2,S1847,4,Explains concepts very effectively with relatable examples. The class environment was encouraging.,0.475,Positive,3,4,4,5,C,1,B.Tech
+912,537,PHY101,Engineering Physics,2,S3468,5,The professor motivates us and clears doubts patiently. The teaching style influenced my learning positively.,0.936,Positive,4,4,5,5,A,1,B.Tech
+913,537,PHY101,Engineering Physics,2,S2501,5,The classes are very clear and engaging. The examples used were memorable.,1,Positive,5,5,5,5,A,1,B.Tech
+914,537,PHY101,Engineering Physics,2,S1542,4,More real-life examples could improve understanding. This is for the course Circuit Theory.,0.125,Neutral,5,4,4,4,B,1,B.Tech
+915,537,PHY101,Engineering Physics,2,S0150,5,Explains concepts very effectively with relatable examples. The class environment was encouraging.,1,Positive,5,5,5,4,A,1,B.Tech
+916,537,PHY101,Engineering Physics,2,S1982,3,I understand most topics but sometimes feel disconnected. The session coverage was appropriate.,0.199,Neutral,3,4,2,2,A,1,B.Tech
+917,537,PHY101,Engineering Physics,2,S4348,5,"One of the best courses, very well taught. The teaching style influenced my learning positively.",1,Positive,5,5,5,5,B,1,B.Tech
+918,537,PHY101,Engineering Physics,2,S1357,5,The classes are very clear and engaging. The lecture pacing affected my understanding.,0.855,Positive,4,5,5,5,C,1,B.Tech
+919,537,PHY101,Engineering Physics,2,S2035,3,The class is okay but can be more interactive. The session coverage was appropriate.,0.109,Neutral,2,3,4,4,C,1,B.Tech
+920,537,PHY101,Engineering Physics,2,S4092,5,The sessions are well-organized and engaging. The teaching style influenced my learning positively.,0.716,Positive,4,5,3,5,A,1,B.Tech
+921,537,PHY101,Engineering Physics,3,S4338,5,The pace of teaching is comfortable and structured. The session coverage was appropriate.,0.72,Positive,5,5,4,5,C,1,B.Tech
+922,537,PHY101,Engineering Physics,3,S0587,3,Some topics are clear while others require better explanation. This is for the course Circuit Theory.,0.197,Neutral,3,4,4,4,C,1,B.Tech
+923,537,PHY101,Engineering Physics,3,S3825,4,I understand most topics but sometimes feel disconnected. The session coverage was appropriate.,0.042,Neutral,4,4,5,4,C,1,B.Tech
+924,537,PHY101,Engineering Physics,3,S1027,4,Amazing clarity and teaching methodology. The topic flow felt slightly abrupt.,0.509,Positive,4,5,4,4,C,1,B.Tech
+925,537,PHY101,Engineering Physics,3,S2200,5,The classes are very clear and engaging. The class environment was encouraging.,0.749,Positive,5,5,5,5,B,1,B.Tech
+926,537,PHY101,Engineering Physics,3,S0981,3,"One of the best courses, very well taught. The examples used were memorable.",0.201,Positive,3,3,3,3,B,1,B.Tech
+927,537,PHY101,Engineering Physics,3,S4112,4,"One of the best courses, very well taught. The session coverage was appropriate.",0.475,Positive,4,5,5,3,B,1,B.Tech
+928,537,PHY101,Engineering Physics,3,S1030,4,The sessions are well-organized and engaging. The lecture pacing affected my understanding.,0.26,Positive,4,4,5,3,A,1,B.Tech
+929,537,PHY101,Engineering Physics,3,S0142,4,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,0.445,Positive,4,4,3,5,B,1,B.Tech
+930,537,PHY101,Engineering Physics,3,S3485,5,Explains concepts very effectively with relatable examples. The lecture pacing affected my understanding.,1,Positive,5,5,5,5,C,1,B.Tech
+931,537,PHY101,Engineering Physics,4,S1115,5,Amazing clarity and teaching methodology. The class environment was encouraging.,0.976,Positive,5,5,4,5,C,1,B.Tech
+932,537,PHY101,Engineering Physics,4,S2071,3,I understand most topics but sometimes feel disconnected.,0.168,Neutral,3,2,2,3,A,1,B.Tech
+933,537,PHY101,Engineering Physics,4,S3321,5,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,0.774,Positive,5,5,5,5,A,1,B.Tech
+934,537,PHY101,Engineering Physics,4,S4759,5,The classes are very clear and engaging. The session covered important fundamentals.,0.744,Positive,5,5,5,5,B,1,B.Tech
+935,537,PHY101,Engineering Physics,4,S4341,2,"The pace is too fast, making the class hard to understand. The topic flow felt slightly abrupt.",-0.69,Negative,2,3,2,1,A,1,B.Tech
+936,537,PHY101,Engineering Physics,4,S3175,4,The professor motivates us and clears doubts patiently. The class environment was encouraging.,0.567,Positive,3,4,4,4,B,1,B.Tech
+937,537,PHY101,Engineering Physics,4,S1654,3,The course delivery is moderate and could be improved. The examples used were memorable.,0.042,Neutral,2,4,3,4,B,1,B.Tech
+938,537,PHY101,Engineering Physics,4,S3374,3,The course delivery is moderate and could be improved.,0.018,Neutral,3,2,3,2,C,1,B.Tech
+939,537,PHY101,Engineering Physics,4,S2569,4,Interactive teaching style helps in understanding topics better. The class environment was encouraging.,0.543,Positive,5,4,5,4,B,1,B.Tech
+940,537,PHY101,Engineering Physics,4,S3727,5,"One of the best courses, very well taught. The topic flow felt slightly abrupt.",0.917,Positive,5,4,5,5,C,1,B.Tech
+941,537,PHY101,Engineering Physics,5,S2157,4,Explains concepts very effectively with relatable examples. This is for the course Circuit Theory.,0.631,Positive,3,5,4,4,A,1,B.Tech
+942,537,PHY101,Engineering Physics,5,S2543,4,Amazing clarity and teaching methodology. The examples used were memorable.,0.318,Positive,5,5,4,4,A,1,B.Tech
+943,537,PHY101,Engineering Physics,5,S4015,2,Teaching needs major improvement. The session covered important fundamentals.,-0.902,Negative,3,2,2,1,B,1,B.Tech
+944,537,PHY101,Engineering Physics,5,S3728,3,"The course is fine, but teaching could be more structured. The teaching style influenced my learning positively.",-0.163,Neutral,3,1,4,4,A,1,B.Tech
+945,537,PHY101,Engineering Physics,5,S2776,4,The classes are very clear and engaging. The session covered important fundamentals.,0.884,Positive,5,3,4,4,C,1,B.Tech
+946,537,PHY101,Engineering Physics,5,S3354,3,Satisfactory experience but needs improvement in clarity. The examples used were memorable.,-0.083,Neutral,3,2,4,3,C,1,B.Tech
+947,537,PHY101,Engineering Physics,5,S0945,2,Struggle to understand most concepts in class. This is for the course Circuit Theory.,-0.479,Negative,2,2,1,3,A,1,B.Tech
+948,537,PHY101,Engineering Physics,5,S1490,4,Amazing clarity and teaching methodology. The lecture pacing affected my understanding.,0.508,Positive,3,5,4,4,C,1,B.Tech
+949,537,PHY101,Engineering Physics,5,S0308,3,I understand most topics but sometimes feel disconnected. I would appreciate more doubt-solving time.,0.084,Neutral,4,2,4,3,C,1,B.Tech
+950,537,PHY101,Engineering Physics,5,S4981,2,The concepts were unclear and difficult to follow. The teaching style influenced my learning positively.,-0.307,Negative,1,2,3,2,A,1,B.Tech
+951,420,PHY301,Electromagnetism,1,S2761,4,I enjoy attending this class; explanations are very crisp.,0.585,Positive,4,5,3,4,C,1,B.Tech
+952,420,PHY301,Electromagnetism,1,S3026,4,The sessions are well-organized and engaging. The session covered important fundamentals.,0.534,Positive,4,3,5,4,B,1,B.Tech
+953,420,PHY301,Electromagnetism,1,S0744,4,Concepts are broken down in a simple and logical manner. The session covered important fundamentals.,0.466,Positive,3,4,3,4,A,1,B.Tech
+954,420,PHY301,Electromagnetism,1,S4635,5,The professor motivates us and clears doubts patiently. The teaching style influenced my learning positively.,0.948,Positive,5,4,5,5,C,1,B.Tech
+955,420,PHY301,Electromagnetism,1,S3621,5,Interactive teaching style helps in understanding topics better. The session coverage was appropriate.,1,Positive,4,4,4,5,A,1,B.Tech
+956,420,PHY301,Electromagnetism,1,S4201,4,The sessions are well-organized and engaging. The examples used were memorable.,0.66,Positive,4,3,4,4,A,1,B.Tech
+957,420,PHY301,Electromagnetism,1,S2504,2,I understand most topics but sometimes feel disconnected. The examples used were memorable.,-0.059,Neutral,2,1,2,2,B,1,B.Tech
+958,420,PHY301,Electromagnetism,1,S1014,5,The pace of teaching is comfortable and structured. I would appreciate more doubt-solving time.,0.817,Positive,4,5,4,4,C,1,B.Tech
+959,420,PHY301,Electromagnetism,1,S4385,2,"The pace is too fast, making the class hard to understand. I would appreciate more doubt-solving time.",-0.337,Negative,2,2,1,2,C,1,B.Tech
+960,420,PHY301,Electromagnetism,1,S1414,2,"Very little interaction, topics feel incomplete. The class environment was encouraging.",-0.453,Negative,2,2,1,2,B,1,B.Tech
+961,420,PHY301,Electromagnetism,2,S4266,4,Concepts are broken down in a simple and logical manner. The examples used were memorable.,0.625,Positive,3,3,4,4,C,1,B.Tech
+962,420,PHY301,Electromagnetism,2,S0396,4,The sessions are well-organized and engaging. The session covered important fundamentals.,0.554,Positive,5,4,4,4,B,1,B.Tech
+963,420,PHY301,Electromagnetism,2,S1400,4,The pace of teaching is comfortable and structured. The examples used were memorable.,0.794,Positive,4,4,4,3,C,1,B.Tech
+964,420,PHY301,Electromagnetism,2,S0833,3,Satisfactory experience but needs improvement in clarity. I would appreciate more doubt-solving time.,0.117,Neutral,3,3,3,3,C,1,B.Tech
+965,420,PHY301,Electromagnetism,2,S4825,4,The professor motivates us and clears doubts patiently. The session covered important fundamentals.,0.654,Positive,3,3,4,2,A,1,B.Tech
+966,420,PHY301,Electromagnetism,2,S2015,4,"One of the best courses, very well taught. The session covered important fundamentals.",0.695,Positive,5,4,3,3,B,1,B.Tech
+967,420,PHY301,Electromagnetism,2,S3637,4,"One of the best courses, very well taught. The class environment was encouraging.",0.373,Positive,5,5,4,4,B,1,B.Tech
+968,420,PHY301,Electromagnetism,2,S3874,4,Interactive teaching style helps in understanding topics better. The teaching style influenced my learning positively.,0.475,Positive,4,4,5,5,C,1,B.Tech
+969,420,PHY301,Electromagnetism,2,S0744,5,The classes are very clear and engaging. I would appreciate more doubt-solving time.,1,Positive,5,5,5,4,A,1,B.Tech
+970,420,PHY301,Electromagnetism,2,S3106,4,The sessions are well-organized and engaging. The examples used were memorable.,0.367,Positive,4,5,5,5,B,1,B.Tech
+971,420,PHY301,Electromagnetism,3,S1167,3,Interactive teaching style helps in understanding topics better. This is for the course Thermodynamics.,0.313,Positive,3,3,2,3,B,1,B.Tech
+972,420,PHY301,Electromagnetism,3,S3472,5,"One of the best courses, very well taught. The examples used were memorable.",0.828,Positive,5,5,5,4,C,1,B.Tech
+973,420,PHY301,Electromagnetism,3,S2102,2,Teaching style is monotonous and lacks engagement. The session covered important fundamentals.,-0.493,Negative,3,1,2,3,A,1,B.Tech
+974,420,PHY301,Electromagnetism,3,S0996,4,The pace of teaching is comfortable and structured. The session covered important fundamentals.,0.478,Positive,5,3,3,4,A,1,B.Tech
+975,420,PHY301,Electromagnetism,3,S3863,3,The classes are very clear and engaging. The session coverage was appropriate.,0.256,Positive,4,3,3,2,A,1,B.Tech
+976,420,PHY301,Electromagnetism,3,S1342,5,Explains concepts very effectively with relatable examples. The session covered important fundamentals.,0.788,Positive,4,5,4,5,C,1,B.Tech
+977,420,PHY301,Electromagnetism,3,S0357,4,The professor motivates us and clears doubts patiently. The class environment was encouraging.,0.449,Positive,4,5,5,2,C,1,B.Tech
+978,420,PHY301,Electromagnetism,3,S0516,3,Satisfactory experience but needs improvement in clarity. This is for the course Thermodynamics.,-0.137,Neutral,2,3,2,3,C,1,B.Tech
+979,420,PHY301,Electromagnetism,3,S4388,4,"One of the best courses, very well taught. This is for the course Thermodynamics.",0.371,Positive,5,5,4,4,A,1,B.Tech
+980,420,PHY301,Electromagnetism,3,S2610,5,Amazing clarity and teaching methodology. The session coverage was appropriate.,0.842,Positive,5,5,4,4,C,1,B.Tech
+981,420,PHY301,Electromagnetism,4,S0881,3,"Sometimes the pace is fast, but manageable overall. The lecture pacing affected my understanding.",-0.029,Neutral,2,3,4,2,B,1,B.Tech
+982,420,PHY301,Electromagnetism,4,S1250,4,Concepts are broken down in a simple and logical manner. The class environment was encouraging.,0.558,Positive,5,3,4,4,A,1,B.Tech
+983,420,PHY301,Electromagnetism,4,S4874,5,The professor motivates us and clears doubts patiently. The class environment was encouraging.,0.872,Positive,5,5,5,5,C,1,B.Tech
+984,420,PHY301,Electromagnetism,4,S0460,5,Concepts are broken down in a simple and logical manner. The session coverage was appropriate.,1,Positive,4,5,5,5,B,1,B.Tech
+985,420,PHY301,Electromagnetism,4,S1947,5,"One of the best courses, very well taught. The class environment was encouraging.",0.893,Positive,4,5,5,5,B,1,B.Tech
+986,420,PHY301,Electromagnetism,4,S3684,4,Interactive teaching style helps in understanding topics better.,0.585,Positive,4,4,3,2,C,1,B.Tech
+987,420,PHY301,Electromagnetism,4,S0935,5,The professor motivates us and clears doubts patiently. The topic flow felt slightly abrupt.,0.945,Positive,5,5,3,5,A,1,B.Tech
+988,420,PHY301,Electromagnetism,4,S4354,3,The course delivery is moderate and could be improved. The teaching style influenced my learning positively.,0.062,Neutral,2,3,2,3,C,1,B.Tech
+989,420,PHY301,Electromagnetism,4,S2117,4,I enjoy attending this class; explanations are very crisp. The session covered important fundamentals.,0.473,Positive,4,5,4,3,A,1,B.Tech
+990,420,PHY301,Electromagnetism,4,S1734,3,"One of the best courses, very well taught. The examples used were memorable.",0.213,Positive,4,3,2,3,B,1,B.Tech
+991,420,PHY301,Electromagnetism,5,S4384,4,Amazing clarity and teaching methodology. The teaching style influenced my learning positively.,0.656,Positive,4,4,5,4,B,1,B.Tech
+992,420,PHY301,Electromagnetism,5,S0284,3,More real-life examples could improve understanding. The session coverage was appropriate.,0.092,Neutral,3,3,3,2,A,1,B.Tech
+993,420,PHY301,Electromagnetism,5,S4172,5,The pace of teaching is comfortable and structured. The class environment was encouraging.,0.992,Positive,4,5,5,4,A,1,B.Tech
+994,420,PHY301,Electromagnetism,5,S1781,4,Amazing clarity and teaching methodology. The class environment was encouraging.,0.556,Positive,3,3,4,4,B,1,B.Tech
+995,420,PHY301,Electromagnetism,5,S1766,3,Doubts are not clarified properly during lectures. This is for the course Thermodynamics.,-0.202,Negative,4,4,3,2,C,1,B.Tech
+996,420,PHY301,Electromagnetism,5,S4190,4,I enjoy attending this class; explanations are very crisp. The session coverage was appropriate.,0.68,Positive,5,2,2,4,C,1,B.Tech
+997,420,PHY301,Electromagnetism,5,S0664,4,The sessions are well-organized and engaging. The topic flow felt slightly abrupt.,0.335,Positive,3,5,5,3,B,1,B.Tech
+998,420,PHY301,Electromagnetism,5,S0924,3,Teaching quality is acceptable but could be better. The session coverage was appropriate.,-0.029,Neutral,1,3,2,3,C,1,B.Tech
+999,420,PHY301,Electromagnetism,5,S2275,3,I understand most topics but sometimes feel disconnected. The class environment was encouraging.,0.039,Neutral,5,3,2,2,C,1,B.Tech
+1000,420,PHY301,Electromagnetism,5,S0304,4,The sessions are well-organized and engaging. I would appreciate more doubt-solving time.,0.428,Positive,3,4,2,4,B,1,B.Tech

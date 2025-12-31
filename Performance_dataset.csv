@@ -1,0 +1,501 @@
+faculty_id,name,department,designation,journal_publications,scopus_indexed_papers,research_papers,conference_papers,patents,journal_publication_points,scopus_points,research_points,conference_points,patent_points,total_academic_performance_points
+101,Sneha Singh,Physics,Associate Professor,10,3,7,3,1,50,21,42,12,10,135
+102,Suman Nair,Mathematics,Assistant Professor,6,1,3,2,0,30,7,18,8,0,63
+103,Arjun Patel,ME,Assistant Professor,7,3,2,4,1,35,21,12,16,10,94
+104,Neha Ghosh,CSE,Assistant Professor,8,3,3,1,0,40,21,18,4,0,83
+105,Arjun Singh,CSE,Assistant Professor,11,1,3,5,1,55,7,18,20,10,110
+106,Suman Verma,Chemistry,Associate Professor,13,6,3,4,0,65,42,18,16,0,141
+107,Vikas Reddy,CE,Associate Professor,5,0,4,10,1,25,0,24,40,10,99
+108,Neha Ghosh,Physics,Assistant Professor,3,3,4,1,1,15,21,24,4,10,74
+109,Kiran Verma,Physics,Assistant Professor,5,4,7,1,0,25,28,42,4,0,99
+110,Vikas Chatterjee,Physics,Associate Professor,10,4,0,3,0,50,28,0,12,0,90
+111,Pooja Reddy,CSE,Assistant Professor,10,6,4,8,0,50,42,24,32,0,148
+112,Kiran Ghosh,ECE,Assistant Professor,4,6,7,4,2,20,42,42,16,20,140
+113,Arjun Chatterjee,ME,Associate Professor,13,3,5,5,1,65,21,30,20,10,146
+114,Amit Sharma,ME,Assistant Professor,4,4,5,6,1,20,28,30,24,10,112
+115,Suman Ghosh,ME,Assistant Professor,14,5,3,4,2,70,35,18,16,20,159
+116,Vikas Singh,ME,Associate Professor,7,2,3,7,0,35,14,18,28,0,95
+117,Suman Patel,EE,Assistant Professor,0,4,8,8,0,0,28,48,32,0,108
+118,Sneha Singh,Mathematics,Assistant Professor,8,1,3,5,2,40,7,18,20,20,105
+119,Sneha Das,Physics,Associate Professor,10,1,5,5,0,50,7,30,20,0,107
+120,Suman Verma,Mathematics,Associate Professor,10,5,1,6,0,50,35,6,24,0,115
+121,Pooja Iyer,EE,Assistant Professor,10,6,2,12,1,50,42,12,48,10,162
+122,Neha Singh,CE,Associate Professor,9,3,3,3,1,45,21,18,12,10,106
+123,Pooja Iyer,CSE,Assistant Professor,0,4,4,6,0,0,28,24,24,0,76
+124,Rohan Verma,EE,Assistant Professor,6,5,5,5,0,30,35,30,20,0,115
+125,Pooja Sharma,CSE,Assistant Professor,3,6,3,8,2,15,42,18,32,20,127
+126,Pooja Sharma,Mathematics,Assistant Professor,9,4,1,7,2,45,28,6,28,20,127
+127,Pooja Patel,Mathematics,Assistant Professor,6,4,2,6,1,30,28,12,24,10,104
+128,Arjun Patel,ME,Assistant Professor,5,5,8,8,0,25,35,48,32,0,140
+129,Kiran Das,ME,Associate Professor,14,2,5,7,1,70,14,30,28,10,152
+130,Kiran Singh,Chemistry,Associate Professor,9,6,2,0,0,45,42,12,0,0,99
+131,Amit Das,CE,Assistant Professor,11,2,5,6,0,55,14,30,24,0,123
+132,Rohan Sharma,CE,Assistant Professor,4,6,5,7,0,20,42,30,28,0,120
+133,Rohan Chatterjee,CE,Associate Professor,8,1,3,4,0,40,7,18,16,0,81
+134,Suman Chatterjee,Chemistry,Assistant Professor,3,4,3,5,0,15,28,18,20,0,81
+135,Pooja Patel,CSE,Assistant Professor,10,2,4,4,1,50,14,24,16,10,114
+136,Rohan Reddy,CSE,Professor,9,1,6,5,0,45,7,36,20,0,108
+137,Kiran Singh,ECE,Associate Professor,8,5,5,12,1,40,35,30,48,10,163
+138,Vikas Verma,Mathematics,Assistant Professor,10,3,6,5,1,50,21,36,20,10,137
+139,Priya Verma,ECE,Associate Professor,9,1,3,3,1,45,7,18,12,10,92
+140,Sneha Das,ME,Associate Professor,9,4,1,12,0,45,28,6,48,0,127
+141,Vikas Chatterjee,Chemistry,Assistant Professor,7,7,4,5,1,35,49,24,20,10,138
+142,Arjun Reddy,Mathematics,Professor,6,0,0,4,1,30,0,0,16,10,56
+143,Suman Verma,Chemistry,Associate Professor,7,2,2,2,0,35,14,12,8,0,69
+144,Neha Patel,Physics,Professor,3,8,5,8,0,15,56,30,32,0,133
+145,Priya Chatterjee,CSE,Assistant Professor,9,4,6,12,1,45,28,36,48,10,167
+146,Suman Reddy,Mathematics,Assistant Professor,9,6,5,5,2,45,42,30,20,20,157
+147,Neha Das,ME,Associate Professor,10,4,7,6,0,50,28,42,24,0,144
+148,Vikas Singh,Chemistry,Associate Professor,6,4,7,4,0,30,28,42,16,0,116
+149,Suman Patel,Mathematics,Associate Professor,11,2,2,6,2,55,14,12,24,20,125
+150,Arjun Ghosh,CSE,Assistant Professor,12,6,6,7,1,60,42,36,28,10,176
+151,Neha Singh,EE,Professor,5,2,5,6,1,25,14,30,24,10,103
+152,Suman Ghosh,ECE,Assistant Professor,11,2,3,6,1,55,14,18,24,10,121
+153,Sneha Ghosh,CE,Professor,4,4,5,7,2,20,28,30,28,20,126
+154,Arjun Iyer,CSE,Associate Professor,9,6,7,10,1,45,42,42,40,10,179
+155,Sneha Das,Physics,Assistant Professor,7,1,8,2,1,35,7,48,8,10,108
+156,Kiran Das,Mathematics,Professor,6,3,6,5,1,30,21,36,20,10,117
+157,Vikas Sharma,CSE,Assistant Professor,5,4,2,0,0,25,28,12,0,0,65
+158,Arjun Verma,EE,Associate Professor,9,1,4,11,1,45,7,24,44,10,130
+159,Amit Singh,EE,Assistant Professor,9,1,4,8,1,45,7,24,32,10,118
+160,Vikas Reddy,CE,Assistant Professor,8,0,5,2,0,40,0,30,8,0,78
+161,Suman Reddy,ME,Professor,10,0,4,10,3,50,0,24,40,30,144
+162,Pooja Chatterjee,Mathematics,Associate Professor,9,1,4,6,0,45,7,24,24,0,100
+163,Neha Reddy,Mathematics,Assistant Professor,12,2,5,4,2,60,14,30,16,20,140
+164,Vikas Verma,ME,Assistant Professor,5,4,2,2,0,25,28,12,8,0,73
+165,Amit Chatterjee,ME,Associate Professor,10,5,4,5,0,50,35,24,20,0,129
+166,Priya Sharma,CE,Assistant Professor,7,2,9,4,0,35,14,54,16,0,119
+167,Amit Ghosh,ECE,Assistant Professor,6,4,4,7,0,30,28,24,28,0,110
+168,Sneha Sharma,ME,Professor,9,3,7,6,0,45,21,42,24,0,132
+169,Suman Das,Physics,Assistant Professor,8,2,3,4,0,40,14,18,16,0,88
+170,Amit Singh,ECE,Associate Professor,8,10,2,4,2,40,70,12,16,20,158
+171,Vikas Reddy,ME,Assistant Professor,5,2,5,5,2,25,14,30,20,20,109
+172,Priya Chatterjee,Mathematics,Assistant Professor,8,3,2,5,0,40,21,12,20,0,93
+173,Vikas Iyer,CSE,Associate Professor,6,3,3,5,0,30,21,18,20,0,89
+174,Vikas Patel,CSE,Assistant Professor,4,3,3,6,0,20,21,18,24,0,83
+175,Priya Nair,Chemistry,Assistant Professor,10,1,7,2,1,50,7,42,8,10,117
+176,Arjun Ghosh,CE,Associate Professor,7,2,4,1,1,35,14,24,4,10,87
+177,Sneha Reddy,CE,Professor,11,1,6,5,1,55,7,36,20,10,128
+178,Priya Ghosh,CE,Assistant Professor,13,4,3,4,1,65,28,18,16,10,137
+179,Arjun Reddy,ECE,Assistant Professor,5,7,4,4,1,25,49,24,16,10,124
+180,Suman Nair,ECE,Assistant Professor,7,6,2,6,2,35,42,12,24,20,133
+181,Kiran Iyer,Chemistry,Professor,7,4,6,2,1,35,28,36,8,10,117
+182,Kiran Chatterjee,Physics,Assistant Professor,12,5,6,8,2,60,35,36,32,20,183
+183,Rohan Patel,Physics,Associate Professor,8,4,4,6,2,40,28,24,24,20,136
+184,Neha Singh,ME,Assistant Professor,7,3,2,4,1,35,21,12,16,10,94
+185,Suman Patel,CE,Assistant Professor,8,4,4,4,0,40,28,24,16,0,108
+186,Priya Chatterjee,Physics,Associate Professor,8,4,6,3,1,40,28,36,12,10,126
+187,Vikas Verma,CE,Professor,9,5,3,5,2,45,35,18,20,20,138
+188,Kiran Singh,CE,Associate Professor,3,7,5,0,0,15,49,30,0,0,94
+189,Neha Chatterjee,Physics,Associate Professor,8,5,7,1,1,40,35,42,4,10,131
+190,Arjun Das,ECE,Associate Professor,7,7,5,1,0,35,49,30,4,0,118
+191,Amit Singh,CSE,Assistant Professor,4,0,4,4,1,20,0,24,16,10,70
+192,Vikas Nair,Chemistry,Associate Professor,12,2,3,4,1,60,14,18,16,10,118
+193,Rohan Patel,EE,Associate Professor,4,2,3,11,3,20,14,18,44,30,126
+194,Arjun Iyer,CSE,Assistant Professor,8,5,2,1,0,40,35,12,4,0,91
+195,Sneha Reddy,Physics,Professor,6,6,4,5,0,30,42,24,20,0,116
+196,Priya Nair,ECE,Professor,8,5,7,3,0,40,35,42,12,0,129
+197,Sneha Das,CSE,Associate Professor,8,4,5,6,0,40,28,30,24,0,122
+198,Arjun Nair,Chemistry,Assistant Professor,6,4,5,5,0,30,28,30,20,0,108
+199,Arjun Iyer,Mathematics,Assistant Professor,10,4,3,1,1,50,28,18,4,10,110
+200,Rohan Ghosh,ME,Associate Professor,10,1,4,4,0,50,7,24,16,0,97
+201,Priya Ghosh,CSE,Assistant Professor,6,2,3,6,0,30,14,18,24,0,86
+202,Sneha Patel,CE,Assistant Professor,7,8,2,5,1,35,56,12,20,10,133
+203,Sneha Iyer,ECE,Assistant Professor,8,3,3,7,0,40,21,18,28,0,107
+204,Priya Das,CSE,Professor,7,3,7,7,0,35,21,42,28,0,126
+205,Arjun Verma,Chemistry,Assistant Professor,9,6,7,4,0,45,42,42,16,0,145
+206,Sneha Patel,Mathematics,Assistant Professor,6,4,6,8,1,30,28,36,32,10,136
+207,Amit Sharma,CE,Assistant Professor,13,0,4,8,0,65,0,24,32,0,121
+208,Priya Iyer,Mathematics,Professor,6,2,2,4,1,30,14,12,16,10,82
+209,Neha Iyer,Mathematics,Assistant Professor,7,2,9,7,1,35,14,54,28,10,141
+210,Sneha Das,Chemistry,Assistant Professor,7,7,4,4,0,35,49,24,16,0,124
+211,Vikas Reddy,ME,Associate Professor,6,6,4,6,1,30,42,24,24,10,130
+212,Priya Nair,Mathematics,Assistant Professor,9,4,5,8,2,45,28,30,32,20,155
+213,Vikas Verma,CSE,Assistant Professor,4,2,5,11,1,20,14,30,44,10,118
+214,Neha Das,Physics,Assistant Professor,9,2,1,7,0,45,14,6,28,0,93
+215,Sneha Singh,Physics,Professor,7,6,0,7,2,35,42,0,28,20,125
+216,Amit Verma,EE,Assistant Professor,9,4,4,3,2,45,28,24,12,20,129
+217,Pooja Sharma,Physics,Assistant Professor,9,7,6,8,0,45,49,36,32,0,162
+218,Vikas Ghosh,EE,Associate Professor,9,2,2,5,0,45,14,12,20,0,91
+219,Amit Chatterjee,Physics,Professor,5,2,1,8,0,25,14,6,32,0,77
+220,Sneha Reddy,ME,Assistant Professor,10,1,5,4,0,50,7,30,16,0,103
+221,Amit Iyer,Physics,Associate Professor,4,8,1,7,0,20,56,6,28,0,110
+222,Priya Ghosh,Physics,Assistant Professor,8,2,7,5,2,40,14,42,20,20,136
+223,Arjun Verma,CSE,Associate Professor,7,1,5,1,0,35,7,30,4,0,76
+224,Pooja Iyer,ME,Professor,7,8,6,5,0,35,56,36,20,0,147
+225,Neha Nair,Physics,Assistant Professor,13,5,4,2,1,65,35,24,8,10,142
+226,Kiran Sharma,Physics,Associate Professor,8,0,6,5,0,40,0,36,20,0,96
+227,Arjun Chatterjee,ME,Assistant Professor,4,5,6,4,0,20,35,36,16,0,107
+228,Vikas Ghosh,Mathematics,Professor,6,8,4,6,0,30,56,24,24,0,134
+229,Vikas Nair,ME,Assistant Professor,10,4,6,10,0,50,28,36,40,0,154
+230,Suman Nair,CSE,Associate Professor,6,4,5,5,0,30,28,30,20,0,108
+231,Sneha Chatterjee,ME,Assistant Professor,7,3,5,2,2,35,21,30,8,20,114
+232,Priya Reddy,ME,Assistant Professor,2,7,7,8,1,10,49,42,32,10,143
+233,Arjun Sharma,ECE,Assistant Professor,6,4,5,7,1,30,28,30,28,10,126
+234,Kiran Chatterjee,ECE,Assistant Professor,2,3,3,7,2,10,21,18,28,20,97
+235,Priya Ghosh,EE,Professor,9,6,5,4,0,45,42,30,16,0,133
+236,Neha Patel,EE,Assistant Professor,6,4,3,8,1,30,28,18,32,10,118
+237,Pooja Iyer,Chemistry,Associate Professor,11,3,7,8,1,55,21,42,32,10,160
+238,Sneha Singh,ME,Assistant Professor,7,3,4,8,1,35,21,24,32,10,122
+239,Arjun Reddy,CSE,Assistant Professor,11,3,6,1,2,55,21,36,4,20,136
+240,Rohan Sharma,EE,Assistant Professor,9,0,1,2,0,45,0,6,8,0,59
+241,Arjun Singh,CE,Assistant Professor,7,6,6,4,2,35,42,36,16,20,149
+242,Suman Nair,Mathematics,Assistant Professor,8,4,1,9,1,40,28,6,36,10,120
+243,Vikas Nair,Physics,Associate Professor,4,4,3,7,0,20,28,18,28,0,94
+244,Pooja Chatterjee,CSE,Associate Professor,8,1,4,6,1,40,7,24,24,10,105
+245,Neha Ghosh,ECE,Professor,4,4,5,8,0,20,28,30,32,0,110
+246,Priya Iyer,ECE,Assistant Professor,11,6,3,4,2,55,42,18,16,20,151
+247,Amit Verma,CE,Associate Professor,8,2,3,8,0,40,14,18,32,0,104
+248,Arjun Chatterjee,Physics,Associate Professor,9,6,3,2,2,45,42,18,8,20,133
+249,Neha Patel,EE,Assistant Professor,7,5,1,9,0,35,35,6,36,0,112
+250,Pooja Nair,CE,Associate Professor,0,2,9,4,1,0,14,54,16,10,94
+251,Arjun Iyer,EE,Associate Professor,9,3,8,4,0,45,21,48,16,0,130
+252,Vikas Reddy,ME,Assistant Professor,4,3,5,0,0,20,21,30,0,0,71
+253,Amit Sharma,CSE,Associate Professor,7,3,4,9,0,35,21,24,36,0,116
+254,Neha Ghosh,EE,Assistant Professor,10,3,3,5,0,50,21,18,20,0,109
+255,Neha Verma,Chemistry,Associate Professor,14,5,3,8,0,70,35,18,32,0,155
+256,Neha Verma,EE,Assistant Professor,4,6,4,5,0,20,42,24,20,0,106
+257,Priya Iyer,CE,Associate Professor,10,2,6,7,1,50,14,36,28,10,138
+258,Pooja Ghosh,Physics,Associate Professor,9,4,0,7,0,45,28,0,28,0,101
+259,Amit Iyer,Physics,Assistant Professor,7,4,1,1,0,35,28,6,4,0,73
+260,Amit Verma,CSE,Professor,6,2,4,3,1,30,14,24,12,10,90
+261,Kiran Singh,EE,Assistant Professor,6,5,4,7,0,30,35,24,28,0,117
+262,Suman Ghosh,ECE,Assistant Professor,9,5,6,3,0,45,35,36,12,0,128
+263,Rohan Reddy,Mathematics,Assistant Professor,8,3,2,5,0,40,21,12,20,0,93
+264,Neha Chatterjee,EE,Professor,2,5,6,3,0,10,35,36,12,0,93
+265,Priya Reddy,CE,Professor,9,5,4,7,2,45,35,24,28,20,152
+266,Pooja Patel,Mathematics,Associate Professor,10,3,7,1,1,50,21,42,4,10,127
+267,Suman Das,ME,Assistant Professor,5,1,7,7,2,25,7,42,28,20,122
+268,Pooja Singh,Chemistry,Professor,4,3,2,1,0,20,21,12,4,0,57
+269,Pooja Chatterjee,CSE,Assistant Professor,7,3,3,8,0,35,21,18,32,0,106
+270,Amit Singh,EE,Professor,10,5,4,4,1,50,35,24,16,10,135
+271,Suman Das,ME,Assistant Professor,4,5,5,6,0,20,35,30,24,0,109
+272,Priya Ghosh,ECE,Associate Professor,0,2,2,9,0,0,14,12,36,0,62
+273,Arjun Ghosh,Mathematics,Assistant Professor,8,5,3,7,3,40,35,18,28,30,151
+274,Priya Reddy,Physics,Assistant Professor,6,2,5,3,0,30,14,30,12,0,86
+275,Rohan Iyer,CSE,Professor,3,2,5,9,0,15,14,30,36,0,95
+276,Amit Iyer,ECE,Assistant Professor,7,2,2,9,2,35,14,12,36,20,117
+277,Priya Chatterjee,ECE,Associate Professor,11,0,7,5,0,55,0,42,20,0,117
+278,Pooja Singh,Chemistry,Assistant Professor,9,3,7,10,1,45,21,42,40,10,158
+279,Neha Ghosh,ME,Assistant Professor,6,6,8,6,0,30,42,48,24,0,144
+280,Sneha Das,ECE,Assistant Professor,5,0,4,4,1,25,0,24,16,10,75
+281,Sneha Chatterjee,CSE,Assistant Professor,2,3,3,4,1,10,21,18,16,10,75
+282,Suman Ghosh,CSE,Assistant Professor,6,4,6,3,0,30,28,36,12,0,106
+283,Sneha Sharma,Physics,Assistant Professor,9,3,5,4,1,45,21,30,16,10,122
+284,Kiran Verma,Physics,Professor,5,3,9,7,0,25,21,54,28,0,128
+285,Rohan Iyer,CE,Assistant Professor,4,2,3,14,0,20,14,18,56,0,108
+286,Rohan Sharma,ME,Assistant Professor,13,5,5,7,1,65,35,30,28,10,168
+287,Kiran Singh,ME,Assistant Professor,5,5,5,6,0,25,35,30,24,0,114
+288,Vikas Das,Physics,Assistant Professor,5,2,8,3,3,25,14,48,12,30,129
+289,Arjun Das,Chemistry,Professor,9,5,4,0,1,45,35,24,0,10,114
+290,Amit Chatterjee,ECE,Associate Professor,7,1,6,7,2,35,7,36,28,20,126
+291,Amit Patel,CSE,Assistant Professor,13,5,1,7,1,65,35,6,28,10,144
+292,Rohan Ghosh,CE,Associate Professor,11,3,6,9,0,55,21,36,36,0,148
+293,Kiran Sharma,Mathematics,Assistant Professor,13,0,2,5,1,65,0,12,20,10,107
+294,Kiran Chatterjee,Chemistry,Associate Professor,13,0,6,5,1,65,0,36,20,10,131
+295,Pooja Reddy,CSE,Professor,10,0,6,1,1,50,0,36,4,10,100
+296,Rohan Patel,Mathematics,Assistant Professor,0,3,7,11,1,0,21,42,44,10,117
+297,Kiran Singh,Mathematics,Professor,9,3,0,9,0,45,21,0,36,0,102
+298,Vikas Reddy,CSE,Professor,5,2,4,5,2,25,14,24,20,20,103
+299,Pooja Ghosh,EE,Assistant Professor,6,0,9,3,0,30,0,54,12,0,96
+300,Rohan Das,ECE,Professor,7,2,2,13,3,35,14,12,52,30,143
+301,Amit Verma,Mathematics,Associate Professor,3,1,3,11,1,15,7,18,44,10,94
+302,Neha Ghosh,ECE,Associate Professor,10,1,4,5,0,50,7,24,20,0,101
+303,Arjun Reddy,CE,Assistant Professor,5,6,3,5,0,25,42,18,20,0,105
+304,Kiran Sharma,Physics,Assistant Professor,7,5,4,6,1,35,35,24,24,10,128
+305,Rohan Ghosh,EE,Assistant Professor,11,4,7,5,0,55,28,42,20,0,145
+306,Priya Nair,Mathematics,Professor,8,3,6,0,1,40,21,36,0,10,107
+307,Sneha Reddy,Physics,Professor,10,3,7,4,2,50,21,42,16,20,149
+308,Arjun Ghosh,EE,Assistant Professor,12,5,4,1,3,60,35,24,4,30,153
+309,Pooja Patel,CE,Assistant Professor,6,2,3,11,2,30,14,18,44,20,126
+310,Amit Patel,ECE,Assistant Professor,5,3,10,8,0,25,21,60,32,0,138
+311,Suman Iyer,Chemistry,Assistant Professor,6,6,5,4,0,30,42,30,16,0,118
+312,Arjun Chatterjee,EE,Assistant Professor,5,3,3,5,0,25,21,18,20,0,84
+313,Rohan Ghosh,EE,Associate Professor,7,0,5,6,0,35,0,30,24,0,89
+314,Pooja Verma,CSE,Assistant Professor,9,3,7,9,2,45,21,42,36,20,164
+315,Vikas Reddy,CE,Assistant Professor,6,6,2,6,0,30,42,12,24,0,108
+316,Sneha Das,ECE,Assistant Professor,8,5,3,4,1,40,35,18,16,10,119
+317,Neha Patel,Mathematics,Assistant Professor,0,3,4,5,1,0,21,24,20,10,75
+318,Priya Singh,ME,Assistant Professor,6,7,7,2,0,30,49,42,8,0,129
+319,Priya Das,EE,Assistant Professor,7,2,6,6,0,35,14,36,24,0,109
+320,Priya Singh,CE,Assistant Professor,7,5,1,8,2,35,35,6,32,20,128
+321,Neha Das,Chemistry,Professor,9,7,4,5,1,45,49,24,20,10,148
+322,Rohan Reddy,CE,Assistant Professor,9,6,3,5,1,45,42,18,20,10,135
+323,Neha Ghosh,CSE,Associate Professor,11,4,5,6,0,55,28,30,24,0,137
+324,Vikas Iyer,CE,Assistant Professor,6,0,6,5,3,30,0,36,20,30,116
+325,Rohan Singh,Physics,Assistant Professor,7,4,7,6,1,35,28,42,24,10,139
+326,Amit Chatterjee,Mathematics,Associate Professor,5,4,6,3,1,25,28,36,12,10,111
+327,Kiran Das,Physics,Associate Professor,7,5,4,5,1,35,35,24,20,10,124
+328,Pooja Ghosh,Chemistry,Professor,12,4,4,3,1,60,28,24,12,10,134
+329,Priya Das,ECE,Associate Professor,13,4,4,4,2,65,28,24,16,20,153
+330,Pooja Sharma,ECE,Associate Professor,10,5,3,8,1,50,35,18,32,10,145
+331,Kiran Verma,ECE,Associate Professor,7,5,5,5,1,35,35,30,20,10,130
+332,Vikas Nair,Mathematics,Assistant Professor,2,2,6,10,0,10,14,36,40,0,100
+333,Suman Verma,Chemistry,Professor,9,7,4,3,0,45,49,24,12,0,130
+334,Kiran Iyer,ME,Associate Professor,4,4,6,6,0,20,28,36,24,0,108
+335,Amit Ghosh,CE,Assistant Professor,7,6,6,7,1,35,42,36,28,10,151
+336,Rohan Chatterjee,Physics,Associate Professor,11,5,5,5,0,55,35,30,20,0,140
+337,Neha Sharma,CSE,Assistant Professor,7,6,2,11,1,35,42,12,44,10,143
+338,Amit Verma,ME,Assistant Professor,7,2,8,1,1,35,14,48,4,10,111
+339,Sneha Nair,Chemistry,Associate Professor,4,7,5,2,1,20,49,30,8,10,117
+340,Pooja Das,Mathematics,Assistant Professor,5,0,5,3,0,25,0,30,12,0,67
+341,Arjun Patel,Chemistry,Associate Professor,3,7,9,2,0,15,49,54,8,0,126
+342,Neha Das,EE,Assistant Professor,9,5,5,4,1,45,35,30,16,10,136
+343,Rohan Nair,EE,Professor,6,4,1,0,1,30,28,6,0,10,74
+344,Kiran Reddy,ECE,Assistant Professor,7,1,3,7,2,35,7,18,28,20,108
+345,Rohan Nair,CSE,Assistant Professor,8,1,5,5,1,40,7,30,20,10,107
+346,Rohan Verma,ME,Assistant Professor,7,3,5,2,1,35,21,30,8,10,104
+347,Kiran Reddy,CSE,Assistant Professor,4,3,3,16,1,20,21,18,64,10,133
+348,Rohan Verma,ME,Associate Professor,10,0,6,0,1,50,0,36,0,10,96
+349,Arjun Singh,CSE,Associate Professor,11,5,5,9,1,55,35,30,36,10,166
+350,Sneha Verma,CSE,Assistant Professor,3,3,6,0,0,15,21,36,0,0,72
+351,Sneha Das,Chemistry,Assistant Professor,13,7,6,1,0,65,49,36,4,0,154
+352,Suman Verma,ME,Assistant Professor,10,5,8,4,0,50,35,48,16,0,149
+353,Vikas Iyer,Physics,Assistant Professor,6,3,3,5,1,30,21,18,20,10,99
+354,Sneha Nair,Mathematics,Assistant Professor,13,2,4,4,1,65,14,24,16,10,129
+355,Rohan Ghosh,Physics,Professor,8,5,4,7,0,40,35,24,28,0,127
+356,Arjun Iyer,Mathematics,Associate Professor,8,2,3,4,0,40,14,18,16,0,88
+357,Suman Ghosh,Mathematics,Assistant Professor,6,7,7,0,1,30,49,42,0,10,131
+358,Suman Chatterjee,ME,Assistant Professor,10,4,6,8,2,50,28,36,32,20,166
+359,Amit Sharma,Chemistry,Associate Professor,13,4,7,5,2,65,28,42,20,20,175
+360,Pooja Sharma,ME,Assistant Professor,7,3,4,4,0,35,21,24,16,0,96
+361,Kiran Iyer,CE,Assistant Professor,7,4,4,4,0,35,28,24,16,0,103
+362,Amit Sharma,EE,Assistant Professor,8,1,4,3,0,40,7,24,12,0,83
+363,Sneha Singh,Physics,Assistant Professor,10,5,7,2,0,50,35,42,8,0,135
+364,Sneha Patel,EE,Associate Professor,8,7,4,6,0,40,49,24,24,0,137
+365,Sneha Das,Physics,Assistant Professor,8,5,7,4,2,40,35,42,16,20,153
+366,Pooja Verma,CE,Assistant Professor,7,5,7,1,0,35,35,42,4,0,116
+367,Neha Verma,Mathematics,Assistant Professor,7,2,6,0,2,35,14,36,0,20,105
+368,Priya Ghosh,EE,Assistant Professor,7,2,7,7,1,35,14,42,28,10,129
+369,Rohan Sharma,EE,Assistant Professor,13,4,4,5,1,65,28,24,20,10,147
+370,Priya Verma,Chemistry,Associate Professor,3,5,6,7,0,15,35,36,28,0,114
+371,Neha Chatterjee,CSE,Associate Professor,11,2,5,9,1,55,14,30,36,10,145
+372,Vikas Chatterjee,CE,Assistant Professor,1,2,3,7,0,5,14,18,28,0,65
+373,Rohan Patel,Chemistry,Assistant Professor,11,3,5,4,0,55,21,30,16,0,122
+374,Suman Das,CE,Associate Professor,9,3,6,8,0,45,21,36,32,0,134
+375,Amit Patel,Physics,Assistant Professor,12,4,4,8,1,60,28,24,32,10,154
+376,Suman Ghosh,Mathematics,Associate Professor,11,3,7,1,0,55,21,42,4,0,122
+377,Sneha Iyer,ECE,Assistant Professor,10,7,5,0,0,50,49,30,0,0,129
+378,Arjun Chatterjee,Physics,Associate Professor,6,3,7,6,1,30,21,42,24,10,127
+379,Pooja Ghosh,ME,Assistant Professor,8,6,7,5,2,40,42,42,20,20,164
+380,Rohan Das,ECE,Assistant Professor,1,5,6,2,2,5,35,36,8,20,104
+381,Pooja Ghosh,Chemistry,Assistant Professor,10,3,7,3,1,50,21,42,12,10,135
+382,Pooja Sharma,EE,Associate Professor,4,2,3,3,1,20,14,18,12,10,74
+383,Neha Sharma,ME,Professor,3,1,2,2,2,15,7,12,8,20,62
+384,Sneha Verma,Mathematics,Assistant Professor,7,5,6,8,0,35,35,36,32,0,138
+385,Neha Chatterjee,ECE,Assistant Professor,8,3,7,9,2,40,21,42,36,20,159
+386,Vikas Verma,ME,Associate Professor,1,3,6,10,0,5,21,36,40,0,102
+387,Amit Sharma,Physics,Assistant Professor,6,4,3,8,1,30,28,18,32,10,118
+388,Sneha Verma,Mathematics,Assistant Professor,11,3,8,8,1,55,21,48,32,10,166
+389,Neha Chatterjee,CSE,Assistant Professor,9,5,5,4,0,45,35,30,16,0,126
+390,Arjun Verma,CE,Assistant Professor,6,6,5,8,1,30,42,30,32,10,144
+391,Rohan Ghosh,ME,Assistant Professor,7,5,6,6,0,35,35,36,24,0,130
+392,Pooja Nair,EE,Assistant Professor,6,6,7,1,0,30,42,42,4,0,118
+393,Sneha Nair,ECE,Assistant Professor,9,5,2,1,0,45,35,12,4,0,96
+394,Vikas Sharma,EE,Assistant Professor,7,3,4,5,0,35,21,24,20,0,100
+395,Suman Ghosh,EE,Associate Professor,9,3,5,5,2,45,21,30,20,20,136
+396,Vikas Nair,EE,Associate Professor,5,5,8,5,0,25,35,48,20,0,128
+397,Suman Ghosh,Physics,Professor,6,7,5,5,0,30,49,30,20,0,129
+398,Neha Sharma,Chemistry,Assistant Professor,3,2,5,10,0,15,14,30,40,0,99
+399,Suman Das,CSE,Associate Professor,0,0,6,5,2,0,0,36,20,20,76
+400,Neha Verma,Mathematics,Associate Professor,8,3,4,3,1,40,21,24,12,10,107
+401,Kiran Reddy,Physics,Assistant Professor,5,2,9,4,0,25,14,54,16,0,109
+402,Rohan Ghosh,CSE,Assistant Professor,7,4,8,7,0,35,28,48,28,0,139
+403,Amit Verma,ECE,Assistant Professor,6,1,7,7,1,30,7,42,28,10,117
+404,Suman Das,EE,Associate Professor,3,4,3,8,0,15,28,18,32,0,93
+405,Neha Das,CSE,Assistant Professor,5,2,3,1,0,25,14,18,4,0,61
+406,Amit Das,CSE,Associate Professor,14,2,5,12,0,70,14,30,48,0,162
+407,Neha Nair,Physics,Assistant Professor,4,1,4,5,0,20,7,24,20,0,71
+408,Kiran Sharma,Chemistry,Assistant Professor,5,0,2,7,0,25,0,12,28,0,65
+409,Sneha Verma,Chemistry,Assistant Professor,4,5,4,4,1,20,35,24,16,10,105
+410,Pooja Chatterjee,EE,Professor,10,4,5,6,0,50,28,30,24,0,132
+411,Neha Singh,CE,Assistant Professor,5,5,4,2,1,25,35,24,8,10,102
+412,Suman Singh,Physics,Professor,12,4,4,0,1,60,28,24,0,10,122
+413,Vikas Ghosh,Mathematics,Associate Professor,9,3,3,6,0,45,21,18,24,0,108
+414,Vikas Nair,ECE,Professor,12,3,4,0,0,60,21,24,0,0,105
+415,Arjun Chatterjee,Physics,Associate Professor,13,1,4,3,1,65,7,24,12,10,118
+416,Sneha Das,ME,Assistant Professor,7,7,9,6,0,35,49,54,24,0,162
+417,Neha Das,CE,Professor,8,4,6,2,1,40,28,36,8,10,122
+418,Sneha Sharma,ECE,Professor,8,4,1,8,1,40,28,6,32,10,116
+419,Vikas Ghosh,Chemistry,Assistant Professor,9,1,6,10,2,45,7,36,40,20,148
+420,Rohan Iyer,Physics,Assistant Professor,6,4,3,6,1,30,28,18,24,10,110
+421,Neha Patel,Chemistry,Associate Professor,8,1,8,5,0,40,7,48,20,0,115
+422,Rohan Verma,EE,Assistant Professor,9,5,7,5,2,45,35,42,20,20,162
+423,Sneha Patel,CE,Professor,6,5,0,8,0,30,35,0,32,0,97
+424,Kiran Chatterjee,Physics,Associate Professor,8,4,7,7,0,40,28,42,28,0,138
+425,Neha Iyer,Mathematics,Associate Professor,5,1,2,7,3,25,7,12,28,30,102
+426,Pooja Reddy,Physics,Associate Professor,3,1,4,1,0,15,7,24,4,0,50
+427,Amit Verma,ME,Assistant Professor,7,4,4,7,1,35,28,24,28,10,125
+428,Vikas Verma,CSE,Assistant Professor,6,2,8,4,3,30,14,48,16,30,138
+429,Suman Sharma,Mathematics,Assistant Professor,9,4,6,1,1,45,28,36,4,10,123
+430,Vikas Das,Physics,Assistant Professor,10,2,6,3,0,50,14,36,12,0,112
+431,Vikas Nair,ECE,Associate Professor,9,4,5,7,2,45,28,30,28,20,151
+432,Amit Nair,EE,Assistant Professor,12,1,4,8,0,60,7,24,32,0,123
+433,Kiran Sharma,EE,Assistant Professor,1,7,4,7,2,5,49,24,28,20,126
+434,Amit Sharma,Chemistry,Assistant Professor,12,2,6,1,1,60,14,36,4,10,124
+435,Rohan Iyer,EE,Associate Professor,7,7,5,8,1,35,49,30,32,10,156
+436,Arjun Iyer,CE,Professor,7,4,7,5,0,35,28,42,20,0,125
+437,Pooja Reddy,EE,Assistant Professor,0,3,0,6,0,0,21,0,24,0,45
+438,Sneha Chatterjee,EE,Assistant Professor,7,1,2,3,0,35,7,12,12,0,66
+439,Neha Verma,CE,Assistant Professor,7,5,1,6,1,35,35,6,24,10,110
+440,Vikas Verma,CE,Assistant Professor,14,0,0,9,0,70,0,0,36,0,106
+441,Sneha Verma,CE,Associate Professor,5,8,2,9,0,25,56,12,36,0,129
+442,Vikas Verma,ECE,Professor,6,5,3,7,0,30,35,18,28,0,111
+443,Neha Ghosh,CE,Professor,4,2,4,7,0,20,14,24,28,0,86
+444,Suman Sharma,Mathematics,Assistant Professor,14,7,7,11,1,70,49,42,44,10,215
+445,Suman Chatterjee,CE,Associate Professor,8,8,6,5,1,40,56,36,20,10,162
+446,Neha Nair,Physics,Assistant Professor,10,3,3,3,0,50,21,18,12,0,101
+447,Kiran Iyer,Chemistry,Associate Professor,10,4,5,6,2,50,28,30,24,20,152
+448,Vikas Sharma,ECE,Associate Professor,4,5,5,5,1,20,35,30,20,10,115
+449,Priya Sharma,Chemistry,Assistant Professor,3,3,3,4,1,15,21,18,16,10,80
+450,Priya Verma,Physics,Professor,13,3,4,7,0,65,21,24,28,0,138
+451,Neha Ghosh,Physics,Assistant Professor,7,5,4,1,2,35,35,24,4,20,118
+452,Neha Chatterjee,Chemistry,Assistant Professor,10,4,3,6,0,50,28,18,24,0,120
+453,Priya Verma,EE,Assistant Professor,4,5,6,3,0,20,35,36,12,0,103
+454,Arjun Verma,Physics,Assistant Professor,6,0,5,0,2,30,0,30,0,20,80
+455,Sneha Patel,ECE,Assistant Professor,5,7,6,4,0,25,49,36,16,0,126
+456,Vikas Singh,CSE,Assistant Professor,5,5,4,6,2,25,35,24,24,20,128
+457,Vikas Nair,EE,Assistant Professor,5,2,3,5,1,25,14,18,20,10,87
+458,Amit Reddy,CSE,Associate Professor,5,5,8,7,0,25,35,48,28,0,136
+459,Suman Singh,ECE,Associate Professor,10,6,3,8,1,50,42,18,32,10,152
+460,Vikas Nair,ECE,Assistant Professor,6,2,5,4,0,30,14,30,16,0,90
+461,Pooja Sharma,EE,Professor,1,6,3,6,1,5,42,18,24,10,99
+462,Kiran Reddy,ECE,Assistant Professor,9,6,8,6,0,45,42,48,24,0,159
+463,Rohan Iyer,EE,Associate Professor,4,0,3,2,0,20,0,18,8,0,46
+464,Vikas Nair,Chemistry,Professor,9,2,7,5,1,45,14,42,20,10,131
+465,Amit Sharma,Chemistry,Associate Professor,11,3,4,4,1,55,21,24,16,10,126
+466,Pooja Patel,CSE,Associate Professor,6,4,6,0,1,30,28,36,0,10,104
+467,Rohan Verma,EE,Associate Professor,10,4,5,6,1,50,28,30,24,10,142
+468,Neha Ghosh,Mathematics,Assistant Professor,7,8,6,7,1,35,56,36,28,10,165
+469,Sneha Ghosh,Mathematics,Assistant Professor,7,4,5,3,0,35,28,30,12,0,105
+470,Vikas Chatterjee,EE,Assistant Professor,10,4,1,1,2,50,28,6,4,20,108
+471,Vikas Reddy,Physics,Associate Professor,9,4,6,5,0,45,28,36,20,0,129
+472,Sneha Nair,CSE,Assistant Professor,5,4,4,5,0,25,28,24,20,0,97
+473,Neha Singh,ME,Assistant Professor,12,5,7,8,0,60,35,42,32,0,169
+474,Amit Reddy,EE,Assistant Professor,9,5,3,5,1,45,35,18,20,10,128
+475,Kiran Reddy,Chemistry,Professor,2,4,6,8,0,10,28,36,32,0,106
+476,Neha Patel,EE,Assistant Professor,16,3,4,6,0,80,21,24,24,0,149
+477,Rohan Das,EE,Professor,7,0,2,6,0,35,0,12,24,0,71
+478,Suman Verma,Chemistry,Assistant Professor,8,5,4,2,0,40,35,24,8,0,107
+479,Vikas Verma,Chemistry,Associate Professor,9,7,8,7,0,45,49,48,28,0,170
+480,Neha Das,CE,Associate Professor,10,5,2,5,0,50,35,12,20,0,117
+481,Amit Chatterjee,Mathematics,Associate Professor,12,2,3,3,2,60,14,18,12,20,124
+482,Amit Iyer,CE,Assistant Professor,11,2,5,9,0,55,14,30,36,0,135
+483,Rohan Chatterjee,CSE,Assistant Professor,13,2,1,8,1,65,14,6,32,10,127
+484,Neha Chatterjee,ME,Professor,8,5,1,9,1,40,35,6,36,10,127
+485,Neha Nair,ME,Assistant Professor,8,1,1,10,2,40,7,6,40,20,113
+486,Kiran Nair,ME,Assistant Professor,12,3,6,9,1,60,21,36,36,10,163
+487,Rohan Chatterjee,EE,Professor,9,1,6,6,1,45,7,36,24,10,122
+488,Kiran Singh,Mathematics,Associate Professor,9,3,4,2,1,45,21,24,8,10,108
+489,Sneha Nair,ME,Professor,13,3,4,3,1,65,21,24,12,10,132
+490,Suman Ghosh,ME,Assistant Professor,7,2,5,6,2,35,14,30,24,20,123
+491,Rohan Nair,CSE,Professor,5,5,3,3,0,25,35,18,12,0,90
+492,Arjun Das,Physics,Assistant Professor,11,5,4,8,0,55,35,24,32,0,146
+493,Amit Verma,Mathematics,Assistant Professor,10,8,8,11,1,50,56,48,44,10,208
+494,Amit Verma,ME,Assistant Professor,1,2,6,11,0,5,14,36,44,0,99
+495,Vikas Das,ME,Assistant Professor,6,5,2,6,0,30,35,12,24,0,101
+496,Pooja Nair,CE,Assistant Professor,4,2,2,9,0,20,14,12,36,0,82
+497,Arjun Patel,EE,Associate Professor,6,5,5,1,0,30,35,30,4,0,99
+498,Arjun Ghosh,Mathematics,Assistant Professor,7,8,10,1,2,35,56,60,4,20,175
+499,Amit Patel,ECE,Assistant Professor,6,4,7,7,2,30,28,42,28,20,148
+500,Vikas Ghosh,ECE,Professor,12,3,5,6,0,60,21,30,24,0,135
+501,Suman Chatterjee,Chemistry,Assistant Professor,10,0,5,5,1,50,0,30,20,10,110
+502,Rohan Verma,Mathematics,Associate Professor,7,1,5,4,0,35,7,30,16,0,88
+503,Rohan Reddy,Physics,Associate Professor,8,4,5,2,0,40,28,30,8,0,106
+504,Arjun Singh,EE,Assistant Professor,9,4,3,8,0,45,28,18,32,0,123
+505,Priya Chatterjee,CE,Assistant Professor,6,7,4,8,1,30,49,24,32,10,145
+506,Kiran Singh,ME,Associate Professor,9,1,4,13,0,45,7,24,52,0,128
+507,Sneha Iyer,EE,Professor,11,2,5,9,2,55,14,30,36,20,155
+508,Sneha Singh,Mathematics,Assistant Professor,4,5,4,3,0,20,35,24,12,0,91
+509,Amit Chatterjee,ME,Assistant Professor,4,2,5,8,0,20,14,30,32,0,96
+510,Vikas Reddy,Mathematics,Associate Professor,13,4,8,2,0,65,28,48,8,0,149
+511,Neha Chatterjee,Physics,Assistant Professor,13,6,5,0,2,65,42,30,0,20,157
+512,Pooja Nair,Physics,Assistant Professor,6,0,4,8,1,30,0,24,32,10,96
+513,Amit Reddy,Chemistry,Assistant Professor,8,5,3,9,1,40,35,18,36,10,139
+514,Pooja Iyer,Mathematics,Associate Professor,13,4,2,4,0,65,28,12,16,0,121
+515,Amit Verma,EE,Assistant Professor,6,3,3,5,2,30,21,18,20,20,109
+516,Arjun Chatterjee,Physics,Associate Professor,8,3,9,6,2,40,21,54,24,20,159
+517,Kiran Das,ECE,Associate Professor,10,8,3,4,0,50,56,18,16,0,140
+518,Suman Singh,Mathematics,Assistant Professor,9,4,7,8,0,45,28,42,32,0,147
+519,Neha Singh,Physics,Associate Professor,8,4,4,7,0,40,28,24,28,0,120
+520,Vikas Ghosh,EE,Assistant Professor,7,5,5,10,0,35,35,30,40,0,140
+521,Vikas Verma,Chemistry,Assistant Professor,9,5,8,3,2,45,35,48,12,20,160
+522,Amit Nair,Mathematics,Assistant Professor,9,3,7,6,2,45,21,42,24,20,152
+523,Neha Singh,ECE,Assistant Professor,9,3,6,10,1,45,21,36,40,10,152
+524,Priya Singh,EE,Assistant Professor,10,8,6,3,2,50,56,36,12,20,174
+525,Sneha Singh,Mathematics,Assistant Professor,4,4,3,7,1,20,28,18,28,10,104
+526,Priya Verma,EE,Associate Professor,11,5,4,4,2,55,35,24,16,20,150
+527,Amit Sharma,ECE,Assistant Professor,9,2,3,3,0,45,14,18,12,0,89
+528,Vikas Singh,ECE,Assistant Professor,1,6,7,7,1,5,42,42,28,10,127
+529,Amit Ghosh,EE,Assistant Professor,8,3,4,4,1,40,21,24,16,10,111
+530,Arjun Reddy,CSE,Assistant Professor,10,6,6,7,0,50,42,36,28,0,156
+531,Rohan Reddy,EE,Assistant Professor,7,3,4,0,2,35,21,24,0,20,100
+532,Rohan Patel,Physics,Assistant Professor,6,3,5,8,1,30,21,30,32,10,123
+533,Suman Reddy,ECE,Assistant Professor,10,4,6,5,1,50,28,36,20,10,144
+534,Sneha Sharma,Physics,Associate Professor,3,3,3,0,0,15,21,18,0,0,54
+535,Arjun Nair,CSE,Assistant Professor,10,1,9,14,2,50,7,54,56,20,187
+536,Pooja Verma,EE,Assistant Professor,7,2,2,4,1,35,14,12,16,10,87
+537,Arjun Ghosh,Physics,Professor,4,5,7,6,1,20,35,42,24,10,131
+538,Sneha Chatterjee,CSE,Assistant Professor,8,4,5,12,0,40,28,30,48,0,146
+539,Arjun Das,CE,Professor,6,5,5,6,0,30,35,30,24,0,119
+540,Vikas Chatterjee,EE,Assistant Professor,4,1,7,4,0,20,7,42,16,0,85
+541,Priya Iyer,ME,Assistant Professor,2,3,7,6,0,10,21,42,24,0,97
+542,Rohan Sharma,CE,Professor,9,2,4,5,0,45,14,24,20,0,103
+543,Arjun Sharma,EE,Associate Professor,8,4,3,2,0,40,28,18,8,0,94
+544,Kiran Verma,ECE,Assistant Professor,7,3,6,4,2,35,21,36,16,20,128
+545,Arjun Sharma,CE,Associate Professor,6,2,3,5,1,30,14,18,20,10,92
+546,Kiran Das,Physics,Professor,7,2,4,11,1,35,14,24,44,10,127
+547,Rohan Chatterjee,Mathematics,Associate Professor,12,2,5,6,2,60,14,30,24,20,148
+548,Kiran Singh,EE,Professor,4,2,4,4,0,20,14,24,16,0,74
+549,Rohan Verma,CE,Associate Professor,9,5,7,7,1,45,35,42,28,10,160
+550,Vikas Ghosh,Physics,Assistant Professor,8,1,6,11,1,40,7,36,44,10,137
+551,Sneha Nair,ECE,Assistant Professor,5,3,5,6,0,25,21,30,24,0,100
+552,Arjun Das,CSE,Assistant Professor,11,2,6,8,0,55,14,36,32,0,137
+553,Rohan Verma,CSE,Assistant Professor,10,2,5,7,0,50,14,30,28,0,122
+554,Rohan Ghosh,CE,Associate Professor,14,1,4,3,1,70,7,24,12,10,123
+555,Arjun Sharma,Mathematics,Professor,4,2,4,7,0,20,14,24,28,0,86
+556,Vikas Das,ME,Assistant Professor,5,2,5,9,1,25,14,30,36,10,115
+557,Priya Ghosh,Mathematics,Associate Professor,15,3,5,5,0,75,21,30,20,0,146
+558,Amit Nair,Chemistry,Assistant Professor,5,6,5,6,0,25,42,30,24,0,121
+559,Priya Nair,EE,Associate Professor,11,5,2,6,1,55,35,12,24,10,136
+560,Suman Singh,CSE,Assistant Professor,6,1,6,5,0,30,7,36,20,0,93
+561,Rohan Singh,Chemistry,Assistant Professor,13,3,5,5,0,65,21,30,20,0,136
+562,Pooja Das,Mathematics,Assistant Professor,8,0,5,3,1,40,0,30,12,10,92
+563,Pooja Nair,ECE,Associate Professor,10,3,4,5,0,50,21,24,20,0,115
+564,Kiran Verma,ME,Assistant Professor,3,3,4,5,0,15,21,24,20,0,80
+565,Amit Verma,ME,Assistant Professor,11,5,6,4,0,55,35,36,16,0,142
+566,Suman Singh,CSE,Assistant Professor,6,0,4,9,0,30,0,24,36,0,90
+567,Kiran Reddy,Physics,Associate Professor,8,4,5,11,0,40,28,30,44,0,142
+568,Suman Patel,ME,Assistant Professor,5,3,5,6,2,25,21,30,24,20,120
+569,Sneha Singh,CE,Professor,7,6,4,7,2,35,42,24,28,20,149
+570,Pooja Iyer,CE,Assistant Professor,13,2,1,6,0,65,14,6,24,0,109
+571,Kiran Verma,ME,Professor,10,4,3,12,0,50,28,18,48,0,144
+572,Rohan Nair,Chemistry,Professor,5,5,5,4,0,25,35,30,16,0,106
+573,Neha Reddy,ECE,Professor,8,4,7,2,0,40,28,42,8,0,118
+574,Pooja Sharma,EE,Assistant Professor,5,0,1,7,1,25,0,6,28,10,69
+575,Pooja Verma,ECE,Associate Professor,12,4,3,4,0,60,28,18,16,0,122
+576,Amit Iyer,CSE,Professor,3,1,2,12,1,15,7,12,48,10,92
+577,Sneha Iyer,ME,Associate Professor,11,9,4,5,2,55,63,24,20,20,182
+578,Neha Nair,EE,Associate Professor,7,3,2,8,2,35,21,12,32,20,120
+579,Amit Sharma,ME,Assistant Professor,7,1,4,5,0,35,7,24,20,0,86
+580,Neha Sharma,Mathematics,Associate Professor,7,1,7,2,1,35,7,42,8,10,102
+581,Pooja Singh,Chemistry,Associate Professor,11,5,7,5,0,55,35,42,20,0,152
+582,Suman Iyer,CSE,Assistant Professor,9,2,5,6,1,45,14,30,24,10,123
+583,Neha Reddy,EE,Associate Professor,10,0,5,6,2,50,0,30,24,20,124
+584,Kiran Nair,Mathematics,Professor,4,1,2,6,0,20,7,12,24,0,63
+585,Suman Reddy,Physics,Associate Professor,1,0,4,5,1,5,0,24,20,10,59
+586,Sneha Patel,ECE,Assistant Professor,5,5,5,14,0,25,35,30,56,0,146
+587,Kiran Nair,CE,Assistant Professor,7,3,3,2,1,35,21,18,8,10,92
+588,Pooja Iyer,ME,Assistant Professor,5,1,4,5,1,25,7,24,20,10,86
+589,Suman Chatterjee,Mathematics,Assistant Professor,5,3,4,8,0,25,21,24,32,0,102
+590,Neha Sharma,CE,Assistant Professor,4,6,7,6,3,20,42,42,24,30,158
+591,Neha Chatterjee,Mathematics,Associate Professor,7,5,4,6,1,35,35,24,24,10,128
+592,Sneha Nair,CSE,Assistant Professor,9,1,7,6,0,45,7,42,24,0,118
+593,Neha Das,Chemistry,Assistant Professor,6,6,4,4,0,30,42,24,16,0,112
+594,Pooja Sharma,Mathematics,Associate Professor,11,4,5,6,0,55,28,30,24,0,137
+595,Rohan Singh,CSE,Assistant Professor,10,3,5,4,0,50,21,30,16,0,117
+596,Kiran Verma,Physics,Associate Professor,5,5,7,5,0,25,35,42,20,0,122
+597,Neha Ghosh,Mathematics,Professor,4,3,6,13,2,20,21,36,52,20,149
+598,Neha Chatterjee,CSE,Associate Professor,4,2,7,4,0,20,14,42,16,0,92
+599,Amit Nair,CSE,Assistant Professor,12,3,5,1,2,60,21,30,4,20,135
+600,Neha Patel,Mathematics,Assistant Professor,11,5,5,10,0,55,35,30,40,0,160
