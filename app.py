@@ -316,28 +316,21 @@ with tab5:
             db.grant_bonus_leave(target_id, target_type, extra_days)
             st.success(f"✅ Successfully added {extra_days} extra {target_type} days to {target_fac}'s quota.")
 
-# TAB 6: Teaching Progress Tracker
+# TAB 6: Teaching Progress Tracker (With Time Travel Filters)
 with tab6:
     st.subheader("📈 Syllabus Coverage & Recovery Plan")
     
-    # 1. Try to Fetch Data
+    # 1. Fetch Data
     fid_clean = int(faculty_id)
     progress_df = db.get_teaching_progress(fid_clean)
     
-    # 2. IF DATA IS MISSING -> SHOW REPAIR BUTTON
+    # 2. AUTOMATIC DATA GENERATION (If missing)
     if progress_df.empty:
-        st.error(f"⚠️ No teaching logs found for Faculty ID: {fid_clean}")
-        st.info("The database table appears empty or disconnected for this user.")
-        
-        # --- THE SELF-REPAIR BUTTON ---
-        if st.button("🛠️ CLICK HERE TO REPAIR TEACHING DATA"):
-            import random
-            
-            # Use the App's own connection to ensure we hit the right file
+        import random
+        with st.spinner("⚙️ First-time setup: Generating unique teaching profile..."):
             conn = db.get_connection()
             cursor = conn.cursor()
             
-            # 1. Create Table (Just in case it's missing)
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS teaching_progress (
                     record_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -349,22 +342,24 @@ with tab6:
                 )
             """)
             
-            # 2. Delete old broken data for this ID
-            cursor.execute("DELETE FROM teaching_progress WHERE faculty_id = ?", (fid_clean,))
+            persona = random.choice(['fast', 'consistent', 'consistent', 'slow', 'struggling'])
+            if persona == 'fast': base_inc = 10; variance = 2
+            elif persona == 'consistent': base_inc = 8; variance = 1
+            elif persona == 'slow': base_inc = 6; variance = 2
+            else: base_inc = 4; variance = 3
             
-            # 3. Generate 12 Weeks of Fresh Data
             current_progress = 0
             for week in range(1, 13):
-                increment = random.randint(5, 9)
-                current_progress += increment
+                inc = base_inc + random.randint(-variance, variance)
+                current_progress += max(0, inc)
                 if current_progress > 100: current_progress = 100
                 
-                # Student view is slightly lower/random
-                student_view = max(0, current_progress - random.randint(0, 10))
+                gap = random.randint(0, 10)
+                student_view = max(0, current_progress - gap)
                 
-                # Verdict
-                if current_progress < (week * 7): verdict = "Lagging Behind"
-                elif current_progress > (week * 9): verdict = "Too Fast"
+                target = week * 8
+                if current_progress < (target - 15): verdict = "Lagging Behind"
+                elif current_progress > (target + 15): verdict = "Too Fast"
                 else: verdict = "On Track"
                 
                 cursor.execute("""
@@ -372,47 +367,90 @@ with tab6:
                     (faculty_id, week_number, teacher_completion_pct, student_avg_pct, class_verdict)
                     VALUES (?, ?, ?, ?, ?)
                 """, (fid_clean, week, current_progress, student_view, verdict))
-                
+            
             conn.commit()
             conn.close()
-            
-            st.success("✅ Database Repaired! Reloading...")
-            st.rerun() # Automatically refreshes the page
+            st.rerun()
 
-    # 3. IF DATA EXISTS -> SHOW DASHBOARD
+    # 3. DASHBOARD DISPLAY
     else:
-        # Status Overview
-        latest_week = progress_df.iloc[-1]
-        completion = latest_week['teacher_completion_pct']
+        # --- NEW: FILTER CONTROLS ---
+        st.markdown("### 🔍 Filter Options")
+        c_filter1, c_filter2 = st.columns([1, 2])
         
-        c1, c2, c3 = st.columns(3)
-        c1.metric("Current Week", f"Week {latest_week['week_number']}")
-        c2.metric("Syllabus Completed", f"{completion}%")
+        with c_filter1:
+            view_mode = st.radio("View Mode:", ["Cumulative Trend", "Single Week Snapshot"])
         
-        target = latest_week['week_number'] * 8
-        if completion < target:
+        with c_filter2:
+            # Slider to pick the week
+            selected_week = st.slider("Select Week", 1, 12, 12)
+        
+        # --- FILTER LOGIC ---
+        if view_mode == "Cumulative Trend":
+            # Show history from Week 1 up to Selected Week
+            display_df = progress_df[progress_df['week_number'] <= selected_week]
+            current_data = display_df.iloc[-1] # The last row of the selection
+        else:
+            # Show ONLY the selected week row
+            display_df = progress_df[progress_df['week_number'] == selected_week]
+            if not display_df.empty:
+                current_data = display_df.iloc[0]
+            else:
+                st.error("No data found for this specific week.")
+                st.stop()
+
+        st.divider()
+
+        # --- DISPLAY METRICS ---
+        completion = current_data['teacher_completion_pct']
+        student_percept = current_data['student_avg_pct']
+        
+        m1, m2, m3 = st.columns(3)
+        m1.metric("Week Number", f"Week {current_data['week_number']}")
+        m2.metric("Syllabus Completed", f"{completion}%", delta=f"{completion - (current_data['week_number']*8)}% vs Target")
+        
+        # Status Logic
+        target = current_data['week_number'] * 8
+        if completion < (target - 10):
             status = "Lagging Behind"
             color = "red"
+        elif completion > (target + 10):
+             status = "Ahead of Schedule"
+             color = "blue"
         else:
             status = "On Track"
             color = "green"
-        c3.markdown(f"**Status:** :{color}[{status}]")
         
-        st.divider()
+        m3.markdown(f"**Status:** :{color}[{status}]")
         
-        # Visualization
-        st.markdown("### 📊 Reality Check: Teacher vs. Student Perception")
-        chart_data = progress_df.set_index("week_number")[['teacher_completion_pct', 'student_avg_pct']]
-        st.line_chart(chart_data)
-        
-        # AI Recovery Plan
+        # --- VISUALIZATION ---
+        if view_mode == "Cumulative Trend":
+            st.markdown(f"### 📈 Progress Trend (Week 1 - {selected_week})")
+            chart_data = display_df.set_index("week_number")[['teacher_completion_pct', 'student_avg_pct']]
+            st.line_chart(chart_data)
+        else:
+            st.markdown(f"### 📊 Snapshot: Week {selected_week}")
+            # Bar chart comparing Teacher vs Student for this specific week
+            st.write(f"**Class Verdict:** {current_data['class_verdict']}")
+            
+            # Create a mini dataframe for the bar chart
+            comparison_data = pd.DataFrame({
+                "Perspective": ["Teacher Claim", "Student Perception"],
+                "Completion %": [completion, student_percept]
+            }).set_index("Perspective")
+            
+            st.bar_chart(comparison_data)
+
+        # --- AI ADVICE ---
         st.subheader("🤖 AI Recovery Plan Suggestions")
         if status == "Lagging Behind":
             deficit = target - completion
-            st.error(f"⚠️ You are {deficit}% behind schedule.")
+            st.error(f"⚠️ At Week {selected_week}, you were {deficit}% behind schedule.")
             st.markdown("#### Recommended Actions:")
             st.write("1. **Schedule Extra Class:** Book a slot this Saturday.")
             st.write("2. **Share Notes:** Distribute PDF notes for the current unit.")
+        elif status == "Ahead of Schedule":
+            st.info(f"ℹ️ At Week {selected_week}, you were moving faster than the curriculum.")
+            st.write("- **Recommendation:** Deep dive into case studies.")
         else:
-            st.success("✅ You are on track!")
-            st.write("- **Recommendation:** Conduct a surprise quiz to test retention.")
+            st.success(f"✅ At Week {selected_week}, performance was optimal.")
