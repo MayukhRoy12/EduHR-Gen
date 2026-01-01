@@ -49,3 +49,23 @@ def generate_leave_email(faculty_name, leave_type, days, status, manager_name="H
         """
         
     return body
+def generate_leave_application_email(faculty_name, leave_type, days, reason):
+    """Generates a formal leave application email from Faculty to HOD."""
+    subject = f"Leave Application: {faculty_name} - {days} days ({leave_type})"
+    
+    body = f"""
+Subject: {subject}
+
+Dear Head of Department,
+
+I am writing to formally request {days} days of {leave_type} (Leave).
+
+Reason: {reason}
+
+I have applied for this leave through the EduHR-Gen Portal. I requested that you kindly review and approve my application.
+
+Regards,
+{faculty_name}
+Faculty ID: [Your ID]
+    """
+    return body

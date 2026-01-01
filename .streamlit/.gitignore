@@ -1,0 +1,9 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Optional: If you want to start fresh every time, ignore the DB
+# academic_hr.db
+
+# System files
+.DS_Store

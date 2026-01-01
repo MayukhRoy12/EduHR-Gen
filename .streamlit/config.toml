@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#00FF99"       # Neon Green buttons
+backgroundColor="#0E1117"    # Deep dark background
+secondaryBackgroundColor="#262730" # Sidebar
+textColor="#FAFAFA"          # White text
+font="monospace"

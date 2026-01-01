@@ -1,456 +1,419 @@
 import streamlit as st
-import db_utils as db
-import datetime
 import pandas as pd
-import pdf_utils
+import db_utils as db
+import pdf_utils as pdf_gen
 import email_utils
-import ai_summary_utils
+import auth_utils as auth
+import base64
+import random
 
-# --- PAGE SETUP ---
-st.set_page_config(page_title="EduHR-Gen Portal", layout="wide")
+# ==========================================
+# ⚙️ PAGE CONFIGURATION
+# ==========================================
+st.set_page_config(page_title="EduHR-Gen Portal", layout="wide", page_icon="🎓")
+
+# --- CUSTOM BACKGROUND ---
+def add_bg_from_local(image_file):
+    try:
+        with open(image_file, "rb") as image_file:
+            encoded_string = base64.b64encode(image_file.read())
+        st.markdown(
+        f"""<style>
+        .stApp {{ background-image: url(data:image/{"png"};base64,{encoded_string.decode()}); background-size: cover; }} 
+        .stMarkdown, .stText, h1, h2, h3, p, label {{ 
+            text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.8); 
+            font-weight: 500;
+        }} 
+        </style>""", unsafe_allow_html=True)
+    except FileNotFoundError:
+        pass # It's okay if the image isn't there
+
+add_bg_from_local('background.jpg') 
+
+# ==========================================
+# 🔐 AUTHENTICATION LAYER
+# ==========================================
+# This function stops the app execution if the user is not logged in
+auth.login()
+
+# Show Logout Button in Sidebar
+auth.logout()
+
+# Get User Details
+current_role = st.session_state["role"] # "HOD" or "Faculty"
+user_id = st.session_state["user_id"]
+
 st.title("🎓 EduHR-Gen: Academic HR Assistant")
 
-# --- SIDEBAR: LOGIN SIMULATION ---
-st.sidebar.header("Faculty Login")
+# ==========================================
+# 👤 SIDEBAR & USER SELECTION
+# ==========================================
+st.sidebar.header("User Panel")
+st.sidebar.markdown(f"**Logged in as:** {current_role}")
 
-try:
-    faculty_data = db.get_faculty_names()
-    
-    if not faculty_data.empty:
-        selected_name = st.sidebar.selectbox("Select Faculty Member", faculty_data['name'])
-        
-        # Find the ID associated with the selected name
-        faculty_id = faculty_data[faculty_data['name'] == selected_name]['faculty_id'].values[0]
-        
-        # Attempt to get profile details for the email signature
-        try:
-            profile = db.get_faculty_profile(faculty_id) 
-            dept = profile['department'] if 'department' in profile else "Department"
-            desig = profile['designation'] if 'designation' in profile else "Faculty Member"
-        except:
-            dept = "Academic Department"
-            desig = "Faculty"
+faculty_names = db.get_faculty_names()
 
-        st.sidebar.success(f"Logged in as: {selected_name} (ID: {faculty_id})")
-    else:
-        st.error("Database is connected but empty.")
+if current_role == "HOD":
+    # HOD can search and select ANY faculty member
+    selected_faculty = st.sidebar.selectbox("Select Faculty Member", faculty_names['name'])
+    # Get the ID of the selected person
+    faculty_id = faculty_names[faculty_names['name'] == selected_faculty]['faculty_id'].values[0]
+else:
+    # Faculty is locked to their OWN ID
+    faculty_id = user_id
+    try:
+        # Find the name corresponding to their ID
+        my_name = faculty_names[faculty_names['faculty_id'] == faculty_id]['name'].values[0]
+        st.sidebar.info(f" Viewing Profile: **{my_name}**")
+        selected_faculty = my_name
+    except IndexError:
+        st.error("❌ Error: Your Faculty ID was not found in the database.")
+        st.warning("Please ask the Admin to run `fix_duplicates.py`.")
         st.stop()
 
-except Exception as e:
-    st.error(f"Error connecting to database: {e}")
-    st.stop()
+# ==========================================
+# 📑 TABS LOGIC
+# ==========================================
+# HOD gets the extra "HOD Dashboard" tab
+if current_role == "HOD":
+    t1, t2, t3, t4, t5, t6 = st.tabs([
+        "📝 Leave Portal", "📊 Feedback Analytics", "⭐ Sentiment AI", 
+        "📈 Performance", "🔒 HOD Dashboard", "📚 Teaching Tracker"
+    ])
+else:
+    # Faculty sees 5 tabs (No HOD Dashboard)
+    t1, t2, t3, t4, t6 = st.tabs([
+        "📝 Leave Portal", "📊 Feedback Analytics", "⭐ Sentiment AI", 
+        "📈 Performance", "📚 Teaching Tracker"
+    ])
+    t5 = None # Placeholder
 
-# --- HELPER: AI EMAIL GENERATOR ---
-def generate_email_draft(name, designation, department, leave_type, days, reason):
-    today = datetime.date.today().strftime("%B %d, %Y")
-    subject = f"Leave Application: {leave_type} - {name}"
+# ==========================================
+# 📝 TAB 1: LEAVE PORTAL (Updated with Email Option)
+# ==========================================
+with t1:
+    st.subheader(f"Leave Application for {selected_faculty}")
+    col1, col2 = st.columns([1, 2], gap="medium")
     
-    body = f"""
-Subject: {subject}
-
-Dear Head of Department,
-
-I am writing to formally request **{leave_type}** for **{days} day(s)** starting from {today}.
-
-**Reason for Leave:**
-{reason}
-
-I have ensured that my classes and responsibilities for this period are managed. I would be grateful for your approval.
-
-Sincerely,
-
-**{name}**
-{designation}
-{department}
-    """
-    return body
-
-# MAIN TABS
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-    "📝 Apply for Leave", 
-    "📜 My Leave History", 
-    "📢 Student Feedback", 
-    "🏆 Performance Appraisal",
-    "🔒 HOD Dashboard",
-    "📈 Teaching Tracker" 
-])
-
-# TAB 1: Apply for Leave (FIXED: Email Preview remains visible)
-with tab1:
-    st.subheader("Submit a Leave Request")
-    
-    col1, col2 = st.columns([1, 1])
-    
+    # 1. BALANCE CHECK
     with col1:
-        with st.form("leave_form"):
-            st.markdown("### 1. Enter Leave Details")
-            
-            # Select Leave Type
-            leave_type_selection = st.selectbox("Leave Type", ["CL (Casual Leave)", "SL (Sick Leave)", "EL (Earned Leave)", "OD (On Duty)"])
-            leave_code = leave_type_selection.split()[0] 
-            
-            # 1. Get the balance from DB
-            balance = db.get_leave_balance(faculty_id, leave_code)
-            
-            # 2. Display it
-            if balance > 5:
-                st.success(f"✅ Balance Remaining: {balance} days")
-            elif balance > 0:
-                st.warning(f"⚠️ Low Balance: Only {balance} days left")
-            else:
-                st.error(f"❌ No {leave_code} left! Balance: 0")
-            
-            # 3. Input Days
-            days = st.number_input("Number of Days", min_value=1, max_value=30, value=1)
-            
-            # 4. VALIDATION
-            is_valid = True
-            if days > balance:
-                st.error(f"⛔ ERROR: You cannot apply for {days} days. You only have {balance} {leave_code} remaining.")
-                is_valid = False
-            
-            reason = st.text_area("Reason for Leave", placeholder="e.g., Attending International Conference...")
-            
-            # Submit Button
-            submitted = st.form_submit_button("Generate Email & Submit")
+        st.info("📊 Current Leave Balance")
+        balance = db.get_leave_balance(faculty_id)
+        st.dataframe(balance, hide_index=True, use_container_width=True)
 
+    # 2. APPLY FORM
     with col2:
-        st.markdown("### 2. AI Email Preview")
-        if submitted:
-            if is_valid:
-                # Generate Email
-                email_draft = generate_email_draft(selected_name, desig, dept, leave_type_selection, days, reason)
-                st.text_area("Auto-Generated Draft", value=email_draft, height=350)
+        st.warning("📝 New Leave Request")
+        
+        # We put the toggle OUTSIDE the form so it updates instantly
+        email_needed = st.toggle("📧 Generate Email Draft for HOD?", value=False)
+        
+        with st.form("leave_form"):
+            c_form1, c_form2 = st.columns(2)
+            l_type = c_form1.selectbox("Leave Type", ["CL", "SL", "EL", "OD"])
+            days = c_form2.number_input("Days Requested", min_value=1, max_value=30)
+            reason = st.text_area("Reason for Leave")
+            
+            submit = st.form_submit_button("Submit Request")
+            
+            if submit:
+                success, msg = db.apply_for_leave(faculty_id, l_type, days)
                 
-                # Save to DB
-                success = db.apply_leave(faculty_id, leave_code, days)
                 if success:
-                    st.success(f"✅ Success! {leave_code} request submitted.")
-                    st.balloons()
-                    # I removed st.rerun() here so the email stays on screen!
-                    st.info("ℹ️ Your balance will update the next time you interact with the page.")
+                    st.success(msg)
+                    
+                    # --- NEW: EMAIL GENERATION LOGIC ---
+                    if email_needed:
+                        draft = email_utils.generate_leave_application_email(
+                            selected_faculty, l_type, days, reason
+                        )
+                        st.markdown("---")
+                        st.info("📋 **Copy this email to send to your HOD:**")
+                        st.code(draft, language="markdown")
+                    
+                    # Delay slightly so user can read message before refresh (optional)
+                    # st.rerun() # Removed instant rerun so user can copy the email first!
                 else:
-                    st.error("❌ Failed to save to database.")
-            else:
-                st.error("❌ Submission Blocked: Insufficient Leave Balance.")
-        else:
-            st.info("👋 Select a leave type to see your balance.")
+                    st.error(msg)
 
-# TAB 2: View History
-with tab2:
-    st.subheader("Your Application Status")
-    history_df = db.get_leave_history(faculty_id)
-    if not history_df.empty:
-        st.dataframe(history_df[['leave_id', 'type', 'days_requested', 'status']], use_container_width=True)
+# ==========================================
+# ==========================================
+# 📊 TAB 2: FEEDBACK ANALYTICS (Updated)
+# ==========================================
+with t2:
+    st.subheader("📊 Student Feedback Analysis")
+    feed_df = db.get_student_feedback(faculty_id)
+    
+    if feed_df.empty:
+        st.info("No feedback data available for this faculty.")
     else:
-        st.info("No leave records found.")
-
-# TAB 3: Student Feedback Analytics
-with tab3:
-    st.subheader("📢 Student Feedback Analytics")
-    
-    # 1. Fetch Data
-    feedback_df = db.get_faculty_feedback(faculty_id)
-    
-    if not feedback_df.empty:
         # Metrics
-        avg_rating = feedback_df['rating'].mean()
-        total_reviews = len(feedback_df)
+        avg_rating = feed_df['rating'].mean()
+        total_reviews = len(feed_df)
         
-        # Safe calculation for positive pct
-        if total_reviews > 0:
-            positive_count = len(feedback_df[feedback_df['sentiment_label'] == 'Positive'])
-            positive_pct = (positive_count / total_reviews) * 100
-        else:
-            positive_pct = 0
-        
-        m1, m2, m3 = st.columns(3)
-        m1.metric("⭐ Average Rating", f"{avg_rating:.2f}/5")
-        m2.metric("📝 Total Reviews", total_reviews)
-        m3.metric("😊 Positive Sentiment", f"{positive_pct:.1f}%")
-        
-        st.divider()
+        m1, m2 = st.columns(2)
+        m1.metric("Average Rating", f"{avg_rating:.1f} / 5.0")
+        m2.metric("Total Reviews", total_reviews)
         
         # Charts
         c1, c2 = st.columns(2)
         with c1:
-            st.markdown("### Sentiment Distribution")
-            st.bar_chart(feedback_df['sentiment_label'].value_counts())
+            st.markdown("#### Rating Distribution")
+            st.bar_chart(feed_df['rating'].value_counts())
         with c2:
-            st.markdown("### Teaching Scores Breakdown")
-            score_cols = ['teaching_clarity_score', 'engagement_score', 'pace_score']
-            st.line_chart(feedback_df[score_cols].mean())
+            st.markdown("#### Parameter Scores")
+            scores = feed_df[['teaching_clarity_score', 'engagement_score', 'pace_score']].mean()
+            st.line_chart(scores)
 
-        # Comments
-        st.markdown("### 💬 Recent Student Comments")
-        st.dataframe(feedback_df[['course_name', 'rating', 'feedback_comment']], use_container_width=True)
-        
-        # --- NEW AI SUMMARY SECTION (Week 7-8 Requirement) ---
+        # --- NEW SECTION: FULL COMMENT LOG ---
         st.divider()
-        st.subheader("🤖 AI Feedback Intelligence")
+        st.markdown("### 📝 All Student Comments")
         
-        if st.button("Generate AI Summary & Recommendations", key="ai_summary_btn"):
-            with st.spinner("Analyzing comments patterns..."):
-                # Get list of comments and current rating
-                comments = feedback_df['feedback_comment'].tolist()
-                
-                # Call the AI function
-                summary_text, action_plan = ai_summary_utils.generate_feedback_insight(comments, avg_rating)
-                
-                # Display Summary
-                st.success("Analysis Complete")
-                st.markdown(f"### 📝 Executive Summary")
-                st.write(summary_text)
-                
-                # Display Action Plan
-                st.markdown(f"### 🚀 Recommended Action Plan")
-                for action in action_plan:
-                    st.markdown(f"- {action}")
+        # Configure a nice scrollable table
+        # We only show relevant columns
+        display_df = feed_df[['course_name', 'rating', 'feedback_comment', 'sentiment_label']]
         
-    else:
-        st.warning(f"No feedback data found for {selected_name}.")
+        # Color code the sentiment column
+        def color_sentiment(val):
+            if val == 'Positive': return 'color: green'
+            elif val == 'Negative': return 'color: red'
+            else: return 'color: orange'
 
-# TAB 4: Performance Appraisal
-with tab4:
+        st.dataframe(
+            display_df.style.applymap(color_sentiment, subset=['sentiment_label']),
+            use_container_width=True,
+            height=400, # Fixed height makes it scrollable inside
+            column_config={
+                "course_name": "Course",
+                "rating": st.column_config.NumberColumn("Stars", format="%d ⭐"),
+                "feedback_comment": "Student Comment",
+                "sentiment_label": "AI Sentiment"
+            }
+        )
+
+# ==========================================
+# ⭐ TAB 3: SENTIMENT AI
+# ==========================================
+with t3:
+    st.subheader("🤖 AI Sentiment Analysis")
+    feed_df = db.get_student_feedback(faculty_id)
+    
+    if not feed_df.empty:
+        # Pie Chart / Bar Chart of Sentiment
+        sentiment_counts = feed_df['sentiment_label'].value_counts()
+        st.bar_chart(sentiment_counts)
+        
+        st.divider()
+        st.markdown("### 🗣️ AI Summarized Comments")
+        
+        # Simple extraction of top comments
+        with st.expander("View Top Positive Comments"):
+            pos_comments = feed_df[feed_df['sentiment_label'] == 'Positive']['feedback_comment'].head(5)
+            for c in pos_comments: st.success(f"- {c}")
+            
+        with st.expander("View Critical Feedback"):
+            neg_comments = feed_df[feed_df['sentiment_label'] == 'Negative']['feedback_comment'].head(5)
+            for c in neg_comments: st.error(f"- {c}")
+    else:
+        st.write("No data for analysis.")
+
+# ==========================================
+# 📈 TAB 4: PERFORMANCE APPRAISAL
+# ==========================================
+with t4:
     st.subheader("🏆 Annual Performance Appraisal")
     
-    # Initialize session state for this tab if it doesn't exist
-    if 'appraisal_calculated' not in st.session_state:
-        st.session_state['appraisal_calculated'] = False
+    if st.button("🚀 Calculate Performance Score"):
+        score_data = db.calculate_appraisal_score(faculty_id)
+        
+        # Display Score
+        st.balloons()
+        c1, c2 = st.columns([1, 2])
+        c1.metric("Final Score", f"{score_data['total']}/100")
+        c2.json(score_data['breakdown'])
+        
+        # Generate PDF
+        pdf_file = pdf_gen.generate_appraisal_pdf(faculty_id)
+        
+        with open(pdf_file, "rb") as f:
+            st.download_button(
+                label="⬇️ Download Official Report (PDF)",
+                data=f,
+                file_name=pdf_file,
+                mime="application/pdf"
+            )
 
-    # 1. THE CALCULATE BUTTON
-    if st.button("Calculate My Performance Score"):
-        st.session_state['appraisal_calculated'] = True
+# ==========================================
+# 🔒 TAB 5: HOD DASHBOARD (HOD ONLY)
+# ==========================================
+if current_role == "HOD" and t5:
+    with t5:
+        st.subheader("🔒 Head of Department (HOD) Approval Portal")
         
-    # 2. DISPLAY RESULTS (Only if calculated)
-    if st.session_state['appraisal_calculated']:
-        # Run calculation
-        result = db.calculate_appraisal_score(faculty_id)
-        score = result["total"]
-        breakdown = result["breakdown"]
+        col_actions, col_history = st.columns([1.5, 1], gap="large")
         
-        # Display Score Card
-        st.markdown(f"""
-        <div style="text-align: center; border: 2px solid #4CAF50; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-            <h2 style="margin:0;">Final Appraisal Score</h2>
-            <h1 style="font-size: 60px; color: #4CAF50; margin:0;">{score}/100</h1>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        c1, c2, c3 = st.columns(3)
-        c1.metric("Students (50%)", f"{breakdown['Feedback (50%)']}")
-        c2.metric("Research (30%)", f"{breakdown['Research (30%)']}")
-        c3.metric("Attendance (20%)", f"{breakdown['Attendance (20%)']}")
-        
-        st.divider()
-        
-        # 3. THE PDF BUTTON (Now it stays visible!)
-        st.subheader("📄 Download Official Report")
-        
-        # Logic to generate PDF
-        if st.button("Generate PDF Report"):
-            try:
-                pdf_file = pdf_utils.generate_appraisal_pdf(faculty_id)
-                
-                with open(pdf_file, "rb") as f:
-                    pdf_data = f.read()
-                
-                st.download_button(
-                    label="⬇️ Click Here to Download PDF",
-                    data=pdf_data,
-                    file_name=pdf_file,
-                    mime="application/pdf"
-                )
-                st.success("✅ Report Ready! Click the download button above.")
-                
-            except Exception as e:
-                st.error(f"⚠️ Error generating PDF: {e}")
-
-# TAB 5: HOD Dashboard (Updated with Limit Extension)
-with tab5:
-    st.subheader("🔒 Head of Department (HOD) Approval Portal")
-    
-    # --- SECTION 1: APPROVAL WORKFLOW ---
-    st.markdown("### 1. Pending Approvals")
-    pending_leaves = db.get_pending_leaves()
-    
-    if pending_leaves.empty:
-        st.success("✅ No pending leave requests.")
-    else:
-        for index, row in pending_leaves.iterrows():
-            with st.expander(f"{row['name']} - {row['type']} ({row['days_requested']} days)"):
-                c1, c2 = st.columns(2)
-                
-                if c1.button(f"✅ Approve", key=f"app_{row['leave_id']}"):
-                    db.update_leave_status(row['leave_id'], "Approved")
-                    email_draft = email_utils.generate_leave_email(row['name'], row['type'], row['days_requested'], "Approved")
-                    st.success(f"Approved!")
-                    st.text_area("Email Draft:", email_draft, height=150)
-                    
-                if c2.button(f"❌ Reject", key=f"rej_{row['leave_id']}"):
-                    db.update_leave_status(row['leave_id'], "Rejected")
-                    email_draft = email_utils.generate_leave_email(row['name'], row['type'], row['days_requested'], "Rejected")
-                    st.error(f"Rejected.")
-                    st.text_area("Email Draft:", email_draft, height=150)
-
-    st.divider()
-
-    # --- SECTION 2: LIMIT EXTENSION (NEW) ---
-    st.markdown("### 2. Grant Special Leave Extension")
-    st.info("Use this to increase the leave limit for a specific faculty member.")
-    
-    with st.form("bonus_leave_form"):
-        # Get Faculty List
-        fac_data = db.get_faculty_names()
-        target_fac = st.selectbox("Select Faculty", fac_data['name'])
-        
-        c1, c2 = st.columns(2)
-        target_type = c1.selectbox("Leave Type to Extend", ["CL", "SL", "EL", "OD"])
-        extra_days = c2.number_input("Extra Days to Grant", min_value=1, max_value=10)
-        
-        if st.form_submit_button("Grant Extension"):
-            # Get ID
-            target_id = fac_data[fac_data['name'] == target_fac]['faculty_id'].values[0]
+        # --- LEFT: ACTIONS ---
+        with col_actions:
+            st.markdown("### ⏳ Pending Actions")
+            pending_leaves = db.get_pending_leaves()
             
-            # Save to DB
-            db.grant_bonus_leave(target_id, target_type, extra_days)
-            st.success(f"✅ Successfully added {extra_days} extra {target_type} days to {target_fac}'s quota.")
+            if pending_leaves.empty:
+                st.success("✅ No pending requests.")
+            else:
+                # BULK ACTIONS
+                st.markdown("#### ⚡ Bulk Actions")
+                b1, b2 = st.columns(2)
+                if b1.button("✅ Approve ALL", use_container_width=True):
+                    count = db.update_all_pending_leaves("Approved")
+                    st.success(f"Approved {count} requests!")
+                    st.rerun()
+                if b2.button("❌ Reject ALL", use_container_width=True):
+                    count = db.update_all_pending_leaves("Rejected")
+                    st.error(f"Rejected {count} requests.")
+                    st.rerun()
+                
+                st.divider()
+                st.markdown("#### 👤 Individual Review")
+                
+                # Email Toggle
+                email_enabled = st.toggle("📧 Generate Email Notification?", value=True)
+                
+                for index, row in pending_leaves.iterrows():
+                    with st.container(border=True):
+                        st.markdown(f"**{row['name']}** requests **{row['days_requested']} days** ({row['type']})")
+                        
+                        c1, c2 = st.columns(2)
+                        btn_approve = c1.button("Approve", key=f"app_{row['leave_id']}")
+                        btn_reject = c2.button("Reject", key=f"rej_{row['leave_id']}")
+                        
+                        if btn_approve or btn_reject:
+                            new_status = "Approved" if btn_approve else "Rejected"
+                            db.update_leave_status(row['leave_id'], new_status)
+                            
+                            if email_enabled:
+                                draft = email_utils.generate_leave_email(row['name'], row['type'], row['days_requested'], new_status)
+                                st.code(draft, language="markdown")
+                                st.warning("⚠️ Action Recorded. Click Done to clear.")
+                                if st.button("🔄 Done", key=f"done_{row['leave_id']}"):
+                                    st.rerun()
+                            else:
+                                st.success(f"Request {new_status}!")
+                                st.rerun() # Instant Refresh
 
-# TAB 6: Teaching Progress Tracker (With Time Travel Filters)
-with tab6:
+        # --- RIGHT: HISTORY ---
+        with col_history:
+            st.markdown("### 📜 Decision History")
+            history_df = db.get_all_past_leaves()
+            if not history_df.empty:
+                def highlight_status(val):
+                    return f'background-color: {"#d4edda" if val=="Approved" else "#f8d7da"}'
+                st.dataframe(history_df.style.applymap(highlight_status, subset=['status']), hide_index=True)
+            else:
+                st.info("No history yet.")
+
+        # --- LIMIT EXTENSION ---
+        st.divider()
+        with st.expander("➕ Grant Special Leave Extension"):
+            with st.form("bonus_form"):
+                fac_list = db.get_faculty_names()
+                target = st.selectbox("Faculty", fac_list['name'])
+                l_type = st.selectbox("Type", ["CL", "SL", "EL"])
+                days = st.number_input("Days", 1, 10)
+                if st.form_submit_button("Grant"):
+                    tid = fac_list[fac_list['name']==target]['faculty_id'].values[0]
+                    db.grant_bonus_leave(tid, l_type, days)
+                    st.success("Granted!")
+
+# ==========================================
+# 📚 TAB 6: TEACHING TRACKER
+# ==========================================
+with t6:
     st.subheader("📈 Syllabus Coverage & Recovery Plan")
     
     # 1. Fetch Data
     fid_clean = int(faculty_id)
     progress_df = db.get_teaching_progress(fid_clean)
     
-    # 2. AUTOMATIC DATA GENERATION (If missing)
+    # 2. AUTO-GENERATE DATA IF MISSING
     if progress_df.empty:
-        import random
-        with st.spinner("⚙️ First-time setup: Generating unique teaching profile..."):
+        with st.spinner("⚙️ Generating unique teaching profile..."):
             conn = db.get_connection()
             cursor = conn.cursor()
-            
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS teaching_progress (
-                    record_id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    faculty_id INTEGER,
-                    week_number INTEGER,
-                    teacher_completion_pct INTEGER,
-                    student_avg_pct INTEGER,
-                    class_verdict TEXT
+                    record_id INTEGER PRIMARY KEY AUTOINCREMENT, faculty_id INTEGER, week_number INTEGER,
+                    teacher_completion_pct INTEGER, student_avg_pct INTEGER, class_verdict TEXT
                 )
             """)
             
+            # Random Persona Logic
             persona = random.choice(['fast', 'consistent', 'consistent', 'slow', 'struggling'])
-            if persona == 'fast': base_inc = 10; variance = 2
-            elif persona == 'consistent': base_inc = 8; variance = 1
-            elif persona == 'slow': base_inc = 6; variance = 2
-            else: base_inc = 4; variance = 3
+            if persona == 'fast': base, var = 10, 2
+            elif persona == 'consistent': base, var = 8, 1
+            elif persona == 'slow': base, var = 6, 2
+            else: base, var = 4, 3
             
-            current_progress = 0
-            for week in range(1, 13):
-                inc = base_inc + random.randint(-variance, variance)
-                current_progress += max(0, inc)
-                if current_progress > 100: current_progress = 100
+            curr = 0
+            for w in range(1, 13):
+                curr += max(0, base + random.randint(-var, var))
+                if curr > 100: curr = 100
+                verdict = "On Track"
+                if curr < (w*8 - 15): verdict = "Lagging Behind"
+                elif curr > (w*8 + 15): verdict = "Too Fast"
                 
-                gap = random.randint(0, 10)
-                student_view = max(0, current_progress - gap)
-                
-                target = week * 8
-                if current_progress < (target - 15): verdict = "Lagging Behind"
-                elif current_progress > (target + 15): verdict = "Too Fast"
-                else: verdict = "On Track"
-                
-                cursor.execute("""
-                    INSERT INTO teaching_progress 
-                    (faculty_id, week_number, teacher_completion_pct, student_avg_pct, class_verdict)
-                    VALUES (?, ?, ?, ?, ?)
-                """, (fid_clean, week, current_progress, student_view, verdict))
-            
+                cursor.execute("INSERT INTO teaching_progress (faculty_id, week_number, teacher_completion_pct, student_avg_pct, class_verdict) VALUES (?,?,?,?,?)",
+                               (fid_clean, w, curr, max(0, curr-random.randint(0,10)), verdict))
             conn.commit()
             conn.close()
             st.rerun()
 
-    # 3. DASHBOARD DISPLAY
     else:
-        # --- NEW: FILTER CONTROLS ---
-        st.markdown("### 🔍 Filter Options")
-        c_filter1, c_filter2 = st.columns([1, 2])
+        # 3. DASHBOARD DISPLAY
+        # Filter Controls
+        c_filt1, c_filt2 = st.columns([1, 2])
+        view_mode = c_filt1.radio("View Mode:", ["Cumulative Trend", "Single Week Snapshot"])
+        sel_week = c_filt2.slider("Select Week", 1, 12, 12)
         
-        with c_filter1:
-            view_mode = st.radio("View Mode:", ["Cumulative Trend", "Single Week Snapshot"])
-        
-        with c_filter2:
-            # Slider to pick the week
-            selected_week = st.slider("Select Week", 1, 12, 12)
-        
-        # --- FILTER LOGIC ---
+        # Filter Logic
         if view_mode == "Cumulative Trend":
-            # Show history from Week 1 up to Selected Week
-            display_df = progress_df[progress_df['week_number'] <= selected_week]
-            current_data = display_df.iloc[-1] # The last row of the selection
+            display_df = progress_df[progress_df['week_number'] <= sel_week]
+            current_data = display_df.iloc[-1]
         else:
-            # Show ONLY the selected week row
-            display_df = progress_df[progress_df['week_number'] == selected_week]
-            if not display_df.empty:
-                current_data = display_df.iloc[0]
-            else:
-                st.error("No data found for this specific week.")
-                st.stop()
-
-        st.divider()
-
-        # --- DISPLAY METRICS ---
-        completion = current_data['teacher_completion_pct']
-        student_percept = current_data['student_avg_pct']
-        
+            display_df = progress_df[progress_df['week_number'] == sel_week]
+            if display_df.empty: st.stop()
+            current_data = display_df.iloc[0]
+            
+        # Metrics
+        comp = current_data['teacher_completion_pct']
         m1, m2, m3 = st.columns(3)
-        m1.metric("Week Number", f"Week {current_data['week_number']}")
-        m2.metric("Syllabus Completed", f"{completion}%", delta=f"{completion - (current_data['week_number']*8)}% vs Target")
+        m1.metric("Week", f"Week {current_data['week_number']}")
+        m2.metric("Completed", f"{comp}%")
         
-        # Status Logic
+        # Status Color
         target = current_data['week_number'] * 8
-        if completion < (target - 10):
-            status = "Lagging Behind"
-            color = "red"
-        elif completion > (target + 10):
-             status = "Ahead of Schedule"
-             color = "blue"
-        else:
-            status = "On Track"
-            color = "green"
+        status = "On Track"
+        color = "green"
+        if comp < (target - 10): status, color = "Lagging Behind", "red"
+        elif comp > (target + 10): status, color = "Ahead of Schedule", "blue"
         
         m3.markdown(f"**Status:** :{color}[{status}]")
         
-        # --- VISUALIZATION ---
+        # Visualization
+        st.divider()
         if view_mode == "Cumulative Trend":
-            st.markdown(f"### 📈 Progress Trend (Week 1 - {selected_week})")
-            chart_data = display_df.set_index("week_number")[['teacher_completion_pct', 'student_avg_pct']]
-            st.line_chart(chart_data)
+            st.line_chart(display_df.set_index("week_number")[['teacher_completion_pct', 'student_avg_pct']])
         else:
-            st.markdown(f"### 📊 Snapshot: Week {selected_week}")
-            # Bar chart comparing Teacher vs Student for this specific week
-            st.write(f"**Class Verdict:** {current_data['class_verdict']}")
+            chart_data = pd.DataFrame({
+                "Source": ["Teacher Claim", "Student View"],
+                "Completion": [comp, current_data['student_avg_pct']]
+            }).set_index("Source")
+            st.bar_chart(chart_data)
             
-            # Create a mini dataframe for the bar chart
-            comparison_data = pd.DataFrame({
-                "Perspective": ["Teacher Claim", "Student Perception"],
-                "Completion %": [completion, student_percept]
-            }).set_index("Perspective")
-            
-            st.bar_chart(comparison_data)
-
-        # --- AI ADVICE ---
-        st.subheader("🤖 AI Recovery Plan Suggestions")
+        # AI Advice
+        st.subheader("🤖 AI Advice")
         if status == "Lagging Behind":
-            deficit = target - completion
-            st.error(f"⚠️ At Week {selected_week}, you were {deficit}% behind schedule.")
-            st.markdown("#### Recommended Actions:")
-            st.write("1. **Schedule Extra Class:** Book a slot this Saturday.")
-            st.write("2. **Share Notes:** Distribute PDF notes for the current unit.")
+            st.error(f"⚠️ {target - comp}% deficit. Recommended: Schedule extra class this Saturday.")
         elif status == "Ahead of Schedule":
-            st.info(f"ℹ️ At Week {selected_week}, you were moving faster than the curriculum.")
-            st.write("- **Recommendation:** Deep dive into case studies.")
+            st.info("ℹ️ Fast pace. Recommended: Deep dive into case studies.")
         else:
-            st.success(f"✅ At Week {selected_week}, performance was optimal.")
+            st.success("✅ Optimal pace. Keep going!")
